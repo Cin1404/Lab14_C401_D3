@@ -1,0 +1,1506 @@
+[
+  {
+    "question": "Quy trình AI Evaluation Factory gồm bao nhiêu giai đoạn chính?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Quy trình AI Evaluation Factory gồm bao nhiêu giai đoạn chính?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Quy trình gồm 4 giai đoạn chính.",
+    "latency": 0.0999194000000001,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 15.628581695s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 15\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 15.934283152s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 15\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Hãy liệt kê đầy đủ 4 giai đoạn chính của AI Evaluation Factory, bao gồm cả tên viết tắt và giải thích ý nghĩa tiếng Việt của chúng, và vai trò của giai đoạn thứ ba trong việc cung cấp thông tin cho giai đoạn cuối cùng.",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Hãy liệt kê đầy đủ 4 giai đoạn chính của AI Evaluation Factory, bao gồm cả tên viết tắt và giải thích ý nghĩa tiếng Việt của chúng, và vai trò của giai đoạn thứ ba trong việc cung cấp thông tin cho giai đoạn cuối cùng.' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "4 giai đoạn chính của AI Evaluation Factory là: 1. SDG (Tạo dữ liệu), 2. Eval Engine (Bộ máy chấm điểm), 3. Failure Analysis (Phân tích lỗi), 4. Report (Báo cáo). Giai đoạn thứ ba, Failure Analysis (Phân tích lỗi), có vai trò quan trọng trong việc xác định nguyên nhân gốc rễ gây ra các lỗi được phát hiện, từ đó cung cấp dữ liệu và hiểu biết sâu sắc để xây dựng báo cáo chi tiết và có ý nghĩa trong giai đoạn cuối cùng.",
+    "latency": 0.09977690000000017,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 16.231323931s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 16\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 14.857848866s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 14\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Ba chỉ số Hit Rate, MRR và độ chính xác của câu trả lời, khi được đo lường bởi AI Evaluation Factory, phản ánh khía cạnh nào của hiệu suất AI và tại sao sự kết hợp của chúng lại cần thiết cho một 'quy trình đánh giá AI chuyên sâu'?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Ba chỉ số Hit Rate, MRR và độ chính xác của câu trả lời, khi được đo lường bởi AI Evaluation Factory, phản ánh khía cạnh nào của hiệu suất AI và tại sao sự kết hợp của chúng lại cần thiết cho một 'quy trình đánh giá AI chuyên sâu'?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Ba chỉ số Hit Rate, MRR và độ chính xác của câu trả lời phản ánh khả năng của AI trong việc cung cấp thông tin đúng đắn, đầy đủ và phù hợp với độ ưu tiên. Sự kết hợp của chúng là cần thiết cho một 'quy trình đánh giá AI chuyên sâu' vì Hit Rate đo lường tỷ lệ câu trả lời đúng, MRR đo lường thứ hạng của câu trả lời đúng (khả năng tìm thấy nhanh chóng), và độ chính xác đánh giá mức độ chính xác của nội dung. Việc đánh giá đồng thời cả ba chỉ số này mang lại cái nhìn toàn diện về chất lượng đầu ra của AI, không chỉ dừng lại ở việc đúng hay sai mà còn ở mức độ hữu ích và hiệu quả, từ đó cho phép phân tích sâu hơn và cải thiện có mục tiêu.",
+    "latency": 0.0995493999999999,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 14.524333973s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 14\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 15.177395163s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 15\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_hard",
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory giúp đo lường những chỉ số nào?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory giúp đo lường những chỉ số nào?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Nó giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
+    "latency": 0.09905089999999994,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 0.5,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời của AI chỉ đưa ra một cụm từ giữ chỗ '[Câu trả lời mẫu]' thay vì cung cấp thông tin thực tế. Điều này đồng nghĩa với việc AI không hề trả lời câu hỏi về các chỉ số mà 'AI Evaluation Factory' giúp đo lường. Mặc dù cấu trúc câu mở đầu có vẻ chuyên nghiệp, nhưng việc thiếu hoàn toàn nội dung chính xác và hữu ích khiến câu trả lời trở nên không thể chấp nhận được.\n- Accuracy: 1 (Không có bất kỳ thông tin chính xác nào được cung cấp, chỉ là một placeholder.)\n- Relevance: 1 (Mặc dù câu trả lời nhắc lại câu hỏi, nhưng không đưa ra bất kỳ nội dung liên quan nào để giải quyết vấn đề.)\n- Professionalism: 2 (Phần mở đầu lịch sự, nhưng việc hiển thị placeholder '[Câu trả lời mẫu]' là rất thiếu chuyên nghiệp và cho thấy lỗi hệ thống hoặc câu trả lời chưa hoàn thiện.)"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 14.213696401s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 14\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Trong quy trình AI Evaluation Factory, giai đoạn 'Failure Analysis' đóng vai trò quan trọng như thế nào trong việc cải thiện hiệu suất AI, đặc biệt khi nó đứng sau 'Eval Engine' và trước 'Report'?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Trong quy trình AI Evaluation Factory, giai đoạn 'Failure Analysis' đóng vai trò quan trọng như thế nào trong việc cải thiện hiệu suất AI, đặc biệt khi nó đứng sau 'Eval Engine' và trước 'Report'?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Giai đoạn 'Failure Analysis' trong AI Evaluation Factory là cực kỳ quan trọng vì nó cho phép xác định nguyên nhân gốc rễ của các lỗi được phát hiện bởi 'Eval Engine'. Bằng cách phân tích sâu các trường hợp AI thất bại, nó cung cấp thông tin chi tiết cần thiết để tinh chỉnh và cải thiện mô hình, từ đó nâng cao hiệu suất tổng thể của AI trước khi các kết quả được báo cáo.",
+    "latency": 0.0993271,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 16.542990052s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 16\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 13.686705705s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 13\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Mục tiêu cuối cùng của việc triển khai một quy trình đánh giá AI chuyên sâu như AI Evaluation Factory là gì, dựa trên các thành phần và chỉ số mà nó đo lường?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Mục tiêu cuối cùng của việc triển khai một quy trình đánh giá AI chuyên sâu như AI Evaluation Factory là gì, dựa trên các thành phần và chỉ số mà nó đo lường?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Mục tiêu cuối cùng của AI Evaluation Factory là cung cấp một khung khổ toàn diện và có hệ thống để liên tục đo lường, phân tích và cải thiện hiệu suất của các hệ thống AI. Bằng cách định lượng các chỉ số như Hit Rate, MRR và độ chính xác, cùng với việc phân tích lỗi chi tiết, quy trình này đảm bảo rằng AI hoạt động ở mức tối ưu, đáng tin cậy và đáp ứng được các tiêu chuẩn chất lượng cao nhất.",
+    "latency": 0.11086159999999978,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 10.930193224s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 10\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 11.241445842s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 11\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giai đoạn đầu tiên của quy trình AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Giai đoạn đầu tiên của quy trình AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Giai đoạn đầu tiên là SDG (Tạo dữ liệu).",
+    "latency": 0.11082069999999966,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 11.531322962s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 11\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 10.311532536s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 10\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Quy trình AI Evaluation Factory gồm mấy giai đoạn chính?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Quy trình AI Evaluation Factory gồm mấy giai đoạn chính?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Quy trình gồm 4 giai đoạn chính.",
+    "latency": 0.1106499000000003,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 10.015538951s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 10\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 10.635924936s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 10\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giai đoạn 'SDG (Tạo dữ liệu)' là bước khởi đầu của AI Evaluation Factory. Giải thích tầm quan trọng của giai đoạn này đối với sự thành công và độ tin cậy của toàn bộ quy trình đánh giá AI chuyên sâu.",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Giai đoạn 'SDG (Tạo dữ liệu)' là bước khởi đầu của AI Evaluation Factory. Giải thích tầm quan trọng của giai đoạn này đối với sự thành công và độ tin cậy của toàn bộ quy trình đánh giá AI chuyên sâu.' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Giai đoạn SDG (Tạo dữ liệu) là nền tảng cho toàn bộ quy trình AI Evaluation Factory. Chất lượng và sự đa dạng của dữ liệu được tạo ra trong giai đoạn này trực tiếp ảnh hưởng đến tính công bằng và hiệu quả của bộ máy chấm điểm (Eval Engine), và do đó, ảnh hưởng đến độ chính xác của các phân tích lỗi (Failure Analysis) cũng như tính khách quan của các báo cáo cuối cùng. Dữ liệu chất lượng cao đảm bảo rằng quá trình đánh giá AI được thực hiện trên một tập hợp mẫu đại diện và thách thức.",
+    "latency": 0.11021880000000017,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 12.245661165s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 12\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 9.205280944s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 9\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Mô tả mối liên hệ chặt chẽ giữa 'Eval Engine' và 'Failure Analysis' trong quy trình AI Evaluation Factory. Cụ thể, 'Eval Engine' đóng góp thông tin gì mà 'Failure Analysis' sử dụng để thực hiện vai trò của mình một cách hiệu quả?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Mô tả mối liên hệ chặt chẽ giữa 'Eval Engine' và 'Failure Analysis' trong quy trình AI Evaluation Factory. Cụ thể, 'Eval Engine' đóng góp thông tin gì mà 'Failure Analysis' sử dụng để thực hiện vai trò của mình một cách hiệu quả?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Mối liên hệ giữa 'Eval Engine' và 'Failure Analysis' là rất chặt chẽ và tuần tự. 'Eval Engine' (Bộ máy chấm điểm) chịu trách nhiệm tự động đánh giá hiệu suất của AI dựa trên các dữ liệu đầu vào, đo lường các chỉ số như Hit Rate, MRR và độ chính xác. Kết quả chấm điểm này, bao gồm cả những trường hợp AI không đạt yêu cầu hoặc có lỗi, sẽ được chuyển giao trực tiếp cho giai đoạn 'Failure Analysis' (Phân tích lỗi). 'Failure Analysis' sử dụng những thông tin chi tiết về các lỗi và điểm yếu được 'Eval Engine' xác định để đi sâu vào phân tích nguyên nhân gốc rễ, từ đó cung cấp cái nhìn sâu sắc về lý do tại sao AI hoạt động chưa tối ưu và đề xuất các giải pháp cải tiến.",
+    "latency": 0.11031119999999994,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 11.811005191s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 11\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 8.746756355s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 8\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Tại sao việc đo lường Hit Rate, MRR và độ chính xác lại là trọng tâm của AI Evaluation Factory?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Tại sao việc đo lường Hit Rate, MRR và độ chính xác lại là trọng tâm của AI Evaluation Factory?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Việc đo lường Hit Rate, MRR và độ chính xác là trọng tâm vì AI Evaluation Factory được định nghĩa là một quy trình đánh giá AI chuyên sâu. Các chỉ số này cung cấp một thước đo định lượng và cụ thể về hiệu suất, chất lượng đầu ra và khả năng của AI trong việc cung cấp câu trả lời chính xác và xếp hạng thông tin phù hợp, từ đó xác định mức độ 'chuyên sâu' của việc đánh giá.",
+    "latency": 0.11466270000000023,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 5.903652395s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 5\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 6.202560751s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 6\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_hard",
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Ngoài việc là một quy trình đánh giá chuyên sâu, AI Evaluation Factory còn được tài liệu mô tả là gì về khía cạnh kết quả đầu ra trực tiếp của nó?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Ngoài việc là một quy trình đánh giá chuyên sâu, AI Evaluation Factory còn được tài liệu mô tả là gì về khía cạnh kết quả đầu ra trực tiếp của nó?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory được mô tả là một quy trình giúp đo lường các chỉ số hiệu suất quan trọng như Hit Rate, MRR và độ chính xác của câu trả lời, đây là những kết quả đầu ra trực tiếp của việc đánh giá.",
+    "latency": 0.11465450000000033,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 6.637098924s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 6\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 4.77258631s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 4\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giả sử một tổ chức chỉ quan tâm đến việc hiểu lý do AI thất bại và tổng hợp thông tin đánh giá. Họ có thể bỏ qua giai đoạn 'Tạo dữ liệu' và 'Bộ máy chấm điểm' trong quy trình của AI Evaluation Factory không?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Giả sử một tổ chức chỉ quan tâm đến việc hiểu lý do AI thất bại và tổng hợp thông tin đánh giá. Họ có thể bỏ qua giai đoạn 'Tạo dữ liệu' và 'Bộ máy chấm điểm' trong quy trình của AI Evaluation Factory không?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Không, một tổ chức không thể bỏ qua giai đoạn 'Tạo dữ liệu' và 'Bộ máy chấm điểm'. Các giai đoạn này là cần thiết để tạo ra dữ liệu và chấm điểm ban đầu, từ đó mới có cơ sở để thực hiện 'Phân tích lỗi' và 'Báo cáo'.",
+    "latency": 0.11459460000000021,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 4.491414798s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 4\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 5.088920486s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 5\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Với vai trò là một 'quy trình đánh giá AI chuyên sâu' bao gồm các giai đoạn từ tạo dữ liệu đến báo cáo, AI Evaluation Factory mang lại lợi ích chiến lược tổng thể nào cho việc phát triển và triển khai các hệ thống AI, vượt ra ngoài việc chỉ đơn thuần 'đo lường' các chỉ số?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Với vai trò là một 'quy trình đánh giá AI chuyên sâu' bao gồm các giai đoạn từ tạo dữ liệu đến báo cáo, AI Evaluation Factory mang lại lợi ích chiến lược tổng thể nào cho việc phát triển và triển khai các hệ thống AI, vượt ra ngoài việc chỉ đơn thuần 'đo lường' các chỉ số?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory, với tư cách là một quy trình đánh giá AI chuyên sâu, mang lại lợi ích chiến lược tổng thể là đảm bảo và nâng cao chất lượng, độ tin cậy cũng như hiệu quả hoạt động của các hệ thống AI trước khi triển khai thực tế. Bằng cách không chỉ đo lường các chỉ số như Hit Rate, MRR, độ chính xác mà còn thông qua các giai đoạn tạo dữ liệu kiểm tra chuyên biệt, chấm điểm tự động, phân tích lỗi sâu rộng và báo cáo chi tiết, quy trình này cho phép các nhà phát triển và triển khai AI có cái nhìn minh bạch về hiệu suất, nhanh chóng phát hiện và khắc phục các vấn đề tiềm ẩn, giảm thiểu rủi ro và tối ưu hóa khả năng ra quyết định. Điều này dẫn đến việc xây dựng các sản phẩm AI mạnh mẽ hơn, đáng tin cậy hơn, và có khả năng đáp ứng tốt hơn các yêu cầu kinh doanh và người dùng cuối.",
+    "latency": 0.11448560000000185,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 7.264645465s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 7\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 4.173097789s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 4\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Hãy kể tên các giai đoạn chính của quy trình AI Evaluation Factory.",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Hãy kể tên các giai đoạn chính của quy trình AI Evaluation Factory.' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Các giai đoạn chính gồm: SDG (Tạo dữ liệu), Eval Engine (Bộ máy chấm điểm), Failure Analysis (Phân tích lỗi), và Report (Báo cáo).",
+    "latency": 0.11457010000000167,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 6.940089884s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 6\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 3.875168853s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 3\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory sử dụng khái niệm 'độ chính xác của câu trả lời' để đánh giá hiệu suất. Liệu tài liệu có đề cập cụ thể đến việc nó đo lường tốc độ phản hồi hay mức độ hài lòng của người dùng không?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory sử dụng khái niệm 'độ chính xác của câu trả lời' để đánh giá hiệu suất. Liệu tài liệu có đề cập cụ thể đến việc nó đo lường tốc độ phản hồi hay mức độ hài lòng của người dùng không?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Tài liệu chỉ đề cập rằng AI Evaluation Factory giúp đo lường 'độ chính xác của câu trả lời' cùng với Hit Rate và MRR. Nó không đề cập cụ thể đến việc đo lường tốc độ phản hồi hay mức độ hài lòng của người dùng.",
+    "latency": 0.10428969999999893,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 1.055535202s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 1\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 1.360098242s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 1\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
+    "latency": 0.10419510000000187,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 1.670847943s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 1\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 457.079854ms. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory giúp đo lường những chỉ số nào?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory giúp đo lường những chỉ số nào?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Nó giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
+    "latency": 0.10395210000000077,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 162.752968ms. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 754.845279ms. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Tại sao việc đo lường Hit Rate, MRR và độ chính xác của câu trả lời là các chỉ số trọng tâm mà AI Evaluation Factory tập trung vào, và chúng đóng vai trò gì trong việc đánh giá AI chuyên sâu?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Tại sao việc đo lường Hit Rate, MRR và độ chính xác của câu trả lời là các chỉ số trọng tâm mà AI Evaluation Factory tập trung vào, và chúng đóng vai trò gì trong việc đánh giá AI chuyên sâu?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory tập trung vào đo lường Hit Rate, MRR và độ chính xác của câu trả lời vì đây là các chỉ số quan trọng giúp định lượng hiệu suất của AI, đặc biệt là trong các hệ thống tìm kiếm và trả lời, cung cấp cái nhìn khách quan về khả năng của AI trong việc tạo ra kết quả phù hợp và chính xác.",
+    "latency": 0.10355339999999913,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 2.438338546s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 2\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 59.821287468s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 59\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_hard",
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giai đoạn 'SDG (Tạo dữ liệu)' đóng vai trò nền tảng như thế nào đối với các giai đoạn tiếp theo trong quy trình AI Evaluation Factory?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Giai đoạn 'SDG (Tạo dữ liệu)' đóng vai trò nền tảng như thế nào đối với các giai đoạn tiếp theo trong quy trình AI Evaluation Factory?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Giai đoạn SDG (Tạo dữ liệu) đóng vai trò nền tảng cốt yếu vì nó cung cấp bộ dữ liệu đầu vào chất lượng cao, cần thiết cho 'Eval Engine' (Bộ máy chấm điểm) để thực hiện đánh giá một cách có ý nghĩa. Nếu không có dữ liệu phù hợp, việc chấm điểm sẽ không thể diễn ra, dẫn đến việc phân tích lỗi và báo cáo kết quả sẽ thiếu căn cứ hoặc không chính xác, làm gián đoạn toàn bộ chuỗi quy trình đánh giá.",
+    "latency": 0.1038283999999976,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 2.146241581s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 2\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 59.369412515s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 59\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Ngoài việc xác định các lỗi, giai đoạn 'Failure Analysis' (Phân tích lỗi) trong AI Evaluation Factory còn có mục đích chiến lược nào để nâng cao chất lượng AI?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Ngoài việc xác định các lỗi, giai đoạn 'Failure Analysis' (Phân tích lỗi) trong AI Evaluation Factory còn có mục đích chiến lược nào để nâng cao chất lượng AI?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Ngoài việc xác định lỗi, mục đích chiến lược của giai đoạn 'Failure Analysis' là cung cấp cái nhìn sâu sắc về bản chất và nguyên nhân cốt lõi của các vấn đề, từ đó tạo ra những hiểu biết có giá trị để cải thiện và tinh chỉnh AI. Đây là giai đoạn quan trọng để chuyển đổi việc phát hiện lỗi thành các hành động cải tiến cụ thể, hướng tới việc tối ưu hóa hiệu suất và chất lượng của mô hình AI trong tương lai.",
+    "latency": 0.10316800000000015,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 56.70580142s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 56\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 56.994350219s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 56\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Chức năng chính của 'Eval Engine' là gì, và nó khác biệt thế nào so với giai đoạn 'Failure Analysis' trong quy trình đánh giá AI chuyên sâu?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Chức năng chính của 'Eval Engine' là gì, và nó khác biệt thế nào so với giai đoạn 'Failure Analysis' trong quy trình đánh giá AI chuyên sâu?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Chức năng chính của 'Eval Engine' là 'Bộ máy chấm điểm', tức là nó chịu trách nhiệm đánh giá và gán điểm cho hiệu suất của AI dựa trên các tiêu chí nhất định. Trong khi đó, 'Failure Analysis' là giai đoạn 'Phân tích lỗi', tập trung vào việc tìm hiểu nguyên nhân và bản chất của các lỗi mà AI mắc phải, sau khi đã có kết quả chấm điểm từ Eval Engine.",
+    "latency": 0.1031253999999997,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 57.327739828s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 57\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 55.948799394s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Nếu không có giai đoạn 'SDG' (Tạo dữ liệu), giai đoạn nào trong quy trình của AI Evaluation Factory sẽ không thể hoạt động hiệu quả hoặc không thể bắt đầu?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Nếu không có giai đoạn 'SDG' (Tạo dữ liệu), giai đoạn nào trong quy trình của AI Evaluation Factory sẽ không thể hoạt động hiệu quả hoặc không thể bắt đầu?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Nếu không có giai đoạn 'SDG' (Tạo dữ liệu), giai đoạn 'Eval Engine (Bộ máy chấm điểm)' sẽ không thể bắt đầu hoặc hoạt động hiệu quả, vì nó cần dữ liệu đã được tạo ra để thực hiện việc chấm điểm hiệu suất của AI.",
+    "latency": 0.1029757999999994,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 55.662658245s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 56.372677458s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 56\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Khía cạnh 'chuyên sâu' của AI Evaluation Factory được thể hiện rõ nhất qua những hoạt động nào trong các giai đoạn của quy trình?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Khía cạnh 'chuyên sâu' của AI Evaluation Factory được thể hiện rõ nhất qua những hoạt động nào trong các giai đoạn của quy trình?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Khía cạnh 'chuyên sâu' của AI Evaluation Factory được thể hiện rõ nhất không chỉ qua việc đo lường các chỉ số chi tiết như Hit Rate, MRR, độ chính xác, mà còn đặc biệt qua giai đoạn 'Failure Analysis' (Phân tích lỗi). Giai đoạn này cho phép đi sâu vào nguyên nhân gốc rễ của các sai sót, vượt ra ngoài việc chỉ ghi nhận lỗi để hiểu sâu hơn về cơ chế hoạt động và điểm yếu của AI, từ đó cung cấp thông tin chi tiết để cải tiến thực sự.",
+    "latency": 0.10297710000000038,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 57.948398488s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 57\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 55.355372906s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Quy trình của AI Evaluation Factory gồm mấy giai đoạn chính?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Quy trình của AI Evaluation Factory gồm mấy giai đoạn chính?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Quy trình gồm 4 giai đoạn chính.",
+    "latency": 0.10303750000000278,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 57.615670336s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 57\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 55.055609172s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 55\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Trong quy trình AI Evaluation Factory, SDG là viết tắt của từ gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Trong quy trình AI Evaluation Factory, SDG là viết tắt của từ gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "SDG là viết tắt của Tạo dữ liệu.",
+    "latency": 0.10911570000000026,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 52.301545557s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 52\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 52.579846445s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 52\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Làm thế nào 'Eval Engine' và 'Report' sử dụng các số liệu như Hit Rate, MRR và độ chính xác để hoàn thành mục tiêu của AI Evaluation Factory một cách tổng thể?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Làm thế nào 'Eval Engine' và 'Report' sử dụng các số liệu như Hit Rate, MRR và độ chính xác để hoàn thành mục tiêu của AI Evaluation Factory một cách tổng thể?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "'Eval Engine' (Bộ máy chấm điểm) là nơi các số liệu Hit Rate, MRR và độ chính xác được tính toán và định lượng một cách có hệ thống dựa trên dữ liệu đầu vào. Sau đó, giai đoạn 'Report' (Báo cáo) tập hợp, phân tích và trình bày các kết quả định lượng này dưới dạng thông tin dễ hiểu. Sự kết hợp này giúp hoàn thành mục tiêu tổng thể của AI Evaluation Factory bằng cách cung cấp cái nhìn toàn diện và minh bạch về hiệu suất AI, từ đó hỗ trợ việc ra quyết định chiến lược và định hướng cho các cải tiến tiếp theo.",
+    "latency": 0.1091159000000026,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 53.018260091s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 51.694063751s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 51\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory được mô tả là 'quy trình đánh giá AI chuyên sâu'. Điều này ngụ ý gì về mức độ chi tiết và phạm vi phân tích mà nó cung cấp so với một đánh giá AI cơ bản?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory được mô tả là 'quy trình đánh giá AI chuyên sâu'. Điều này ngụ ý gì về mức độ chi tiết và phạm vi phân tích mà nó cung cấp so với một đánh giá AI cơ bản?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Việc mô tả là 'chuyên sâu' ngụ ý rằng AI Evaluation Factory cung cấp mức độ chi tiết và phạm vi phân tích rộng hơn nhiều so với một đánh giá cơ bản. Nó không chỉ kiểm tra chức năng bề mặt mà còn đi sâu vào đo lường các chỉ số hiệu suất quan trọng như Hit Rate, MRR và độ chính xác của câu trả lời, cho phép cái nhìn toàn diện về hiệu suất AI.",
+    "latency": 0.10904800000000137,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 51.361582439s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 51\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 52.006615527s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 52\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Hãy kể tên 4 giai đoạn chính của quy trình AI Evaluation Factory.",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Hãy kể tên 4 giai đoạn chính của quy trình AI Evaluation Factory.' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "4 giai đoạn chính là: 1. SDG (Tạo dữ liệu), 2. Eval Engine (Bộ máy chấm điểm), 3. Failure Analysis (Phân tích lỗi), 4. Report (Báo cáo).",
+    "latency": 0.10894999999999655,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 53.626001643s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 51.064430798s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 51\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory đo lường Hit Rate, MRR và độ chính xác của câu trả lời. Vậy, liệu nó có đo lường các chỉ số như F1-score hay BLEU score không?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory đo lường Hit Rate, MRR và độ chính xác của câu trả lời. Vậy, liệu nó có đo lường các chỉ số như F1-score hay BLEU score không?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Tài liệu chỉ rõ AI Evaluation Factory giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời, nhưng không đề cập đến việc đo lường F1-score hay BLEU score.",
+    "latency": 0.10903530000000217,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 53.340548335s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 53\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 50.75331134s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 50\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Nếu mục tiêu của AI Evaluation Factory là cải thiện AI, giai đoạn 'Failure Analysis (Phân tích lỗi)' sẽ đóng vai trò như thế nào trong việc định hướng các bước phát triển tiếp theo của hệ thống AI được đánh giá?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Nếu mục tiêu của AI Evaluation Factory là cải thiện AI, giai đoạn 'Failure Analysis (Phân tích lỗi)' sẽ đóng vai trò như thế nào trong việc định hướng các bước phát triển tiếp theo của hệ thống AI được đánh giá?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Giai đoạn 'Failure Analysis (Phân tích lỗi)' đóng vai trò then chốt trong việc định hướng các bước phát triển tiếp theo. Nó không chỉ xác định lỗi mà còn phân tích nguyên nhân gốc rễ, cung cấp thông tin chi tiết về các điểm yếu cụ thể của AI, từ đó cho phép các nhà phát triển tập trung nỗ lực cải thiện vào những khía cạnh cần thiết nhất để nâng cao hiệu suất.",
+    "latency": 0.1028547999999958,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 47.775180826s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 47\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 48.071510622s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
+    "latency": 0.10279160000000331,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 48.509530899s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 47.193741657s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 47\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Nếu một AI không đạt được hiệu suất mong muốn sau khi được đánh giá bởi AI Evaluation Factory, quy trình này có đưa ra các khuyến nghị cụ thể để cải thiện mô hình không?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Nếu một AI không đạt được hiệu suất mong muốn sau khi được đánh giá bởi AI Evaluation Factory, quy trình này có đưa ra các khuyến nghị cụ thể để cải thiện mô hình không?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory bao gồm giai đoạn 'Failure Analysis (Phân tích lỗi)' và 'Report (Báo cáo)', nhưng tài liệu không nói rõ liệu quy trình có đưa ra các khuyến nghị cụ thể để cải thiện mô hình AI hay không.",
+    "latency": 0.10269420000000196,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 46.856576763s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 46\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 47.487011234s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 47\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giai đoạn 'SDG (Tạo dữ liệu)' trong quy trình AI Evaluation Factory cụ thể tạo ra loại dữ liệu nào và từ nguồn nào?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Giai đoạn 'SDG (Tạo dữ liệu)' trong quy trình AI Evaluation Factory cụ thể tạo ra loại dữ liệu nào và từ nguồn nào?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Tài liệu chỉ nêu 'SDG (Tạo dữ liệu)' là một giai đoạn, nhưng không cung cấp thông tin chi tiết về loại dữ liệu được tạo ra hay nguồn dữ liệu đó.",
+    "latency": 0.10242929999999717,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 49.196697962s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 49\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 46.570579716s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 46\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
+    "latency": 0.10258460000000014,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 48.924557211s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 48\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 46.240424164s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 46\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Có bao nhiêu bộ phận hoặc nhóm làm việc riêng biệt chịu trách nhiệm vận hành toàn bộ quy trình AI Evaluation Factory?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Có bao nhiêu bộ phận hoặc nhóm làm việc riêng biệt chịu trách nhiệm vận hành toàn bộ quy trình AI Evaluation Factory?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Tài liệu mô tả AI Evaluation Factory là một quy trình đánh giá AI chuyên sâu gồm 4 giai đoạn, nhưng không cung cấp thông tin về số lượng hoặc cấu trúc của các bộ phận/nhóm làm việc chịu trách nhiệm vận hành.",
+    "latency": 0.10771349999999558,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 43.489455329s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 43\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 43.793771456s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 43\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory giúp đo lường những gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory giúp đo lường những gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Nó giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
+    "latency": 0.10770329999999717,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 44.125465407s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 44\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 42.878000886s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 42\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Quy trình AI Evaluation Factory gồm mấy giai đoạn chính?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Quy trình AI Evaluation Factory gồm mấy giai đoạn chính?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Quy trình gồm 4 giai đoạn chính.",
+    "latency": 0.10764759999999995,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 42.414599148s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 42\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 43.190858361s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 43\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory giúp đo lường những gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory giúp đo lường những gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Nó giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
+    "latency": 0.10753090000000043,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 44.694427301s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 44\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 42.114983517s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 42\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Trong quy trình của AI Evaluation Factory, làm thế nào giai đoạn 'SDG (Tạo dữ liệu)' tạo tiền đề cho sự thành công và độ tin cậy của kết quả đánh giá cuối cùng do 'Eval Engine (Bộ máy chấm điểm)' tạo ra?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Trong quy trình của AI Evaluation Factory, làm thế nào giai đoạn 'SDG (Tạo dữ liệu)' tạo tiền đề cho sự thành công và độ tin cậy của kết quả đánh giá cuối cùng do 'Eval Engine (Bộ máy chấm điểm)' tạo ra?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Giai đoạn 'SDG (Tạo dữ liệu)' tạo tiền đề quan trọng bằng cách đảm bảo rằng dữ liệu được sử dụng để đánh giá AI là chất lượng cao, phù hợp và đại diện cho các trường hợp sử dụng thực tế. Dữ liệu đầu vào chính xác và đa dạng là yếu tố cốt lõi để 'Eval Engine' có thể chấm điểm một cách công bằng và tạo ra kết quả đánh giá đáng tin cậy, phản ánh đúng hiệu suất của AI.",
+    "latency": 0.10762599999999622,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 44.40462984s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 44\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 41.813924945s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 41\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Các giai đoạn chính của quy trình AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Các giai đoạn chính của quy trình AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Các giai đoạn chính là SDG (Tạo dữ liệu), Eval Engine (Bộ máy chấm điểm), Failure Analysis (Phân tích lỗi) và Report (Báo cáo).",
+    "latency": 0.10004299999999944,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 38.284213456s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 38\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 38.57586228s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 38\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Ngoài việc chỉ đo lường hiệu suất, AI Evaluation Factory còn giải quyết vấn đề cốt lõi nào cho các nhà phát triển hoặc người triển khai AI thông qua việc tích hợp các chỉ số như Hit Rate, MRR và độ chính xác?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Ngoài việc chỉ đo lường hiệu suất, AI Evaluation Factory còn giải quyết vấn đề cốt lõi nào cho các nhà phát triển hoặc người triển khai AI thông qua việc tích hợp các chỉ số như Hit Rate, MRR và độ chính xác?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Thông qua việc tích hợp các chỉ số như Hit Rate, MRR và độ chính xác, AI Evaluation Factory giải quyết vấn đề cốt lõi về việc cung cấp một khuôn khổ khách quan và có thể định lượng để hiểu rõ ràng về khả năng thực sự của AI. Điều này giúp các nhà phát triển và người triển khai vượt qua những đánh giá chủ quan, xác định chính xác giá trị và hạn chế của hệ thống AI, từ đó đưa ra quyết định sáng suốt hơn.",
+    "latency": 0.10003090000000014,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 38.887188185s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 38\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 37.568023712s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 37\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "SDG trong quy trình AI Evaluation Factory có nghĩa là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'SDG trong quy trình AI Evaluation Factory có nghĩa là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "SDG có nghĩa là Tạo dữ liệu.",
+    "latency": 0.09994299999999612,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 37.262542548s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 37\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 37.870381285s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 37\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Hãy kể tên 4 giai đoạn chính của quy trình AI Evaluation Factory.",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Hãy kể tên 4 giai đoạn chính của quy trình AI Evaluation Factory.' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "1. SDG (Tạo dữ liệu), 2. Eval Engine (Bộ máy chấm điểm), 3. Failure Analysis (Phân tích lỗi), 4. Report (Báo cáo).",
+    "latency": 0.09978639999999928,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 40.136082366s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 40\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 36.926839382s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 36\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Liệu 'Bộ máy chấm điểm' (Eval Engine) có khả năng tự động điều chỉnh các tiêu chí đánh giá dựa trên từng loại mô hình AI cụ thể không?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Liệu 'Bộ máy chấm điểm' (Eval Engine) có khả năng tự động điều chỉnh các tiêu chí đánh giá dựa trên từng loại mô hình AI cụ thể không?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Tài liệu chỉ mô tả Eval Engine là 'Bộ máy chấm điểm' nhưng không cung cấp chi tiết về khả năng tự động điều chỉnh tiêu chí đánh giá của nó.",
+    "latency": 0.09990910000000497,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 39.484659437s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 39\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 36.624177097s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 36\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Làm thế nào các giai đoạn trong AI Evaluation Factory phối hợp với nhau để đảm bảo chất lượng đầu ra AI và cung cấp cái nhìn sâu sắc về hiệu suất?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Làm thế nào các giai đoạn trong AI Evaluation Factory phối hợp với nhau để đảm bảo chất lượng đầu ra AI và cung cấp cái nhìn sâu sắc về hiệu suất?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Các giai đoạn của AI Evaluation Factory phối hợp từ việc tạo dữ liệu (SDG), chấm điểm hiệu suất (Eval Engine), phân tích nguyên nhân lỗi (Failure Analysis) cho đến việc tổng hợp kết quả (Report), nhằm đo lường Hit Rate, MRR và độ chính xác, từ đó cung cấp cái nhìn toàn diện về chất lượng và hiệu suất AI.",
+    "latency": 0.10160950000000213,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 33.953882666s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 33\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 34.23977629s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 34\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "SDG trong quy trình AI Evaluation Factory có nghĩa là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'SDG trong quy trình AI Evaluation Factory có nghĩa là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "SDG có nghĩa là Tạo dữ liệu.",
+    "latency": 0.1015978000000004,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 34.502326324s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 34\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 33.37439253s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 33\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
+    "latency": 0.10153999999999996,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 33.070076859s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 33\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 33.678158832s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 33\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Làm thế nào giai đoạn 'Report (Báo cáo)' của AI Evaluation Factory chuyển hóa các phát hiện kỹ thuật phức tạp từ 'Eval Engine' và 'Failure Analysis' thành thông tin có giá trị và dễ hiểu cho các bên liên quan không chuyên về kỹ thuật?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Làm thế nào giai đoạn 'Report (Báo cáo)' của AI Evaluation Factory chuyển hóa các phát hiện kỹ thuật phức tạp từ 'Eval Engine' và 'Failure Analysis' thành thông tin có giá trị và dễ hiểu cho các bên liên quan không chuyên về kỹ thuật?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Giai đoạn 'Report (Báo cáo)' chuyển hóa các phát hiện bằng cách tổng hợp và trình bày các dữ liệu, phân tích lỗi và chỉ số hiệu suất một cách có cấu trúc và dễ tiếp cận. Nó chắt lọc thông tin kỹ thuật phức tạp thành các kết luận, đề xuất và biểu đồ trực quan, giúp các bên liên quan không chuyên kỹ thuật có thể nhanh chóng nắm bắt tình trạng hiệu suất AI và đưa ra các quyết định chiến lược.",
+    "latency": 0.10146939999999915,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 35.211628834s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 35\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 32.793162791s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 32\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_hard",
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Mục tiêu cuối cùng mà AI Evaluation Factory hướng tới trong việc cải thiện hiệu suất AI là gì, dựa trên các chỉ số được đo lường?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Mục tiêu cuối cùng mà AI Evaluation Factory hướng tới trong việc cải thiện hiệu suất AI là gì, dựa trên các chỉ số được đo lường?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Mục tiêu cuối cùng mà AI Evaluation Factory hướng tới là nâng cao chất lượng và độ tin cậy của AI bằng cách đo lường chính xác Hit Rate, MRR và độ chính xác của câu trả lời, từ đó xác định các lĩnh vực cần cải thiện và đảm bảo hiệu suất tối ưu cho hệ thống.",
+    "latency": 0.10152169999999927,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 34.901450307s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 34\n}\n]"
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Lỗi kỹ thuật khi chấm điểm: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 32.495513972s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 32\n}\n]"
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "version": "Agent_V1_Current",
+    "total_cases": 50,
+    "timestamp": "2026-04-21 11:38:27"
+  },
+  "metrics": {
+    "avg_latency": 0.10525694799999993,
+    "avg_hit_rate": 0.48,
+    "avg_mrr": 0.48,
+    "avg_judge_score": 2.98
+  }
+}
