@@ -26,8 +26,7 @@ Tôi đã xây dựng Module `llm_judge_2.py` với các tính năng:
 
 
 ### B
-
-- **Trade-off Cost vs Quality**: Tôi đã thực hiện tối ưu hóa chi phí bằng cách cấu hình mô hình `gpt-4o-mini` cho các tác vụ chấm điểm cơ bản, vì qua thực nghiệm của tôi, chất lượng chấm điểm của nó tương đương `gpt-4` nhưng rẻ hơn 20 lần nếu có Rubric tốt.
+**Trade-off Cost vs Quality**: Tôi đã thực hiện tối ưu hóa chi phí bằng cách cấu hình mô hình `gpt-4o-mini` cho các tác vụ chấm điểm cơ bản, vì qua thực nghiệm của tôi, chất lượng chấm điểm của nó tương đương `gpt-4` nhưng rẻ hơn 20 lần nếu có Rubric tốt.
 
 ### C. Problem Solving (Giải quyết vấn đề)
 - **Problem**: Ban đầu, các LLM Judge thường trả về định dạng text không thống nhất, gây lỗi khi phân tích dữ liệu (Parsing error).
