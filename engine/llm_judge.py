@@ -1,16 +1,21 @@
 import asyncio
 import os
 import json
-import google.generativeai as genai
+from openai import AsyncOpenAI
 from typing import Dict, Any
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 class MultiModelJudge:
-    def __init__(self, model_name: str = "gemini-2.5-flash"):
-        api_key = os.getenv("GOOGLE_API_KEY")
-        if not api_key:
-            raise ValueError("GOOGLE_API_KEY không được tìm thấy trong môi trường.")
-        genai.configure(api_key=api_key)
-        self.model = genai.GenerativeModel(model_name)
+    def __init__(self, model_name: str = "gpt-4o-mini"):
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key or "your_openai_api_key_here" in api_key:
+            print("WARNING: OPENAI_API_KEY not found or invalid in .env")
+        
+        self.client = AsyncOpenAI(api_key=api_key)
+        self.model_name = model_name
         
         # Định nghĩa Rubric chấm điểm
         self.rubric = """
@@ -33,11 +38,9 @@ class MultiModelJudge:
 
     async def _get_score_from_persona(self, system_instruction: str, question: str, answer: str, ground_truth: str) -> Dict:
         """
-        Gọi Gemini với một Persona (vai trò) cụ thể.
+        Gọi OpenAI với một Persona (vai trò) cụ thể.
         """
         prompt = f"""
-        {system_instruction}
-        
         Dữ liệu đánh giá:
         - Câu hỏi: {question}
         - Câu trả lời của AI: {answer}
@@ -47,24 +50,24 @@ class MultiModelJudge:
         """
         
         try:
-            # Gemini Free Tier: delay để tránh 429
-            await asyncio.sleep(1) 
-            response = self.model.generate_content(prompt)
-            # Trích xuất JSON từ Markdown (nếu model bao trong ```json)
-            text = response.text.strip()
-            if "```json" in text:
-                text = text.split("```json")[1].split("```")[0].strip()
-            elif "```" in text:
-                text = text.split("```")[1].split("```")[0].strip()
+            response = await self.client.chat.completions.create(
+                model=self.model_name,
+                messages=[
+                    {"role": "system", "content": system_instruction},
+                    {"role": "user", "content": prompt}
+                ],
+                response_format={"type": "json_object"}
+            )
             
-            return json.loads(text)
+            content = response.choices[0].message.content
+            return json.loads(content)
         except Exception as e:
-            print(f"Error calling Gemini Judge: {e}")
+            print(f"Error calling OpenAI Judge: {e}")
             return {"score": 3, "reasoning": f"Lỗi kỹ thuật khi chấm điểm: {str(e)}"}
 
     async def evaluate_multi_judge(self, question: str, answer: str, ground_truth: str) -> Dict[str, Any]:
         """
-        Thực hiện đánh giá từ 2 góc nhìn khác nhau (Sử dụng Gemini calls).
+        Thực hiện đánh giá từ 2 góc nhìn khác nhau (Sử dụng OpenAI calls).
         """
         # Persona 1: Chuyên gia khắt khe (Focus on Accuracy)
         persona_strict = f"{self.rubric}\n\nLưu ý: Bạn là một chuyên gia khắt khe, ưu tiên tuyệt đối độ chính xác của dữ kiện."
@@ -72,7 +75,7 @@ class MultiModelJudge:
         # Persona 2: Chuyên gia trải nghiệm người dùng (Focus on Tone & Helpfulness)
         persona_helpful = f"{self.rubric}\n\nLưu ý: Bạn là một chuyên gia UX, ưu tiên cách diễn đạt dễ hiểu và sự hữu ích cho người dùng."
 
-        # Chạy song song (hoặc tuần tự nếu rate limit gắt)
+        # Chạy song song
         tasks = [
             self._get_score_from_persona(persona_strict, question, answer, ground_truth),
             self._get_score_from_persona(persona_helpful, question, answer, ground_truth)
@@ -96,11 +99,9 @@ class MultiModelJudge:
         }
 
 if __name__ == "__main__":
-    from dotenv import load_dotenv
-    load_dotenv()
-    
     async def test():
         judge = MultiModelJudge()
+        print(f"Testing with model: {judge.model_name}")
         res = await judge.evaluate_multi_judge(
             "Thủ đô của Pháp là gì?",
             "Thủ đô của Pháp là Paris.",

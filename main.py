@@ -43,18 +43,20 @@ async def run_benchmark_with_results(agent_version: str):
     avg_hit_rate = sum(r.get("retrieval", {}).get("hit_rate", 0) for r in results) / total
     avg_mrr = sum(r.get("retrieval", {}).get("mrr", 0) for r in results) / total
     avg_judge_score = sum(r.get("judge", {}).get("final_score", 0) for r in results) / total
+    avg_agreement = sum(r.get("judge", {}).get("agreement_rate", 0) for r in results) / total
     
     summary = {
         "metadata": {
             "version": agent_version, 
-            "total_cases": total, 
+            "total": total, 
             "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
         },
         "metrics": {
             "avg_latency": avg_latency,
-            "avg_hit_rate": avg_hit_rate,
+            "hit_rate": avg_hit_rate,
             "avg_mrr": avg_mrr,
-            "avg_judge_score": avg_judge_score
+            "avg_score": avg_judge_score,
+            "agreement_rate": avg_agreement
         }
     }
     
@@ -71,15 +73,16 @@ def print_report(summary: dict):
     print(f"       BENCHMARK REPORT: {meta['version']}")
     print("="*40)
     print(f"Thời gian:       {meta['timestamp']}")
-    print(f"Tổng số case:    {meta['total_cases']}")
+    print(f"Tổng số case:    {meta['total']}")
     print("-" * 40)
     print(f"RETRIEVAL STAGE:")
-    print(f"  - Avg Hit Rate: {m['avg_hit_rate']:.2%}")
+    print(f"  - Avg Hit Rate: {m['hit_rate']:.2%}")
     print(f"  - Avg MRR:      {m['avg_mrr']:.4f}")
     print("-" * 40)
     print(f"GENERATION STAGE:")
-    print(f"  - Avg Score:    {m['avg_judge_score']:.2f}/5.0")
+    print(f"  - Avg Score:    {m['avg_score']:.2f}/5.0")
     print(f"  - Avg Latency:  {m['avg_latency']:.2f}s")
+    print(f"  - Agreement:    {m['agreement_rate']:.1%}")
     print("="*40 + "\n")
 
 async def main():
