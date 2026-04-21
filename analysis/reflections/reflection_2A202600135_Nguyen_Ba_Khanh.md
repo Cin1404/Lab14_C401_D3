@@ -25,7 +25,7 @@ Tôi đã xây dựng Module `llm_judge_2.py` với các tính năng:
 - **JSON Structured Output**: Ép buộc mô hình trả về kết quả theo cấu trúc JSON định sẵn thông qua `response_format={"type": "json_object"}`, giúp việc tích hợp vào hệ thống báo cáo `summary.json` cực kỳ ổn định.
 
 
-### B. 
+### B. Cost 
 **Trade-off Cost vs Quality**: Tôi đã thực hiện tối ưu hóa chi phí bằng cách cấu hình mô hình `gpt-4o-mini` cho các tác vụ chấm điểm cơ bản, vì qua thực nghiệm của tôi, chất lượng chấm điểm của nó tương đương `gpt-4` nhưng rẻ hơn 20 lần nếu có Rubric tốt.
 
 ### C. Problem Solving (Giải quyết vấn đề)
