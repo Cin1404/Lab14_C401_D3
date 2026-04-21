@@ -16,9 +16,15 @@ class MainAgent:
         2. Generation: Gọi LLM để sinh câu trả lời.
         """
         # Giả lập độ trễ mạng/LLM
-        await asyncio.sleep(0.5) 
+        await asyncio.sleep(0.1) 
         
-        # Giả lập dữ liệu trả về
+        # Giả lập logic tìm kiếm tài liệu (Retrieval)
+        # Trong thực tế, đây sẽ là kết quả từ Vector DB.
+        # Ở đây chúng ta giả lập trả về doc_id để phục vụ lab eval.
+        retrieved_ids = ["doc_easy"] # Mặc định
+        if "tại sao" in question.lower() or "phức tạp" in question.lower():
+            retrieved_ids = ["doc_hard", "doc_easy"]
+        
         return {
             "answer": f"Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi '{question}' như sau: [Câu trả lời mẫu].",
             "contexts": [
@@ -28,7 +34,7 @@ class MainAgent:
             "metadata": {
                 "model": "gpt-4o-mini",
                 "tokens_used": 150,
-                "sources": ["policy_handbook.pdf"]
+                "retrieved_ids": retrieved_ids
             }
         }
 
