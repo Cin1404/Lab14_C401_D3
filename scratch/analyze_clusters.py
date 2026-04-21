@@ -41,7 +41,7 @@ def analyze_failures(detail_path):
     return clusters
 
 if __name__ == "__main__":
-    path = "reports/results_detail.json"
+    path = "reports/benchmark_results_lab8.json"
     if os.path.exists(path):
         results = analyze_failures(path)
         print("\nKẾT QUẢ PHÂN NHÓM:")
