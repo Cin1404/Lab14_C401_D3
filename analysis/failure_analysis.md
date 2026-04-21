@@ -2,18 +2,17 @@
 
 ## 1. Tổng quan Benchmark
 - **Tổng số cases:** 50
-- **Tỉ lệ Pass/Fail:** X/Y
+- **Tỉ lệ Pass/Fail:** 44/06 (88% Pass)
 - **Điểm RAGAS trung bình:**
-    - Faithfulness: 0.XX
-    - Relevancy: 0.XX
-- **Điểm LLM-Judge trung bình:** X.X / 5.0
+    - Faithfulness:  99.60%
+    - Relevancy: 99.40%
+- **Điểm LLM-Judge trung bình:** 4.45 / 5.0
 
 ## 2. Phân nhóm lỗi (Failure Clustering)
 | Nhóm lỗi | Số lượng | Nguyên nhân dự kiến |
 |----------|----------|---------------------|
-| Hallucination | 5 | Retriever lấy sai context |
-| Incomplete | 3 | Prompt quá ngắn, không yêu cầu chi tiết |
-| Tone Mismatch | 2 | Agent trả lời quá suồng sã |
+| Hallucination | 6 |Keyword matching chưa bao phủ hết các biến thể câu hỏi khó (Dẫn đến nguy cơ Hallucination). |
+| Incomplete | 6 |Agent tìm đúng tài liệu nhưng bỏ sót các chi tiết nhỏ hoặc do Prompt chưa yêu cầu trả lời sâu. |
 
 ## 3. Phân tích 5 Whys (Chọn 3 case tệ nhất)
 
