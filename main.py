@@ -100,7 +100,7 @@ def print_report(summary: dict):
     print("="*40 + "\n")
 
 async def main():
-    load_dotenv()
+    load_dotenv(override=True)
     
     # Chạy benchmark cho phiên bản hiện tại
     results, summary = await run_benchmark_with_results("Agent_V1_Current")

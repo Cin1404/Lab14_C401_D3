@@ -98,7 +98,7 @@ def print_report(summary: dict):
     print("="*40 + "\n")
 
 async def main():
-    load_dotenv()
+    load_dotenv(override=True)
     
     parser = argparse.ArgumentParser(description="AI Evaluation Factory Benchmark Runner (Mock)")
     parser.add_argument("--dataset", type=str, default="data/golden_set_lab8.jsonl", help="Đường dẫn đến file golden_set.jsonl")

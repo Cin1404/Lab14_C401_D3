@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import chromadb
 from openai import OpenAI
 
-load_dotenv()
+load_dotenv(override=True)
 
 # =============================================================================
 # CẤU HÌNH

@@ -34,7 +34,8 @@ class MainAgent:
             "metadata": {
                 "model": "gpt-4o-mini",
                 "tokens_used": 150,
-                "retrieved_ids": retrieved_ids
+                "retrieved_ids": retrieved_ids,
+                "latency_ms": 110 # Thêm thông số để benchmark hiệu năng
             }
         }
 

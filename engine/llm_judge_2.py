@@ -6,7 +6,7 @@ from typing import Dict, Any
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+load_dotenv(override=True)
 
 class MultiModelJudge:
     def __init__(self, model_name: str = "gpt-4o-mini"):
@@ -56,7 +56,8 @@ class MultiModelJudge:
                     {"role": "system", "content": system_instruction},
                     {"role": "user", "content": prompt}
                 ],
-                response_format={"type": "json_object"}
+                response_format={"type": "json_object"},
+                temperature=0 # Ép kiểu JSON và sử dụng temperature thấp để ổn định kết quả (Calibration)
             )
             
             # Tính toán chi phí (gpt-4o-mini: $0.15/1M input, $0.60/1M output)

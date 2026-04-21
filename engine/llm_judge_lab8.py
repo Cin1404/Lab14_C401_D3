@@ -95,7 +95,7 @@ class MultiModelJudge:
 
 if __name__ == "__main__":
     from dotenv import load_dotenv
-    load_dotenv()
+    load_dotenv(override=True)
     
     async def test():
         judge = MultiModelJudge()
@@ -111,7 +111,7 @@ if __name__ == "__main__":
 
 if __name__ == "__main__":
     from dotenv import load_dotenv
-    load_dotenv()
+    load_dotenv(override=True)
     
     async def test():
         judge = MultiModelJudge()

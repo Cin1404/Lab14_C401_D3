@@ -6,7 +6,7 @@ from openai import AsyncOpenAI
 from dotenv import load_dotenv
 from engine.index_v2 import LabIndexer
 
-load_dotenv()
+load_dotenv(override=True)
 
 class MockAgent:
     """

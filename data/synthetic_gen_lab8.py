@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from engine.index_v2 import LabIndexer
 
-load_dotenv()
+load_dotenv(override=True)
 
 class SyntheticDataGenerator:
     def __init__(self, model_name: str = "gpt-4o-mini"):
