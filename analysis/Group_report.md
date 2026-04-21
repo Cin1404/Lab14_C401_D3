@@ -1,5 +1,5 @@
 
-## 👥 1. Điểm Nhóm (Tối đa 60 điểm)
+##  1. Điểm Nhóm (Tối đa 60 điểm)
 Nhóm D3-C401: **Hệ thống RAG Đa tầng & Benchmark Tự động**
 
 | Hạng mục | Tiêu chí | Trạng thái | Điểm |
@@ -12,11 +12,11 @@ Nhóm D3-C401: **Hệ thống RAG Đa tầng & Benchmark Tự động**
 
 ---
 
-## 📊 2. Báo cáo Chi tiết Benchmark (Evidence)
+##  2. Báo cáo Chi tiết Benchmark (Evidence)
 
 Dưới đây là kết quả thu thập được từ phiên chạy benchmark mới nhất:
 
-### 🏆 So sánh V1 (Mock_Weak) vs V2 (Current)
+###  So sánh V1 (Mock_Weak) vs V2 (Current)
 
 | Chỉ số (Metric) | Bản gốc (V1 - Mock_Weak) | Bản mới (V2 - Current) | Thay đổi | Kết quả |
 | :--- | :---: | :---: | :---: | :---: |
@@ -39,7 +39,7 @@ Hệ thống đã tự động kiểm tra bản mới (**Agent_V1_Current**) so 
 
 ---
 
-## 🛠️ 3. Cấu hình Multi-Judge Consensus
+##  3. Cấu hình Multi-Judge Consensus
 Hệ thống sử dụng `MultiModelJudge` với chiến lược **Persona-based Consensus**:
 - **Judge A (Strict):** Ưu tiên độ chính xác tuyệt đối.
 - **Judge B (Helpful):** Ưu tiên trải nghiệm và cách diễn đạt.
