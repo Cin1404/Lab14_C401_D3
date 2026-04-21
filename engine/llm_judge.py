@@ -1,16 +1,17 @@
 import asyncio
 import os
 import json
-import google.generativeai as genai
 from typing import Dict, Any
+from openai import AsyncOpenAI
 
 class MultiModelJudge:
-    def __init__(self, model_name: str = "gemini-2.5-flash"):
-        api_key = os.getenv("GOOGLE_API_KEY")
+    def __init__(self, model_name: str = "gpt-4o-mini"):
+        api_key = os.getenv("OPENAI_API_KEY")
         if not api_key:
-            raise ValueError("GOOGLE_API_KEY không được tìm thấy trong môi trường.")
-        genai.configure(api_key=api_key)
-        self.model = genai.GenerativeModel(model_name)
+            raise ValueError("OPENAI_API_KEY không được tìm thấy trong môi trường.")
+        
+        self.client = AsyncOpenAI(api_key=api_key)
+        self.model_name = model_name
         
         # Định nghĩa Rubric chấm điểm
         self.rubric = """
@@ -33,7 +34,7 @@ class MultiModelJudge:
 
     async def _get_score_from_persona(self, system_instruction: str, question: str, answer: str, ground_truth: str) -> Dict:
         """
-        Gọi Gemini với một Persona (vai trò) cụ thể.
+        Gọi OpenAI với một Persona (vai trò) cụ thể.
         """
         prompt = f"""
         {system_instruction}
@@ -47,19 +48,19 @@ class MultiModelJudge:
         """
         
         try:
-            # Gemini Free Tier: delay để tránh 429
-            await asyncio.sleep(1) 
-            response = self.model.generate_content(prompt)
-            # Trích xuất JSON từ Markdown (nếu model bao trong ```json)
-            text = response.text.strip()
-            if "```json" in text:
-                text = text.split("```json")[1].split("```")[0].strip()
-            elif "```" in text:
-                text = text.split("```")[1].split("```")[0].strip()
+            response = await self.client.chat.completions.create(
+                model=self.model_name,
+                messages=[
+                    {"role": "system", "content": "You are a professional quality auditor for AI systems."},
+                    {"role": "user", "content": prompt}
+                ],
+                response_format={"type": "json_object"}
+            )
             
-            return json.loads(text)
+            raw_content = response.choices[0].message.content
+            return json.loads(raw_content)
         except Exception as e:
-            print(f"Error calling Gemini Judge: {e}")
+            print(f"Error calling OpenAI Judge: {e}")
             return {"score": 3, "reasoning": f"Lỗi kỹ thuật khi chấm điểm: {str(e)}"}
 
     async def evaluate_multi_judge(self, question: str, answer: str, ground_truth: str) -> Dict[str, Any]:

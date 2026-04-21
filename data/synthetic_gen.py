@@ -3,27 +3,25 @@ import asyncio
 import os
 import time
 from typing import List, Dict
-import google.generativeai as genai
+from openai import AsyncOpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
 
-# Cấu hình Gemini
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-
 class SyntheticDataGenerator:
-    def __init__(self, model_name: str = "gemini-2.5-flash"):
-        self.model = genai.GenerativeModel(model_name)
+    def __init__(self, model_name: str = "gpt-4o-mini"):
+        self.client = AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        self.model_name = model_name
 
     async def generate_batch(self, text: str, num_pairs: int = 5, difficulty: str = "easy") -> List[Dict]:
         """
-        Sử dụng Gemini để tạo các cặp (Question, Expected Answer, Context) từ đoạn văn bản.
+        Sử dụng OpenAI gpt-4o-mini để tạo các cặp (Question, Expected Answer, Context) từ đoạn văn bản.
         """
         prompt = f"""
         Nhiệm vụ: Tạo ra đúng {num_pairs} cặp câu hỏi/trả lời từ tài liệu.
         Độ khó: {difficulty.upper()}
         
-        Định dạng trả về là JSON array, mỗi phần tử có:
+        Định dạng trả về là JSON array, mỗi phần tử có cấu trúc sau:
         {{
             "question": "Câu hỏi",
             "expected_answer": "Câu trả lời chuẩn",
@@ -38,25 +36,40 @@ class SyntheticDataGenerator:
         # Thử lại (Retry) tối đa 3 lần nếu gặp lỗi Rate Limit
         for attempt in range(3):
             try:
-                response = await self.model.generate_content_async(
-                    prompt,
-                    generation_config={"response_mime_type": "application/json"}
+                response = await self.client.chat.completions.create(
+                    model=self.model_name,
+                    messages=[
+                        {"role": "system", "content": "You are a helpful assistant that generates high-quality synthetic data in JSON format."},
+                        {"role": "user", "content": prompt}
+                    ],
+                    response_format={"type": "json_object"}
                 )
                 
-                content = json.loads(response.text)
+                raw_content = response.choices[0].message.content
+                content = json.loads(raw_content)
+                
+                # OpenAI json_object mode requires a root key usually, or we can just parse it.
+                # If the content is already a list, return it. If not, look for common keys.
                 if isinstance(content, list):
                     return content
                 elif isinstance(content, dict):
-                    return content.get("results", content.get("qa_pairs", []))
+                    # Check for common wrapping keys
+                    for key in ["results", "qa_pairs", "data", "questions"]:
+                        if key in content and isinstance(content[key], list):
+                            return content[key]
+                    # If it's a single object that should have been a list, wrap it
+                    if "question" in content:
+                        return [content]
+                    
                 return []
             except Exception as e:
                 err_msg = str(e)
-                if "429" in err_msg or "quota" in err_msg.lower():
-                    wait_time = (attempt + 1) * 30
-                    print(f"⚠️ Bị giới hạn tốc độ (429). Đang nghỉ {wait_time}s trước khi thử lại...")
+                if "429" in err_msg:
+                    wait_time = (attempt + 1) * 2
+                    print(f"⚠️ OpenAI Rate Limit. Đang nghỉ {wait_time}s...")
                     await asyncio.sleep(wait_time)
                 else:
-                    print(f"❌ Lỗi: {e}")
+                    print(f"❌ Lỗi OpenAI: {e}")
                     return []
         return []
 
@@ -69,8 +82,8 @@ async def main():
     3. Failure Analysis (Phân tích lỗi), 4. Report (Báo cáo).
     """
     
-    # Dùng 1.5-flash để ổn định với gói Free
-    generator = SyntheticDataGenerator(model_name="gemini-2.5-flash")
+    # Dùng gpt-4o-mini
+    generator = SyntheticDataGenerator(model_name="gpt-4o-mini")
     all_qa_pairs = []
 
     print("🚀 Bắt đầu tạo dữ liệu tổng hợp (Chế độ Sequential để tránh 429 Error)...")

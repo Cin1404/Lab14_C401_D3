@@ -1,0 +1,1504 @@
+[
+  {
+    "question": "AI Evaluation Factory là gì và nó có vai trò gì trong việc đánh giá AI?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory là gì và nó có vai trò gì trong việc đánh giá AI?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu, giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
+    "latency": 0.11005269997986034,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về AI Evaluation Factory và vai trò của nó trong việc đánh giá AI. Thay vì giải thích rõ ràng như trong Ground Truth, câu trả lời chỉ bao gồm phần 'Câu trả lời mẫu', cho thấy độ chính xác thấp và không có nội dung thực sự."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về AI Evaluation Factory, vì nó chỉ nhắc đến cụm từ 'Câu trả lời mẫu' mà không đi vào chi tiết nội dung về quy trình đánh giá AI. Do đó, câu trả lời này không đáp ứng yêu cầu tìm hiểu về khái niệm và vai trò của AI Evaluation Factory. Ngôn ngữ sử dụng khá mơ hồ và không rõ ràng."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
+    "latency": 0.11013249994721264,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về 'AI Evaluation Factory', chỉ trích dẫn từ hệ thống mà không có thông tin cụ thể. Do đó, cả độ chính xác và độ liên quan đều không đạt. Câu trả lời có vẻ thiếu sót và không rõ ràng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin cụ thể nào về 'AI Evaluation Factory', chỉ đưa ra cụm từ 'Câu trả lời mẫu' mà không có nội dung thực sự. Điều này dẫn đến việc câu trả lời không rõ ràng và không liên quan đến câu hỏi, làm giảm tính chính xác và sự chuyên nghiệp."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giai đoạn cuối cùng của AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Giai đoạn cuối cùng của AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Giai đoạn cuối cùng là Report (Báo cáo).",
+    "latency": 0.11002809996716678,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác hoặc rõ ràng về giai đoạn cuối cùng của AI Evaluation Factory. Nó chỉ đề cập đến một 'Câu trả lời mẫu' mà không trả lời cụ thể câu hỏi. Do đó, thông tin này là sai lệch và không phù hợp."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về giai đoạn cuối cùng của AI Evaluation Factory, mà chỉ dừng lại ở việc xác nhận câu hỏi mà không đưa ra nội dung cụ thể. Do đó, nó không giải quyết đúng vấn đề người dùng hỏi."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Cái gì xảy ra trong giai đoạn Failure Analysis của AI Evaluation Factory?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Cái gì xảy ra trong giai đoạn Failure Analysis của AI Evaluation Factory?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Giai đoạn Failure Analysis liên quan đến việc phân tích lỗi.",
+    "latency": 0.10990589996799827,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin cụ thể nào về giai đoạn Failure Analysis trong AI Evaluation Factory, chỉ đưa ra một câu hỏi mẫu mà không trả lời được nội dung chính của câu hỏi. Điều này dẫn đến sai hoàn toàn thông tin cần thiết."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không rõ ràng và thiếu thông tin cụ thể về giai đoạn Failure Analysis. Mặc dù có nhắc đến 'phân tích lỗi', câu trả lời không đi vào chi tiết hoặc cung cấp thông tin bổ sung cần thiết để người dùng hiểu rõ hơn về nội dung của giai đoạn này. Do đó, câu trả lời không hoàn toàn đầy đủ hoặc chính xác, dẫn đến việc đánh giá ở mức Poor."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Quy trình AI Evaluation Factory giúp đo lường những chỉ số nào?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Quy trình AI Evaluation Factory giúp đo lường những chỉ số nào?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Quy trình giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
+    "latency": 0.11012999998638406,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin cụ thể và thiếu các chỉ số mà quy trình AI Evaluation Factory thực sự đo lường. Mặc dù có đề cập đến việc sẽ trả lời, nhưng thông tin vẫn chưa rõ ràng và không liên quan đến câu hỏi mà người dùng đặt ra."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về các chỉ số mà quy trình AI Evaluation Factory đo lường. Mặc dù đề cập đến câu hỏi một cách lặp lại mà không có thông tin cụ thể, nhưng không đưa ra các chỉ số cụ thể như Hit Rate, MRR và độ chính xác của câu trả lời. Điều này khiến thông tin thiếu sự rõ ràng và không đáp ứng yêu cầu của người dùng."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Tên các giai đoạn trong quy trình AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Tên các giai đoạn trong quy trình AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Các giai đoạn là: 1. SDG (Tạo dữ liệu), 2. Eval Engine (Bộ máy chấm điểm), 3. Failure Analysis (Phân tích lỗi), 4. Report (Báo cáo).",
+    "latency": 0.09818470000755042,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin cụ thể về các giai đoạn trong quy trình AI Evaluation Factory, gây khó khăn cho người dùng trong việc hiểu rõ vấn đề. Do đó, nó là không chính xác và không rõ ràng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về tên các giai đoạn trong quy trình AI Evaluation Factory. Mặc dù câu trả lời bắt đầu với một câu giới thiệu, nhưng nó không chứa nội dung cụ thể mà người dùng cần biết. Do đó, câu trả lời không đáp ứng được yêu cầu về độ chính xác cũng như độ liên quan."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Có bao nhiêu giai đoạn chính trong quy trình AI Evaluation Factory?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Có bao nhiêu giai đoạn chính trong quy trình AI Evaluation Factory?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Quy trình có 4 giai đoạn chính.",
+    "latency": 0.09200460003921762,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về số giai đoạn trong quy trình AI Evaluation Factory. Nó chỉ đề cập đến việc tham khảo tài liệu mà không đưa ra con số cụ thể. Do đó, câu trả lời này không đáp ứng yêu cầu về độ chính xác và độ liên quan, đồng thời không tuân thủ nguyên tắc cung cấp thông tin rõ ràng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin cụ thể về số lượng giai đoạn chính trong quy trình AI Evaluation Factory, mà chỉ nhắc đến nguồn thông tin mà không đưa ra câu trả lời rõ ràng. Điều này dẫn đến sự không chính xác và không đáp ứng được yêu cầu của câu hỏi."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
+    "latency": 0.10823389998404309,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về AI Evaluation Factory, mà chỉ đề cập đến một mẫu câu trả lời. Điều này dẫn đến việc thông tin sai lệch và không rõ ràng, do đó không giải quyết đúng yêu cầu của người dùng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về 'AI Evaluation Factory', mặc dù nó đã đưa ra một câu hỏi tương tự. Khái niệm không được giải thích rõ ràng và thiếu thông tin cụ thể liên quan đến quy trình đánh giá AI chuyên sâu."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Có bao nhiêu giai đoạn chính trong quy trình AI Evaluation Factory và chúng là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Có bao nhiêu giai đoạn chính trong quy trình AI Evaluation Factory và chúng là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Quy trình AI Evaluation Factory gồm 4 giai đoạn chính: 1. SDG (Tạo dữ liệu), 2. Eval Engine (Bộ máy chấm điểm), 3. Failure Analysis (Phân tích lỗi), 4. Report (Báo cáo).",
+    "latency": 0.129734699963592,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về số lượng và tên các giai đoạn trong quy trình AI Evaluation Factory. Điều này vi phạm quy tắc về độ chính xác và liên quan đến câu hỏi. Đồng thời, cách diễn đạt cũng không rõ ràng, không giải quyết đúng vấn đề mà người dùng hỏi."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin cụ thể về số lượng và tên các giai đoạn trong quy trình AI Evaluation Factory, mà chỉ nhắc đến một tài liệu hệ thống mà không nêu rõ nội dung. Do đó, câu trả lời có phần sai lệch và không rõ ràng, không đáp ứng được yêu cầu của câu hỏi."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Hit Rate trong quy trình đánh giá AI được hiểu như thế nào?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Hit Rate trong quy trình đánh giá AI được hiểu như thế nào?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Hit Rate là một chỉ số đo lường xác suất mà AI sẽ đưa ra câu trả lời đúng trong quá trình hoạt động.",
+    "latency": 0.1047127999481745,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không chứa thông tin cụ thể hoặc chính xác về 'Hit Rate' và chỉ đưa ra một câu trả lời mẫu mà không khai thác sâu nghĩa của thuật ngữ, điều này dẫn đến sự mơ hồ và thiếu độ chính xác. Do đó, nó có thể xem là thiếu sót lớn trong việc giải thích khái niệm."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về 'Hit Rate' trong quy trình đánh giá AI. Thay vì đưa ra định nghĩa hợp lý như trong Ground Truth, câu trả lời chỉ đưa ra lời giới thiệu mà không cung cấp thông tin cụ thể, dẫn đến việc thiếu thông tin cần thiết để hiểu rõ vấn đề."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giai đoạn đầu tiên của quy trình AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Giai đoạn đầu tiên của quy trình AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Giai đoạn đầu tiên là SDG (Tạo dữ liệu).",
+    "latency": 0.10229259997140616,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời không cung cấp thông tin đúng, không đề cập đến SDG (Tạo dữ liệu) như là giai đoạn đầu tiên của quy trình AI Evaluation Factory. Hơn nữa, câu trả lời cũng không rõ ràng và không trực tiếp trả lời câu hỏi của người dùng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về giai đoạn đầu tiên của quy trình AI Evaluation Factory, vì nó không đề cập đến 'SDG (Tạo dữ liệu)'. Mặc dù ngôn ngữ có phần lịch sự, nhưng do thiếu thông tin đúng và rõ ràng, câu trả lời không đạt yêu cầu."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Mục đích của AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Mục đích của AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Nó giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
+    "latency": 0.1131976000033319,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin cụ thể về mục đích của AI Evaluation Factory, mà chỉ đưa ra một cấu trúc câu trả lời mà không có nội dung rõ ràng. Điều này dẫn đến việc thông tin có thể không đúng hoặc không đầy đủ so với Ground Truth."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về mục đích của AI Evaluation Factory. Mặc dù nó có vẻ như là một câu trả lời được hình thành với ý định tốt, nhưng nó thiếu thông tin cụ thể về các chỉ số như Hit Rate, MRR và độ chính xác của câu trả lời, điều này khiến nó không chỉ rõ và không hữu ích cho người dùng."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory là gì và nó có vai trò gì trong việc đánh giá AI?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory là gì và nó có vai trò gì trong việc đánh giá AI?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu nhằm đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
+    "latency": 0.1137872000108473,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin cụ thể về AI Evaluation Factory và vai trò của nó. Thay vào đó, chỉ bao gồm một câu trống và không có thông tin chính xác nào được nêu ra. Do đó thông tin sai lệch và không rõ ràng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI chưa cung cấp thông tin chính xác về định nghĩa và vai trò của AI Evaluation Factory. Câu trả lời không trích dẫn đúng nội dung của Ground Truth, dẫn đến việc thông tin không rõ ràng và sai lệch. Điều này làm cho câu trả lời không thực sự hữu ích cho người dùng đang tìm hiểu về chủ đề này."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Eval Engine trong AI Evaluation Factory có chức năng gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Eval Engine trong AI Evaluation Factory có chức năng gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Eval Engine là bộ máy chấm điểm, có nhiệm vụ đánh giá và xác định độ chính xác của câu trả lời mà AI đưa ra.",
+    "latency": 0.10782269999617711,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về chức năng của Eval Engine. Trong khi nó đề cập đến việc đánh giá và xác định độ chính xác, nội dung không rõ ràng và thiếu các chi tiết cần thiết để đáp ứng yêu cầu của câu hỏi. Do đó, câu trả lời không đáp ứng được các tiêu chí về độ chính xác và độ liên quan."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin cụ thể về chức năng của Eval Engine trong AI Evaluation Factory. Câu trả lời chỉ đề cập đến một format chung mà không đi vào nội dung chi tiết, dẫn đến việc thiếu sót thông tin và không rõ ràng về vai trò thực tế của Eval Engine, do đó không đáp ứng được yêu cầu của câu hỏi."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Có bao nhiêu giai đoạn chính trong quy trình đánh giá AI?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Có bao nhiêu giai đoạn chính trong quy trình đánh giá AI?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Quy trình gồm 4 giai đoạn chính.",
+    "latency": 0.10450389998732135,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời của AI hoàn toàn không cung cấp thông tin nào về số giai đoạn chính trong quy trình đánh giá AI. Không có dữ liệu nào được trích dẫn từ Ground Truth, dẫn đến việc thiếu chính xác và không giải quyết được vấn đề người dùng hỏi. Do đó, đây là một thất bại nghiêm trọng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không xác định số lượng giai đoạn chính trong quy trình đánh giá AI, thiếu thông tin chính xác so với Ground Truth. Ngôn ngữ có thể coi là lịch sự nhưng không cung cấp nội dung hữu ích cho người dùng."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Có bao nhiêu giai đoạn chính trong quy trình AI Evaluation Factory?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Có bao nhiêu giai đoạn chính trong quy trình AI Evaluation Factory?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Quy trình gồm 4 giai đoạn chính.",
+    "latency": 0.10296980000566691,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 1.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời không cung cấp thông tin cụ thể và không đề cập đến số giai đoạn chính trong quy trình AI Evaluation Factory, dẫn đến việc thiếu thông tin cần thiết để xác định độ chính xác."
+        },
+        "helpful_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời không cung cấp bất kỳ thông tin nào liên quan đến số lượng giai đoạn trong quy trình AI Evaluation Factory, dẫn đến việc nó không giúp ích gì cho người dùng. Hơn nữa, nó không đáp ứng yêu cầu thông tin mà người dùng mong muốn."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giai đoạn đầu tiên trong quy trình là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Giai đoạn đầu tiên trong quy trình là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Giai đoạn đầu tiên là SDG (Tạo dữ liệu).",
+    "latency": 0.11744889995316043,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về giai đoạn đầu tiên trong quy trình, không đưa ra được nội dung cụ thể nào liên quan tới SDG (Tạo dữ liệu). Vì lý do này, thông tin bị thiếu hoàn toàn và không đáp ứng được yêu cầu của người dùng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin cụ thể nào về giai đoạn đầu tiên trong quy trình, mặc dù nhắc đến việc trả lời câu hỏi. Tuy nhiên, nó không trả lời trực tiếp về giai đoạn đầu tiên là SDG (Tạo dữ liệu) như trong Ground Truth. Do đó, thông tin sai lệch và không rõ ràng."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Tại sao Phân tích lỗi (Failure Analysis) lại quan trọng trong quy trình đánh giá AI?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Tại sao Phân tích lỗi (Failure Analysis) lại quan trọng trong quy trình đánh giá AI?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Phân tích lỗi rất quan trọng vì nó giúp xác định nguyên nhân của các lỗi mà AI gặp phải, từ đó cải thiện độ chính xác và hiệu suất của AI.",
+    "latency": 0.10284569999203086,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin cụ thể nào về lý do tại sao phân tích lỗi quan trọng trong quy trình đánh giá AI. Câu trả lời mẫu không rõ ràng và thiếu thông tin so với Ground Truth, có thể dẫn đến hiểu lầm cho người đọc. Do đó, thông tin sai lệch một phần và không đủ rõ ràng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin cụ thể về tầm quan trọng của phân tích lỗi trong quy trình đánh giá AI, dẫn đến việc thiếu sót trong độ chính xác và độ liên quan. Mặc dù không có thông tin hoàn toàn sai, nhưng câu trả lời không có giá trị thực tiễn và không rõ ràng."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_hard",
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Liệt kê các giai đoạn trong quy trình AI Evaluation Factory?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Liệt kê các giai đoạn trong quy trình AI Evaluation Factory?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "1. SDG (Tạo dữ liệu), 2. Eval Engine (Bộ máy chấm điểm), 3. Failure Analysis (Phân tích lỗi), 4. Report (Báo cáo).",
+    "latency": 0.11504939995938912,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin cụ thể về các giai đoạn trong quy trình AI Evaluation Factory, mà chỉ đưa ra một câu giới thiệu mà không có nội dung thực sự. Điều này làm cho câu trả lời không rõ ràng và không liên quan đến yêu cầu liệt kê các giai đoạn cụ thể."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin cụ thể về các giai đoạn trong quy trình AI Evaluation Factory, do đó không đáp ứng được yêu cầu của câu hỏi. Mặc dù có thể có một số ý kiến về việc dẫn nhập vào câu hỏi, nhưng không có nội dung phù hợp để liệt kê các giai đoạn. Điều này làm cho thông tin thiếu chính xác và không rõ ràng."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory được định nghĩa như thế nào?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory được định nghĩa như thế nào?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
+    "latency": 0.11761380004463717,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về định nghĩa của 'AI Evaluation Factory'. Trong khi cấu trúc câu có thể có vẻ lịch sự, thông tin cung cấp không đáp ứng được yêu cầu về độ chính xác và không rõ ràng, vì không có nội dung cụ thể nào được đưa ra sau 'Câu trả lời mẫu'."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin cụ thể nào về định nghĩa của 'AI Evaluation Factory', mặc dù có đề cập đến câu hỏi mà người dùng đặt ra. Do đó, nó không hoàn toàn chính xác và không liên quan đến nội dung cần được giải quyết. Ngôn ngữ sử dụng có vẻ lịch sự nhưng lại thiếu rõ ràng, khiến người đọc khó hiểu được thông tin cần thiết."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giai đoạn cuối cùng trong quy trình là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Giai đoạn cuối cùng trong quy trình là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Giai đoạn cuối cùng là Report (Báo cáo).",
+    "latency": 0.10948970000026748,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về giai đoạn cuối cùng trong quy trình, và cũng không đề cập đến điều gì liên quan đến 'Report' như đã nêu trong Ground Truth. Do đó, thông tin sai lệch và không đáp ứng được yêu cầu của câu hỏi."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác và cụ thể về giai đoạn cuối cùng trong quy trình, chỉ dừng lại ở việc xác nhận yêu cầu mà không đi vào nội dung. Điều này dẫn đến việc câu trả lời không giải quyết được vấn đề mà người dùng quan tâm. Ngôn ngữ sử dụng có thể được coi là lịch sự, nhưng thiếu thông tin cần thiết khiến nó không đủ rõ ràng."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Các chỉ số nào được đo lường trong AI Evaluation Factory?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Các chỉ số nào được đo lường trong AI Evaluation Factory?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Hit Rate, MRR và độ chính xác của câu trả lời.",
+    "latency": 0.1095729999942705,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác và chi tiết về các chỉ số trong AI Evaluation Factory. Đáp án đúng gồm các chỉ số cụ thể như Hit Rate, MRR và độ chính xác, nhưng câu trả lời chỉ đưa ra một câu nói mơ hồ mà không nêu rõ các chỉ số này."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin cụ thể về các chỉ số được đo lường trong AI Evaluation Factory, mà chỉ là một câu giới thiệu chung. Điều này dẫn đến việc thông tin bị thiếu sót và không trả lời đúng vấn đề người dùng hỏi, mặc dù không sai hoàn toàn."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Hit Rate và MRR là gì trong bối cảnh đánh giá AI?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Hit Rate và MRR là gì trong bối cảnh đánh giá AI?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Hit Rate và MRR là các chỉ số đo lường độ chính xác của câu trả lời trong quy trình đánh giá AI.",
+    "latency": 0.11384150001686066,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI thiếu thông tin cụ thể và không giải thích rõ ràng về Hit Rate và MRR, chỉ đề cập đến 'các chỉ số đo lường độ chính xác', điều này có phần chính xác nhưng không đầy đủ. Cách diễn đạt cũng không rõ ràng và không chuyên nghiệp."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin cụ thể về Hit Rate và MRR, chỉ thể hiện một cách diễn đạt không rõ ràng và không trả lời đúng vấn đề mà người dùng đang hỏi, thiếu thông tin cần thiết để hiểu rõ hai chỉ số này."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
+    "latency": 0.08710850001079962,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI cung cấp một phản hồi chung chung mà không nêu rõ định nghĩa hoặc mô tả chính xác về 'AI Evaluation Factory'. Nó không cung cấp thông tin cụ thể để người đọc hiểu được khái niệm này, tương tự như việc cung cấp một văn bản trống. Do đó, thông tin sai lệch một phần và không rõ ràng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về định nghĩa của 'AI Evaluation Factory'. Mặc dù nó báo cáo về việc tham chiếu tài liệu hệ thống, nhưng không có nội dung cụ thể nào để giải thích đó là gì, dẫn đến việc người dùng không nhận được thông tin rõ ràng hay hữu ích."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Quy trình của AI Evaluation Factory bao gồm bao nhiêu giai đoạn chính?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Quy trình của AI Evaluation Factory bao gồm bao nhiêu giai đoạn chính?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Quy trình gồm 4 giai đoạn chính.",
+    "latency": 0.11323020001873374,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về số lượng giai đoạn chính trong quy trình của AI Evaluation Factory. Hơn nữa, thông tin chỉ được đưa ra là một câu hỏi mẫu mà không có nội dung trả lời cụ thể. Điều này dẫn đến việc câu trả lời không rõ ràng và thiếu thông tin cần thiết."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về số lượng giai đoạn của quy trình AI Evaluation Factory. Mặc dù câu trả lời có vẻ như có cấu trúc hợp lý, nhưng do thiếu thông tin cụ thể về số lượng giai đoạn (4 giai đoạn chính), nên đạt mức độ chính xác thấp và không đáp ứng tốt yêu cầu của người dùng."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Tại sao cần phải thực hiện phân tích lỗi trong quy trình đánh giá AI?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Tại sao cần phải thực hiện phân tích lỗi trong quy trình đánh giá AI?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Phân tích lỗi là cần thiết để xác định các vấn đề trong AI và cải thiện độ chính xác của mô hình.",
+    "latency": 0.10390599997481331,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin cụ thể về lý do cần thiết phải thực hiện phân tích lỗi trong quy trình đánh giá AI. Mặc dù có tham chiếu đến câu trả lời nhưng không có nội dung thực tế nào được đưa ra, dẫn đến việc câu trả lời không rõ ràng và thiếu thông tin. Do đó, nó không đáp ứng được yêu cầu về độ chính xác và độ liên quan."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác và rõ ràng về lý do cần thực hiện phân tích lỗi. Nó chỉ đưa ra một lời dẫn mà không chứa nội dung thực sự để giải thích, dẫn đến không đủ độ liên quan và thiếu sót thông tin."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_hard",
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Các chỉ số nào được đo lường trong quy trình đánh giá AI?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Các chỉ số nào được đo lường trong quy trình đánh giá AI?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Hit Rate, MRR và độ chính xác của câu trả lời.",
+    "latency": 0.11070540000218898,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác liên quan đến các chỉ số trong quy trình đánh giá AI. Mặc dù đề cập đến việc dựa trên tài liệu hệ thống, nhưng không có thông tin cụ thể nào được đưa ra. Điều này dẫn đến sự không rõ ràng và thiếu chính xác."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về các chỉ số cụ thể như Hit Rate, MRR và độ chính xác của câu trả lời. Mặc dù có thể có thông tin hữu ích, nhưng câu trả lời không rõ ràng và không trực tiếp liên quan đến câu hỏi được đưa ra."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Liệt kê các giai đoạn chính trong quy trình AI Evaluation Factory.",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Liệt kê các giai đoạn chính trong quy trình AI Evaluation Factory.' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "1. SDG (Tạo dữ liệu), 2. Eval Engine (Bộ máy chấm điểm), 3. Failure Analysis (Phân tích lỗi), 4. Report (Báo cáo).",
+    "latency": 0.09201609995216131,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời không cung cấp thông tin cụ thể nào về các giai đoạn chính trong quy trình AI Evaluation Factory và chỉ đơn thuần lặp lại câu hỏi. Điều này dẫn đến việc không cung cấp giá trị thông tin nào cho người dùng, vi phạm quy tắc chuyên môn và tính chính xác."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin cụ thể nào về các giai đoạn chính trong quy trình AI Evaluation Factory. Mặc dù câu trả lời có thể có ý định tương ứng với câu hỏi, nhưng nó hoàn toàn thiếu chính xác và không rõ ràng, không trình bày được các giai đoạn theo đúng Ground Truth."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory gồm bao nhiêu giai đoạn chính?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory gồm bao nhiêu giai đoạn chính?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "4 giai đoạn chính",
+    "latency": 0.11680119996890426,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về số giai đoạn chính của AI Evaluation Factory. Nó chỉ đưa ra một câu giới thiệu nhưng không trả lời đúng câu hỏi, dẫn đến thông tin sai lệch một phần và không rõ ràng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về số giai đoạn chính trong AI Evaluation Factory, mặc dù nó đề cập đến câu hỏi. Thông tin phần mẫu không rõ ràng và khiến người dùng cảm thấy mơ hồ."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Quy trình đánh giá AI gồm bao nhiêu giai đoạn chính?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Quy trình đánh giá AI gồm bao nhiêu giai đoạn chính?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Quy trình gồm 4 giai đoạn chính.",
+    "latency": 0.11136460001580417,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin cụ thể về số giai đoạn chính trong quy trình đánh giá AI và chỉ đưa ra một câu giới thiệu không có nội dung rõ ràng. Do đó, thông tin sai lệch một phần và không rõ ràng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về số giai đoạn trong quy trình đánh giá AI. Nội dung không rõ ràng và không trả lời trực tiếp vào câu hỏi, thiếu sót trong việc cung cấp thông tin cần thiết."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Vai trò của Failure Analysis trong AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Vai trò của Failure Analysis trong AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Failure Analysis là giai đoạn phân tích lỗi.",
+    "latency": 0.1158776999800466,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về vai trò của Failure Analysis trong AI Evaluation Factory mà chỉ đưa ra một câu mẫu không có nội dung thực tế. Do đó, thông tin sai lệch hoàn toàn và không đáp ứng yêu cầu về độ chính xác và sự chuyên nghiệp."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về vai trò của Failure Analysis trong AI Evaluation Factory. Mặc dù câu trả lời có đề cập đến việc trả lời câu hỏi, nhưng nó không có nội dung cụ thể nào liên quan đến vai trò của Failure Analysis, do đó thông tin trở nên không rõ ràng và có thể gây nhầm lẫn."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Mục đích của quy trình AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Mục đích của quy trình AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
+    "latency": 0.10305249999510124,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không đưa ra thông tin chính xác hoặc cụ thể về mục đích của quy trình AI Evaluation Factory, chỉ cung cấp một câu lệnh giới thiệu mà không đề cập đến các chỉ số như Hit Rate, MRR và độ chính xác, làm cho thông tin bị sai lệch và không rõ ràng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin cụ thể về mục đích của quy trình AI Evaluation Factory và chỉ đưa ra cách diễn đạt chung chung mà không giải thích đúng nội dung cần thiết. Thông tin không rõ ràng và không liên quan đến câu hỏi người dùng đang đặt ra."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Quy trình đánh giá AI chuyên sâu gồm những giai đoạn nào?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Quy trình đánh giá AI chuyên sâu gồm những giai đoạn nào?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Quy trình đánh giá AI chuyên sâu gồm 4 giai đoạn chính: 1. SDG (Tạo dữ liệu), 2. Eval Engine (Bộ máy chấm điểm), 3. Failure Analysis (Phân tích lỗi), 4. Report (Báo cáo).",
+    "latency": 0.09536239999579266,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin cụ thể về các giai đoạn trong quy trình đánh giá AI chuyên sâu, thiếu chính xác khi không đề cập đến 4 giai đoạn cụ thể là: SDG, Eval Engine, Failure Analysis, và Report. Ngôn ngữ sử dụng có tính lịch sự nhưng không rõ ràng và không hiệu quả trong việc trả lời câu hỏi."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI chưa cung cấp thông tin cụ thể về các giai đoạn trong quy trình đánh giá AI chuyên sâu. Mặc dù có điềm nhấn mạnh đến việc trả lời câu hỏi nhưng không cung cấp được nội dung phù hợp với Ground Truth, điều này có thể gây ra sự nhầm lẫn cho người dùng. Do đó, câu trả lời được xem là không rõ ràng và thiếu thông tin cần thiết."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giai đoạn đầu tiên của quy trình là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Giai đoạn đầu tiên của quy trình là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Giai đoạn đầu tiên là SDG (Tạo dữ liệu).",
+    "latency": 0.09861819999059662,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác và rõ ràng về giai đoạn đầu tiên của quy trình, mà chỉ đưa ra một câu mẫu chung chung mà không có nội dung cụ thể. Do đó, thông tin hoàn toàn sai và không đáp ứng yêu cầu."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về giai đoạn đầu tiên của quy trình, thiếu cụ thể và lạc đề khi chỉ nhắc đến 'câu trả lời mẫu' mà không đưa ra nội dung cụ thể nào. Điều này khiến cho người dùng không thể hiểu rõ về giai đoạn đầu tiên mà họ đang tìm kiếm."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giai đoạn đầu tiên trong quy trình AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Giai đoạn đầu tiên trong quy trình AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "SDG (Tạo dữ liệu)",
+    "latency": 0.12281339999753982,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin cụ thể nào liên quan đến giai đoạn đầu tiên trong quy trình AI Evaluation Factory. Việc chỉ đưa ra 'Câu trả lời mẫu' mà không có thông tin đúng hoặc liên quan đến câu hỏi đặt ra là sự thất bại nghiêm trọng trong việc đáp ứng yêu cầu thông tin, dẫn đến điểm số 1."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về giai đoạn đầu tiên trong quy trình AI Evaluation Factory, mà chỉ đề cập đến việc đưa ra một câu trả lời mẫu mà không đi vào chi tiết. Điều này dẫn đến sự không rõ ràng và thiếu thông tin cần thiết để trả lời đúng câu hỏi."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Tên gọi của giai đoạn thứ hai trong quy trình là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Tên gọi của giai đoạn thứ hai trong quy trình là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Eval Engine (Bộ máy chấm điểm).",
+    "latency": 0.11378019995754585,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác nào về tên gọi của giai đoạn thứ hai trong quy trình, và sử dụng cụm từ '[Câu trả lời mẫu]' không có nội dung cụ thể, có thể gây hiểu nhầm cho người dùng. Đây là một sự thất bại nghiêm trọng trong việc cung cấp thông tin đúng đắn và rõ ràng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về tên gọi của giai đoạn thứ hai trong quy trình, mà chỉ đưa ra câu trả lời mẫu mà không có thông tin cụ thể. Do đó, câu trả lời là không rõ ràng và không đáp ứng yêu cầu."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
+    "latency": 0.08604140003444627,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về AI Evaluation Factory và chỉ đưa ra một câu mở đầu mà không thực sự giải thích nội dung. Do đó, câu trả lời không rõ ràng và không liên quan đến yêu cầu của người dùng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về AI Evaluation Factory, vì nó chỉ giới thiệu một phần mở đầu mà không đi vào nội dung cụ thể. Điều này làm cho câu trả lời thiếu rõ ràng và không giải quyết vấn đề mà người dùng đang hỏi."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giai đoạn thứ hai của quy trình AI Evaluation Factory đóng vai trò gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Giai đoạn thứ hai của quy trình AI Evaluation Factory đóng vai trò gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Eval Engine (Bộ máy chấm điểm) phụ trách việc đánh giá hiệu suất.",
+    "latency": 0.10809900000458583,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời của AI không đáp ứng yêu cầu về độ chính xác, vì không cung cấp thông tin nào về vai trò của giai đoạn thứ hai trong quy trình AI Evaluation Factory. Nó chỉ đề cập đến một câu trả lời mẫu mà không chứa đựng thông tin thực tế, dẫn đến việc hoàn toàn sai lệch với Ground Truth."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin đúng và chi tiết về giai đoạn thứ hai của quy trình AI Evaluation Factory. Mặc dù nó có thể dẫn dắt đến một câu trả lời, nhưng thiếu nội dung chính xác và rõ ràng, ảnh hưởng đến sự hữu ích và độ liên quan của thông tin được cung cấp."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory có tác dụng gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'AI Evaluation Factory có tác dụng gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "AI Evaluation Factory giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
+    "latency": 0.11706919997232035,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI thiếu thông tin chính xác về tác dụng của AI Evaluation Factory, không liệt kê được các chỉ số như Hit Rate, MRR và độ chính xác của câu trả lời. Câu trả lời cũng không rõ ràng và thiếu sự chuyên nghiệp trong cách diễn đạt."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về tác dụng của AI Evaluation Factory, mà chỉ giới thiệu một cách chung chung mà không làm rõ các chỉ số như Hit Rate, MRR và độ chính xác. Do đó, mặc dù có liên quan, nhưng mức độ chính xác và tính cụ thể không đủ, dẫn đến điểm thấp."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Phân tích lỗi trong quy trình AI Evaluation Factory được gọi là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Phân tích lỗi trong quy trình AI Evaluation Factory được gọi là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Failure Analysis",
+    "latency": 0.10268250002991408,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về thuật ngữ mà người dùng đang hỏi. Nó chỉ đưa ra một cụm từ tổng quát mà không rõ ràng, không trả lời đúng câu hỏi về 'phân tích lỗi trong quy trình AI Evaluation Factory', dẫn đến việc vi phạm về độ chính xác và sự liên quan."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về thuật ngữ được yêu cầu, chỉ đơn thuần nhắc lại câu hỏi mà không cung cấp câu trả lời đúng. Do đó, thông tin sai lệch hoặc không rõ ràng."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giai đoạn nào trong quy trình đánh giá AI là nơi tạo dữ liệu?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Giai đoạn nào trong quy trình đánh giá AI là nơi tạo dữ liệu?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Giai đoạn SDG (Tạo dữ liệu) là giai đoạn tạo dữ liệu trong quy trình đánh giá AI.",
+    "latency": 0.09450599999399856,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp bất kỳ thông tin nào về giai đoạn SDG (Tạo dữ liệu) trong quy trình đánh giá AI, dẫn đến việc thông tin không chính xác và không liên quan đến câu hỏi. Hơn nữa, cách diễn đạt cũng không rõ ràng và thiếu chuyên nghiệp."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về giai đoạn nào trong quy trình đánh giá AI là nơi tạo dữ liệu. Mặc dù có thể có một đoạn mô tả câu hỏi, nhưng nó không trả lời rõ ràng về giai đoạn SDG hay giải thích tại sao đó là giai đoạn tạo dữ liệu. Điều này làm giảm độ chính xác và tính liên quan của câu trả lời."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Các chỉ số nào được đo lường trong quy trình này?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Các chỉ số nào được đo lường trong quy trình này?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Hit Rate, MRR và độ chính xác của câu trả lời.",
+    "latency": 0.1059874999918975,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin đúng về các chỉ số được đo lường trong quy trình. Nó chỉ nhắc đến câu hỏi mà không trả lời cụ thể các chỉ số như 'Hit Rate', 'MRR' và 'độ chính xác của câu trả lời'. Do đó, nó sai lệch một phần và không rõ ràng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin cụ thể về các chỉ số như Hit Rate, MRR và độ chính xác của câu trả lời, do đó thiếu sự chính xác và rõ ràng. Thêm vào đó, ngôn ngữ sử dụng có thể được cải thiện để thể hiện tính chuyên nghiệp hơn."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Phân tích lỗi trong quy trình đánh giá AI thuộc giai đoạn nào?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Phân tích lỗi trong quy trình đánh giá AI thuộc giai đoạn nào?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Phân tích lỗi thuộc giai đoạn Failure Analysis trong quy trình đánh giá AI.",
+    "latency": 0.11362280003959313,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về giai đoạn mà phân tích lỗi thuộc về, theo dữ liệu Ground Truth. Thay vào đó, câu trả lời chỉ nhắc đến tài liệu mà không đề cập đến giai đoạn cụ thể nào, dẫn đến việc thông tin không liên quan. Do đó, câu trả lời này phần lớn sai lệch và thiếu rõ ràng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về giai đoạn phân tích lỗi trong quy trình đánh giá AI. Mặc dù có phần mở đầu trích dẫn tài liệu hệ thống, nhưng điều này không làm rõ nội dung chính xác cần thiết. Do đó, thông tin không rõ ràng và sai lệch về mặt nội dung."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Quy trình đánh giá AI trong AI Evaluation Factory bao gồm bao nhiêu giai đoạn chính?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Quy trình đánh giá AI trong AI Evaluation Factory bao gồm bao nhiêu giai đoạn chính?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Quy trình bao gồm 4 giai đoạn chính.",
+    "latency": 0.10517870000330731,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin về số giai đoạn chính trong quy trình đánh giá AI, do đó không có sự chính xác nào so với Ground Truth. Mặc dù câu trả lời có thể có ngữ điệu lịch sự, nhưng nó không giải quyết được vấn đề người dùng hỏi, dẫn đến việc đánh giá thấp về độ liên quan."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin cụ thể về số lượng giai đoạn chính trong quy trình đánh giá AI, mà chỉ đề cập đến một câu trả lời mẫu. Điều này dẫn đến thông tin sai lệch hoặc không rõ ràng so với đáp án đúng là 4 giai đoạn. Hơn nữa, cách diễn đạt chưa hoàn toàn chuyên nghiệp do thiếu tính cụ thể và rõ ràng."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Quy trình đánh giá AI gồm mấy giai đoạn chính?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Quy trình đánh giá AI gồm mấy giai đoạn chính?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Quy trình gồm 4 giai đoạn chính.",
+    "latency": 0.10363820003112778,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin cụ thể về số giai đoạn chính trong quy trình đánh giá AI, mà chỉ đưa ra một biểu mẫu. Do đó, thông tin không chính xác hoặc không rõ ràng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không chứa thông tin chính xác vì không đề cập đến số giai đoạn chính trong quy trình đánh giá AI, do đó không giải quyết đúng vấn đề người dùng hỏi. Hơn nữa, phần giới thiệu cần rõ ràng hơn, mặc dù sử dụng ngôn ngữ lịch sự, nhưng thiếu cụ thể."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Báo cáo trong quy trình đánh giá AI được thực hiện ở giai đoạn nào?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Báo cáo trong quy trình đánh giá AI được thực hiện ở giai đoạn nào?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Báo cáo được thực hiện ở giai đoạn Report trong quy trình đánh giá AI.",
+    "latency": 0.09491650003474206,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về giai đoạn thực hiện báo cáo trong quy trình đánh giá AI. Mặc dù ngôn ngữ có vẻ lịch sự, câu trả lời không chính xác và không rõ ràng, dẫn đến sự không liên quan với câu hỏi."
+        },
+        "helpful_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về giai đoạn trong quy trình đánh giá AI, cụ thể là không đề cập đến giai đoạn 'Report'. Thông tin hoàn toàn thiếu sót so với Ground Truth. Hơn nữa, cách diễn đạt không rõ ràng và không đáp ứng được yêu cầu của câu hỏi."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "SDG trong quy trình AI Evaluation Factory có nghĩa là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'SDG trong quy trình AI Evaluation Factory có nghĩa là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "SDG có nghĩa là Tạo dữ liệu.",
+    "latency": 0.10403809999115765,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về ý nghĩa của SDG trong quy trình AI Evaluation Factory. Nội dung trả lời không liên quan và không đề cập đến 'Tạo dữ liệu', mà chỉ đưa ra một câu giới thiệu vô nghĩa. Do đó, nó hoàn toàn không đáp ứng được yêu cầu của câu hỏi."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về SDG trong quy trình AI Evaluation Factory. Thay vì đưa ra ý nghĩa đúng là 'Tạo dữ liệu', câu trả lời chỉ nói đến việc 'dựa trên tài liệu hệ thống', điều này không làm rõ nghĩa của SDG và không liên quan trực tiếp đến câu hỏi của người dùng. Ngôn ngữ sử dụng cũng chưa đủ rõ ràng và súc tích."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giai đoạn đầu tiên trong quy trình đánh giá được gọi là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Giai đoạn đầu tiên trong quy trình đánh giá được gọi là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "SDG (Tạo dữ liệu).",
+    "latency": 0.11103600001661107,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời của AI hoàn toàn không chính xác vì nó không cung cấp thông tin đúng về giai đoạn đầu tiên trong quy trình đánh giá, mà thay vào đó chỉ là một câu giới thiệu không có nội dung thực chất. Do đó, câu trả lời này vi phạm quy tắc ứng xử về tính chính xác và không đáp ứng được nhu cầu thông tin của người hỏi."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về giai đoạn đầu tiên trong quy trình đánh giá (SDG - Tạo dữ liệu). Hơn nữa, câu trả lời có vẻ mơ hồ và không rõ ràng, chỉ đề cập đến 'Câu trả lời mẫu' mà không đi vào nội dung cụ thể. Điều này khiến nó trở nên không liên quan đến câu hỏi ban đầu."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Trong AI Evaluation Factory, Eval Engine có vai trò gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Trong AI Evaluation Factory, Eval Engine có vai trò gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Eval Engine là bộ máy chấm điểm.",
+    "latency": 0.11453489999985322,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về vai trò của Eval Engine trong AI Evaluation Factory, vì nó chỉ nói rằng sẽ trả lời mà không trình bày nội dung thực tế, dẫn đến việc phản hồi thiếu thông tin quan trọng và không rõ ràng."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin chính xác về vai trò của Eval Engine, chỉ đơn thuần nhắc lại câu hỏi mà không giải thích rõ ràng. Do đó, nó không giúp rõ vấn đề mà người dùng đặt ra."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giai đoạn cuối cùng trong quy trình đánh giá là gì?",
+    "agent_answer": "Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi 'Giai đoạn cuối cùng trong quy trình đánh giá là gì?' như sau: [Câu trả lời mẫu].",
+    "expected_answer": "Report (Báo cáo).",
+    "latency": 0.11910960002569482,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 1.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 1,
+          "reasoning": "Câu trả lời của AI không cung cấp thông tin cụ thể về giai đoạn cuối cùng trong quy trình đánh giá, mà chỉ là một câu giới thiệu. Do đó, nó không cung cấp thông tin chính xác nào cho câu hỏi và không giải quyết được vấn đề người dùng hỏi."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời không cung cấp thông tin chính xác về giai đoạn cuối cùng trong quy trình đánh giá, mà chỉ đưa ra một câu mở đầu không liên quan đến nội dung. Do đó, đáp án sai lệch và không rõ ràng."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy"
+    ]
+  }
+]
