@@ -46,7 +46,8 @@ class BenchmarkRunner:
                     "retrieval": retrieval_scores,
                     "judge": judge_result,
                     "expected_retrieval_ids": expected_ids,
-                    "retrieved_ids": retrieved_ids
+                    "retrieved_ids": retrieved_ids,
+                    "contexts": response.get("contexts", [])
                 }
             except Exception as e:
                 print(f"Error running test case: {e}")
