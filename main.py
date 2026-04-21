@@ -4,9 +4,9 @@ import os
 import time
 from dotenv import load_dotenv
 from engine.runner import BenchmarkRunner
-from agent.main_agent import MainAgent
+from agent.main_agent2 import MainAgent
 from engine.retrieval_eval import RetrievalEvaluator
-from engine.llm_judge import MultiModelJudge
+from engine.llm_judge_2 import MultiModelJudge
 
 async def run_benchmark_with_results(agent_version: str):
     print(f"\n🚀 Khởi động Benchmark cho {agent_version}...")

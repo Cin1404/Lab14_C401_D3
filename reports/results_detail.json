@@ -1,290 +1,9 @@
 [
   {
-    "question": "AI Evaluation Factory giúp đo lường những chỉ số nào?",
-    "agent_answer": "AI Evaluation Factory giúp đo lường các chỉ số như Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời.",
-    "expected_answer": "Nó giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
-    "latency": 1.5467303000000356,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 1.0
-    },
-    "judge": {
-      "final_score": 5.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và trùng khớp với thông tin đúng. Nó đưa ra các chỉ số cụ thể một cách rõ ràng. Ngôn ngữ sử dụng lịch sự và chuyên nghiệp."
-        },
-        "helpful_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và trùng khớp với thông tin trong Ground Truth. Ngoài ra, câu trả lời rõ ràng và dễ hiểu, thể hiện sự chuyên nghiệp trong cách diễn đạt."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_easy"
-    ],
-    "retrieved_ids": [
-      "doc_easy",
-      "doc_hard"
-    ]
-  },
-  {
-    "question": "Quy trình AI Evaluation Factory gồm bao nhiêu giai đoạn chính?",
-    "agent_answer": "Quy trình AI Evaluation Factory gồm 4 giai đoạn chính.",
-    "expected_answer": "Quy trình gồm 4 giai đoạn chính.",
-    "latency": 2.3482169999997495,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 1.0
-    },
-    "judge": {
-      "final_score": 5.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác so với Ground Truth, đảm bảo độ chính xác và độ liên quan. Ngôn ngữ cũng rõ ràng và lịch sự."
-        },
-        "helpful_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác với thông tin từ Ground Truth, đồng thời sử dụng ngôn ngữ rõ ràng và lịch sự."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_easy"
-    ],
-    "retrieved_ids": [
-      "doc_easy",
-      "doc_hard"
-    ]
-  },
-  {
-    "question": "Nếu một quy trình đánh giá AI đang gặp khó khăn trong việc xác định nguyên nhân gốc rễ của các sai sót trong hiệu suất, giai đoạn nào của AI Evaluation Factory sẽ cung cấp cái nhìn sâu sắc nhất để giải quyết vấn đề này?",
-    "agent_answer": "Giai đoạn sẽ cung cấp cái nhìn sâu sắc nhất để giải quyết vấn đề xác định nguyên nhân gốc rễ của các sai sót trong hiệu suất là giai đoạn 3: Failure Analysis (Phân tích lỗi). Giai đoạn này tập trung vào việc tìm ra nguyên nhân mà AI trả lời sai, từ đó giúp cải thiện hiệu suất của hệ thống.",
-    "expected_answer": "Giai đoạn Failure Analysis (Phân tích lỗi) của AI Evaluation Factory sẽ cung cấp cái nhìn sâu sắc nhất để xác định nguyên nhân gốc rễ của các sai sót, vì đây là giai đoạn chuyên biệt để phân tích các lỗi và vấn đề hiệu suất.",
-    "latency": 2.4019633999996586,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 0.5
-    },
-    "judge": {
-      "final_score": 5.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác hoàn toàn so với Ground Truth, cụ thể là xác định giai đoạn 3: Failure Analysis là giai đoạn cung cấp cái nhìn sâu sắc nhất để giải quyết vấn đề. Cách diễn đạt rõ ràng và chuyên nghiệp, phù hợp với yêu cầu của câu hỏi."
-        },
-        "helpful_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác về giai đoạn nào sẽ cung cấp cái nhìn sâu sắc nhất để giải quyết vấn đề sai sót trong hiệu suất. Nó không chỉ cung cấp thông tin cụ thể về giai đoạn Failure Analysis mà còn giải thích rõ ràng mục đích của giai đoạn này. Ngôn ngữ được sử dụng cũng rất chuyên nghiệp và dễ hiểu."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_hard"
-    ],
-    "retrieved_ids": [
-      "doc_adversarial",
-      "doc_hard",
-      "doc_easy"
-    ]
-  },
-  {
-    "question": "Tài liệu có mô tả phương pháp cụ thể hoặc công nghệ nền tảng mà SDG sử dụng để 'Tạo dữ liệu' không?",
-    "agent_answer": "Tài liệu không cung cấp thông tin cụ thể về phương pháp hoặc công nghệ nền tảng mà SDG (Synthetic Data Generation) sử dụng để tạo dữ liệu. Tuy nhiên, trong quy trình này, SDG tự động tạo câu hỏi và trả lời, có thể sử dụng các kỹ thuật như sinh dữ liệu tự động hoặc mô hình ngôn ngữ để thực hiện nhiệm vụ này. Nếu bạn cần thông tin chi tiết hơn về công nghệ cụ thể, tôi có thể giúp bạn tìm hiểu thêm.",
-    "expected_answer": "Không, tài liệu chỉ liệt kê 'SDG (Tạo dữ liệu)' như một giai đoạn nhưng không mô tả phương pháp cụ thể hoặc công nghệ nền tảng mà nó sử dụng.",
-    "latency": 2.759230000000116,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 1.0
-    },
-    "judge": {
-      "final_score": 4.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI chính xác ở chỗ nó xác nhận rằng tài liệu không cung cấp thông tin cụ thể về phương pháp SDG, điều này phù hợp với Ground Truth. Tuy nhiên, phần nói về 'sinh dữ liệu tự động hoặc mô hình ngôn ngữ' có thể gây xao lạc vì nó không hoàn toàn liên quan đến yêu cầu của câu hỏi và thêm vào những chi tiết không có trong tài liệu. Ngôn ngữ của câu trả lời rõ ràng và lịch sự, nhưng có thể cải thiện hơn nữa về độ tập trung vào câu hỏi."
-        },
-        "helpful_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI phần lớn chính xác và có ích, nhưng nó có xu hướng mở rộng thêm thông tin không cần thiết về các phương pháp như sinh dữ liệu tự động hay mô hình ngôn ngữ, mà không có một cách giải thích rõ ràng liên quan đến câu hỏi chính. Mặc dù câu trả lời lịch sự và rõ ràng, việc không khẳng định dứt khoát rằng tài liệu không mô tả phương pháp cụ thể có thể dẫn đến một chút nhầm lẫn."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_adversarial"
-    ],
-    "retrieved_ids": [
-      "doc_adversarial",
-      "doc_hard",
-      "doc_easy"
-    ]
-  },
-  {
-    "question": "Thành phần nào trong AI Evaluation Factory có vai trò trọng yếu trong việc biến dữ liệu đã được tạo ra thành các điểm số phản ánh hiệu suất thực sự của AI?",
-    "agent_answer": "Thành phần trọng yếu trong AI Evaluation Factory có vai trò biến dữ liệu đã được tạo ra thành các điểm số phản ánh hiệu suất thực sự của AI là Eval Engine (Bộ máy chấm điểm). Bộ máy này sử dụng LLM-as-a-Judge để đánh giá và chấm điểm các câu trả lời, từ đó đo lường các chỉ số như Hit Rate, MRR và độ chính xác.",
-    "expected_answer": "Eval Engine (Bộ máy chấm điểm) có vai trò trọng yếu trong việc biến dữ liệu thành các điểm số phản ánh hiệu suất.",
-    "latency": 1.653439299999718,
-    "retrieval": {
-      "hit_rate": 0.0,
-      "mrr": 0.0
-    },
-    "judge": {
-      "final_score": 5.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI chính xác hoàn toàn so với Ground Truth, cung cấp thông tin về Eval Engine và cách mà nó hoạt động. Ngôn ngữ trong câu trả lời cũng rất rõ ràng và chuyên nghiệp."
-        },
-        "helpful_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và đầy đủ, đúng với nội dung của Ground Truth. Thông tin về Eval Engine và các chỉ số liên quan cũng được nêu rõ ràng, hợp lý. Ngôn ngữ dùng trong câu trả lời cũng lịch sự và dễ hiểu."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_adversarial"
-    ],
-    "retrieved_ids": [
-      "doc_easy",
-      "doc_hard"
-    ]
-  },
-  {
-    "question": "Dựa trên thông tin được cung cấp, việc áp dụng AI Evaluation Factory mang lại lợi ích gì trong việc nâng cao chất lượng AI, vượt xa việc chỉ đơn thuần chấm điểm?",
-    "agent_answer": "Việc áp dụng AI Evaluation Factory mang lại nhiều lợi ích quan trọng trong việc nâng cao chất lượng AI, vượt xa việc chỉ đơn thuần chấm điểm. Cụ thể:\n\n1. **Đo lường chính xác**: Quy trình này không chỉ đánh giá hiệu suất của AI thông qua các chỉ số như Hit Rate, MRR và độ chính xác, mà còn cung cấp cái nhìn sâu sắc về cách mà AI hoạt động trong các tình huống khác nhau.\n\n2. **Tạo dữ liệu tổng hợp**: Giai đoạn SDG cho phép tự động tạo ra các câu hỏi và câu trả lời, giúp mở rộng bộ dữ liệu đánh giá mà không cần phải thu thập dữ liệu thực tế, từ đó cải thiện khả năng tổng quát của AI.\n\n3. **Đánh giá khách quan**: Sử dụng LLM-as-a-Judge trong giai đoạn Eval Engine giúp đảm bảo rằng việc đánh giá là khách quan và nhất quán, giảm thiểu sự thiên lệch có thể xảy ra khi đánh giá bằng con người.\n\n4. **Phân tích lỗi chi tiết**: Giai đoạn Failure Analysis giúp xác định nguyên nhân cụ thể của các lỗi trong câu trả lời của AI, từ đó cung cấp thông tin quý giá để cải thiện mô hình và quy trình huấn luyện.\n\n5. **Báo cáo tổng hợp**: Giai đoạn Report không chỉ tổng hợp kết quả benchmark mà còn cung cấp cái nhìn tổng quan về hiệu suất của AI, giúp các nhà phát triển và quản lý đưa ra quyết định thông minh hơn trong việc cải tiến và phát triển AI.\n\nTóm lại, AI Evaluation Factory không chỉ đơn thuần là một công cụ chấm điểm mà còn là một quy trình toàn diện giúp nâng cao chất lượng và hiệu suất của AI thông qua việc tạo ra dữ liệu, đánh giá khách quan, phân tích lỗi và báo cáo kết quả.",
-    "expected_answer": "AI Evaluation Factory không chỉ chấm điểm mà còn cung cấp khả năng phân tích lỗi (Failure Analysis) và báo cáo chi tiết (Report), giúp xác định nguyên nhân cốt lõi của các vấn đề về hiệu suất, từ đó đưa ra những cải tiến chuyên sâu để nâng cao chất lượng AI một cách có hệ thống.",
-    "latency": 6.33245769999985,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 0.5
-    },
-    "judge": {
-      "final_score": 4.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI cung cấp nhiều thông tin chính xác về lợi ích của AI Evaluation Factory, đi xa hơn việc chấm điểm. Thông tin chi tiết về đo lường chính xác, tạo dữ liệu tổng hợp, đánh giá khách quan, phân tích lỗi và báo cáo tổng hợp là liên quan và hữu ích. Tuy nhiên, có thể cải thiện cách diễn đạt để dễ hiểu hơn, chẳng hạn như tóm lược những điểm chính mà không đi sâu vào từng chi tiết kỹ thuật."
-        },
-        "helpful_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI chính xác và cung cấp thông tin hữu ích về lợi ích của AI Evaluation Factory, nhưng có một số điểm có thể được diễn đạt rõ ràng hơn, chẳng hạn như tính liên kết giữa các lợi ích và cách chúng ảnh hưởng đến việc cải thiện AI trong thực tế."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_hard"
-    ],
-    "retrieved_ids": [
-      "doc_easy",
-      "doc_hard"
-    ]
-  },
-  {
-    "question": "AI Evaluation Factory là gì?",
-    "agent_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu, nhằm đo lường các chỉ số như Hit Rate, MRR và độ chính xác của câu trả lời. Quy trình này bao gồm 4 giai đoạn chính: \n\n1. **SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp)**: Tự động tạo ra các câu hỏi và câu trả lời.\n2. **Eval Engine (Bộ máy chấm điểm)**: Sử dụng LLM-as-a-Judge để thực hiện việc đánh giá.\n3. **Failure Analysis (Phân tích lỗi)**: Tìm ra nguyên nhân dẫn đến việc AI trả lời sai.\n4. **Report (Báo cáo)**: Tổng hợp và trình bày kết quả benchmark.\n\nQuy trình này giúp cải thiện hiệu suất của các hệ thống AI thông qua việc đánh giá và phân tích chi tiết.",
-    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
-    "latency": 3.288832199999888,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 1.0
-    },
-    "judge": {
-      "final_score": 4.5,
-      "agreement_rate": 0.75,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI chính xác trong việc định nghĩa AI Evaluation Factory và mô tả quy trình của nó. Tuy nhiên, nó có phần mở rộng thông tin về các giai đoạn mà có thể không cần thiết cho câu hỏi ban đầu. Ngôn ngữ được sử dụng là lịch sự và rõ ràng, nhưng có thể cải thiện độ ngắn gọn."
-        },
-        "helpful_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI chính xác và giải thích rõ ràng về quy trình đánh giá AI. Nội dung cung cấp thêm thông tin chi tiết về các giai đoạn của quy trình, vừa đầy đủ vừa có ích để người đọc hiểu rõ hơn về AI Evaluation Factory. Ngôn ngữ sử dụng lịch sự và chuyên nghiệp, không có sai sót hay lan man."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_easy"
-    ],
-    "retrieved_ids": [
-      "doc_easy",
-      "doc_hard"
-    ]
-  },
-  {
-    "question": "Báo cáo cuối cùng (Report) được tạo ra từ AI Evaluation Factory mang lại giá trị cốt lõi gì cho các bên liên quan, dựa trên toàn bộ quy trình đã thực hiện?",
-    "agent_answer": "Báo cáo cuối cùng (Report) từ AI Evaluation Factory mang lại giá trị cốt lõi cho các bên liên quan bằng cách tổng hợp và trình bày kết quả benchmark một cách rõ ràng và chi tiết. Nó giúp các bên liên quan hiểu rõ hiệu suất của hệ thống AI thông qua các chỉ số như Hit Rate, MRR và độ chính xác của câu trả lời. \n\nNgoài ra, báo cáo cũng cung cấp cái nhìn sâu sắc về các vấn đề và nguyên nhân gây ra lỗi thông qua phân tích lỗi, từ đó giúp các nhà phát triển và quản lý đưa ra quyết định cải tiến và tối ưu hóa hệ thống AI. Điều này không chỉ nâng cao chất lượng của sản phẩm AI mà còn tăng cường sự tin tưởng của người dùng vào khả năng của hệ thống.",
-    "expected_answer": "Dựa trên toàn bộ quy trình đánh giá chuyên sâu, báo cáo cuối cùng (Report) từ AI Evaluation Factory cung cấp một cái nhìn tổng thể, chi tiết và đáng tin cậy về hiệu suất của AI, bao gồm các chỉ số định lượng, phân tích lỗi sâu rộng. Giá trị cốt lõi là giúp các bên liên quan đưa ra quyết định sáng suốt để cải thiện, tối ưu hóa và đảm bảo chất lượng hệ thống AI.",
-    "latency": 2.538969900000211,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 0.5
-    },
-    "judge": {
-      "final_score": 4.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI chính xác về việc báo cáo cuối cùng cung cấp thông tin chi tiết và giúp các bên liên quan hiểu hiệu suất của hệ thống AI. Nó nêu ra các chỉ số và lợi ích mà báo cáo mang lại, nhưng thiếu một số yếu tố quan trọng như việc cung cấp một cái nhìn tổng thể và đáng tin cậy như trong đáp án đúng. Ngôn ngữ được sử dụng là lịch sự và rõ ràng, tuy nhiên có thể cải thiện hơn để nâng cao sự chuyên nghiệp."
-        },
-        "helpful_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI đã cung cấp thông tin chính xác về giá trị cốt lõi của báo cáo cuối cùng từ AI Evaluation Factory, đề cập đến các chỉ số hiệu suất, phân tích lỗi và tầm quan trọng trong việc cải tiến hệ thống AI. Tuy nhiên, cách diễn đạt có thể được cải thiện để rõ ràng hơn và bao quát hơn về việc 'đưa ra quyết định sáng suốt', điểm này cần được nhấn mạnh nhiều hơn để có tính chuyên nghiệp cao hơn."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_hard"
-    ],
-    "retrieved_ids": [
-      "doc_easy",
-      "doc_hard"
-    ]
-  },
-  {
-    "question": "Giai đoạn đầu tiên của quy trình AI Evaluation Factory là gì?",
-    "agent_answer": "Giai đoạn đầu tiên của quy trình AI Evaluation Factory là SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp). Trong giai đoạn này, hệ thống tự động tạo ra các câu hỏi và câu trả lời.",
-    "expected_answer": "Giai đoạn đầu tiên là SDG (Tạo dữ liệu).",
-    "latency": 1.0833098000002792,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 1.0
-    },
-    "judge": {
-      "final_score": 4.5,
-      "agreement_rate": 0.75,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời cung cấp thông tin chính xác về giai đoạn đầu tiên của quy trình AI Evaluation Factory, đồng thời định nghĩa rõ ràng về SDG (Synthetic Data Generation). Ngôn ngữ sử dụng cũng lịch sự và rõ ràng, phù hợp với tiêu chí chuyên nghiệp."
-        },
-        "helpful_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI chính xác khi xác định giai đoạn đầu tiên là SDG và mô tả ý tưởng về việc tạo dữ liệu tổng hợp, tuy nhiên có thể cải thiện bằng cách đơn giản hóa cách diễn đạt để người dùng dễ hiểu hơn."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_easy"
-    ],
-    "retrieved_ids": [
-      "doc_easy",
-      "doc_hard"
-    ]
-  },
-  {
     "question": "Quy trình AI Evaluation Factory gồm bao nhiêu giai đoạn chính?",
     "agent_answer": "Quy trình AI Evaluation Factory gồm 4 giai đoạn chính.",
     "expected_answer": "Quy trình AI Evaluation Factory gồm 4 giai đoạn chính.",
-    "latency": 0.6281426999998985,
+    "latency": 1.4505696999995052,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
@@ -295,42 +14,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác so với Ground Truth, và sử dụng ngôn ngữ rõ ràng, lịch sự trong cách diễn đạt."
+          "reasoning": "Câu trả lời hoàn toàn chính xác so với Ground Truth, thông tin trùng khớp và ngôn ngữ sử dụng rõ ràng, phù hợp."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời chính xác hoàn toàn so với Ground Truth, đồng thời câu trả lời cũng rõ ràng và dễ hiểu, đáp ứng đầy đủ yêu cầu đặt ra."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_easy"
-    ],
-    "retrieved_ids": [
-      "doc_easy",
-      "doc_hard"
-    ]
-  },
-  {
-    "question": "AI Evaluation Factory giúp đo lường những chỉ số nào?",
-    "agent_answer": "AI Evaluation Factory giúp đo lường các chỉ số như Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời.",
-    "expected_answer": "Nó giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
-    "latency": 0.8493259000001672,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 1.0
-    },
-    "judge": {
-      "final_score": 5.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác, nêu đúng các chỉ số được đề cập trong Ground Truth. Ngôn ngữ rõ ràng và lịch sự."
-        },
-        "helpful_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và khớp với thông tin trong Ground Truth. Ngoài ra, ngôn ngữ sử dụng trong câu trả lời rõ ràng và chuyên nghiệp, đáp ứng tốt yêu cầu của người dùng."
+          "reasoning": "Câu trả lời chính xác và hoàn toàn đúng với thông tin trong Ground Truth. Hơn nữa, câu trả lời cũng ngắn gọn và rõ ràng."
         }
       }
     },
@@ -346,7 +34,7 @@
     "question": "Sau khi đã tiến hành phân tích kỹ lưỡng các lỗi tiềm ẩn của hệ thống AI, bước cuối cùng nào trong quy trình AI Evaluation Factory được thiết kế để tổng hợp và truyền đạt toàn bộ phát hiện tới các bên liên quan?",
     "agent_answer": "Bước cuối cùng trong quy trình AI Evaluation Factory được thiết kế để tổng hợp và truyền đạt toàn bộ phát hiện tới các bên liên quan là bước \"Report\" (Báo cáo).",
     "expected_answer": "Bước cuối cùng là giai đoạn Report (Báo cáo), được thiết kế để tổng hợp và truyền đạt toàn bộ phát hiện.",
-    "latency": 0.9483116000001246,
+    "latency": 1.7333062000006976,
     "retrieval": {
       "hit_rate": 0.0,
       "mrr": 0.0
@@ -357,11 +45,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời chính xác hoàn toàn về bước cuối cùng trong quy trình AI Evaluation Factory là 'Report' (Báo cáo), cũng như công năng của nó để tổng hợp và truyền đạt phát hiện tới các bên liên quan. Ngôn ngữ sử dụng rõ ràng và chuyên nghiệp."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác so với Ground Truth, đồng thời xác định đúng tên giai đoạn 'Report' (Báo cáo) và giải thích rõ mục đích của giai đoạn này. Ngôn ngữ được sử dụng là lịch sự và rõ ràng."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và khớp với thông tin trong Ground Truth. Cách diễn đạt rõ ràng, chuyên nghiệp và phù hợp với yêu cầu của người dùng."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và đúng với thông tin trong Ground Truth. Câu trả lời không chỉ nêu rõ bước cuối cùng mà còn sử dụng ngôn ngữ lịch sự và rõ ràng, phù hợp với tiêu chí chuyên nghiệp."
         }
       }
     },
@@ -374,10 +62,72 @@
     ]
   },
   {
+    "question": "Giai đoạn đầu tiên của quy trình AI Evaluation Factory là gì?",
+    "agent_answer": "Giai đoạn đầu tiên của quy trình AI Evaluation Factory là SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp). Trong giai đoạn này, hệ thống tự động tạo ra các câu hỏi và câu trả lời.",
+    "expected_answer": "Giai đoạn đầu tiên là SDG (Tạo dữ liệu).",
+    "latency": 1.913436400000137,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 4,
+          "reasoning": "Câu trả lời cung cấp thông tin chính xác về giai đoạn đầu tiên của quy trình AI Evaluation Factory là SDG, nhưng thêm chi tiết không cần thiết về việc hệ thống tự động tạo ra các câu hỏi và câu trả lời có thể làm cho câu trả lời trở nên thiếu liên quan một chút. Ngôn ngữ cũng tương đối rõ ràng và lịch sự."
+        },
+        "helpful_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời chính xác hoàn toàn khi nêu rõ giai đoạn đầu tiên của quy trình AI Evaluation Factory là SDG và xác định rõ rằng đây là tạo dữ liệu tổng hợp. Ngôn ngữ được sử dụng rõ ràng và chuyên nghiệp."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy",
+      "doc_hard"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory giúp đo lường những chỉ số nào?",
+    "agent_answer": "AI Evaluation Factory giúp đo lường các chỉ số như Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời.",
+    "expected_answer": "Nó giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
+    "latency": 1.0395918000003803,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác so với thông tin Ground Truth, nêu rõ các chỉ số được đo lường như Hit Rate, MRR và độ chính xác. Hơn nữa, ngôn ngữ sử dụng trong câu trả lời rõ ràng và chuyên nghiệp."
+        },
+        "helpful_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời chính xác hoàn toàn với thông tin trong Ground Truth, đồng thời sử dụng ngôn ngữ rõ ràng và chuyên nghiệp."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy",
+      "doc_hard"
+    ]
+  },
+  {
     "question": "Một công ty áp dụng AI Evaluation Factory có thể mong đợi cải thiện điều gì về khả năng đánh giá mô hình AI của họ, dựa trên các chỉ số được đo lường và tính chất của quy trình?",
-    "agent_answer": "Một công ty áp dụng AI Evaluation Factory có thể mong đợi cải thiện đáng kể trong khả năng đánh giá mô hình AI của họ thông qua các chỉ số như Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời. Cụ thể, quy trình này giúp:\n\n1. **Tăng cường độ chính xác**: Bằng cách sử dụng giai đoạn Tạo dữ liệu tổng hợp (SDG) để tạo ra các câu hỏi và câu trả lời đa dạng, công ty có thể kiểm tra mô hình AI trong nhiều tình huống khác nhau, từ đó cải thiện độ chính xác của nó.\n\n2. **Cải thiện khả năng phát hiện lỗi**: Giai đoạn Phân tích lỗi (Failure Analysis) cho phép công ty xác định nguyên nhân cụ thể dẫn đến các câu trả lời sai, từ đó có thể điều chỉnh và tối ưu hóa mô hình AI để giảm thiểu các lỗi tương tự trong tương lai.\n\n3. **Đánh giá khách quan và chính xác**: Sử dụng Bộ máy chấm điểm (Eval Engine) với LLM-as-a-Judge giúp đảm bảo rằng việc đánh giá được thực hiện một cách khách quan và nhất quán, giảm thiểu sự thiên lệch trong quá trình đánh giá.\n\n4. **Tổng hợp và báo cáo kết quả**: Giai đoạn Báo cáo (Report) giúp công ty có cái nhìn tổng quan về hiệu suất của mô hình AI thông qua các kết quả benchmark, từ đó đưa ra quyết định dựa trên dữ liệu để cải thiện mô hình.\n\nTóm lại, quy trình AI Evaluation Factory không chỉ giúp cải thiện các chỉ số đánh giá mà còn cung cấp cái nhìn sâu sắc về hiệu suất của mô hình AI, từ đó hỗ trợ công ty trong việc tối ưu hóa và phát triển các giải pháp AI hiệu quả hơn.",
+    "agent_answer": "Một công ty áp dụng AI Evaluation Factory có thể mong đợi cải thiện đáng kể trong khả năng đánh giá mô hình AI của họ thông qua các chỉ số như Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời. Cụ thể, quy trình này giúp:\n\n1. **Tăng cường độ chính xác**: Bằng cách sử dụng bộ máy chấm điểm LLM-as-a-Judge, công ty có thể nhận được những đánh giá chính xác hơn về hiệu suất của mô hình AI, từ đó cải thiện chất lượng câu trả lời.\n\n2. **Cải thiện khả năng phát hiện lỗi**: Giai đoạn phân tích lỗi giúp công ty xác định nguyên nhân cụ thể dẫn đến các câu trả lời sai, từ đó có thể điều chỉnh và tối ưu hóa mô hình AI một cách hiệu quả hơn.\n\n3. **Tối ưu hóa quy trình tạo dữ liệu**: Việc tự động tạo dữ liệu tổng hợp trong giai đoạn SDG giúp tiết kiệm thời gian và nguồn lực, đồng thời cung cấp một lượng lớn dữ liệu đa dạng để đánh giá mô hình.\n\n4. **Cung cấp báo cáo chi tiết**: Giai đoạn báo cáo tổng hợp kết quả benchmark giúp công ty có cái nhìn tổng quan về hiệu suất của mô hình, từ đó đưa ra các quyết định chiến lược dựa trên dữ liệu.\n\nTóm lại, việc áp dụng AI Evaluation Factory không chỉ giúp cải thiện các chỉ số đánh giá mà còn nâng cao quy trình phát triển và tối ưu hóa mô hình AI của công ty.",
     "expected_answer": "Công ty có thể mong đợi cải thiện khả năng đo lường và theo dõi hiệu suất mô hình AI của họ một cách chuyên sâu, thông qua các chỉ số định lượng như Hit Rate, MRR và độ chính xác của câu trả lời, từ đó có cái nhìn toàn diện và chính xác hơn về chất lượng và hiệu quả của AI.",
-    "latency": 5.521718599999986,
+    "latency": 7.319535699999506,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 0.5
@@ -388,11 +138,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 4,
-          "reasoning": "Câu trả lời của AI chính xác về việc áp dụng AI Evaluation Factory để cải thiện khả năng đánh giá mô hình AI thông qua các chỉ số định lượng như Hit Rate, MRR và độ chính xác. Tuy nhiên, một số điểm trong câu trả lời còn hơi lan man và có thể không hoàn toàn khớp với cách diễn đạt trong Ground Truth, cụ thể là việc nhấn mạnh 'cái nhìn tổng quan' và 'tối ưu hóa các giải pháp AI'. Ngôn ngữ trong câu trả lời cũng lịch sự và rõ ràng, nhưng có thể cải thiện sự mạch lạc trong cách truyền đạt thông tin. Do đó, đánh giá này được chấm 4 điểm."
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác và liên quan đến câu hỏi bằng cách nêu rõ các chỉ số như Hit Rate, MRR và độ chính xác, cũng như những cải tiến mà công ty có thể mong đợi. Tuy nhiên, một số phần của câu trả lời có thể được cải thiện để ngắn gọn và rõ ràng hơn, đặc biệt là trong việc trình bày các điểm lợi ích. Điều này dẫn đến việc câu trả lời chưa hoàn toàn đạt mức độ hoàn hảo."
         },
         "helpful_judge": {
           "score": 4,
-          "reasoning": "Câu trả lời của AI đưa ra những điểm chính xác về việc cải thiện khả năng đánh giá mô hình AI, liên quan đến các chỉ số như Hit Rate, MRR và độ chính xác. Tuy nhiên, câu trả lời cũng bổ sung thêm một số thông tin chi tiết về quy trình đánh giá, có thể gây cảm giác hơi lan man và không tập trung hoàn toàn vào điều tốt nhất mà người hỏi muốn biết, đó là khả năng 'đo lường và theo dõi hiệu suất mô hình AI'. Ngôn ngữ được sử dụng là chuyên nghiệp và dễ hiểu."
+          "reasoning": "Câu trả lời của AI chính xác và có liên quan đến câu hỏi, nêu rõ các chỉ số mà công ty có thể mong đợi cải thiện. Các điểm được liệt kê rõ ràng và hợp lý. Tuy nhiên, có thể cải thiện ngôn ngữ diễn đạt để dễ hiểu hơn cho người đọc, đặc biệt là phần tóm tắt."
         }
       }
     },
@@ -402,13 +152,44 @@
     "retrieved_ids": [
       "doc_easy",
       "doc_hard"
+    ]
+  },
+  {
+    "question": "Khi hoàn tất cả bốn giai đoạn của AI Evaluation Factory, kết quả cuối cùng mà một tổ chức có thể thu được là gì, và làm thế nào các giai đoạn này bổ trợ lẫn nhau để đạt được kết quả đó?",
+    "agent_answer": "Khi hoàn tất tất cả bốn giai đoạn của AI Evaluation Factory, một tổ chức có thể thu được kết quả cuối cùng là một báo cáo tổng hợp chi tiết về hiệu suất của hệ thống AI, bao gồm các chỉ số như Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời. Những thông tin này giúp tổ chức hiểu rõ hơn về khả năng của AI trong việc cung cấp câu trả lời chính xác và hiệu quả.\n\nCác giai đoạn trong quy trình này bổ trợ lẫn nhau như sau:\n\n1. **SDG (Synthetic Data Generation)**: Giai đoạn này tạo ra một lượng lớn dữ liệu câu hỏi/trả lời tổng hợp, cung cấp nền tảng cho việc đánh giá. Dữ liệu này giúp đảm bảo rằng các tình huống đa dạng được kiểm tra.\n\n2. **Eval Engine**: Giai đoạn này sử dụng LLM-as-a-Judge để đánh giá các câu trả lời dựa trên dữ liệu đã tạo ra. Việc đánh giá này giúp xác định mức độ chính xác và hiệu quả của các câu trả lời mà AI cung cấp.\n\n3. **Failure Analysis**: Sau khi đánh giá, giai đoạn này phân tích các lỗi mà AI gặp phải. Việc tìm ra nguyên nhân của các câu trả lời sai giúp tổ chức hiểu rõ hơn về điểm yếu của hệ thống và từ đó có thể cải thiện.\n\n4. **Report**: Cuối cùng, giai đoạn báo cáo tổng hợp tất cả các kết quả từ các giai đoạn trước đó. Báo cáo này không chỉ cung cấp cái nhìn tổng quan về hiệu suất của AI mà còn chỉ ra các lĩnh vực cần cải thiện.\n\nTóm lại, mỗi giai đoạn trong AI Evaluation Factory không chỉ đóng vai trò riêng biệt mà còn tương tác và hỗ trợ lẫn nhau để tạo ra một quy trình đánh giá toàn diện và hiệu quả cho hệ thống AI.",
+    "expected_answer": "Khi hoàn tất cả bốn giai đoạn, một tổ chức sẽ thu được một báo cáo toàn diện (Report) về hiệu suất của AI, kèm theo các phân tích lỗi chi tiết (Failure Analysis) dựa trên dữ liệu được tạo ra (SDG) và được chấm điểm (Eval Engine). Điều này cho phép hiểu sâu sắc về điểm mạnh, điểm yếu và các cơ hội cải thiện của AI, tạo nền tảng cho việc tối ưu hóa.",
+    "latency": 8.200241600000481,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 4,
+          "reasoning": "Câu trả lời của AI chủ yếu chính xác và liên quan đến câu hỏi, cung cấp thông tin chi tiết về bốn giai đoạn và các chỉ số trong báo cáo. Tuy nhiên, nó thiếu một số nội dung quan trọng, như việc nhấn mạnh vào các cơ hội cải thiện của AI, mà Ground Truth có đề cập đến. Ngôn ngữ rõ ràng và chuyên nghiệp, nhưng có thể cải thiện cách kết nối các giai đoạn để làm rõ hơn sự hỗ trợ lẫn nhau."
+        },
+        "helpful_judge": {
+          "score": 4,
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về kết quả cuối cùng mà tổ chức có thể thu được và mô tả các giai đoạn trong AI Evaluation Factory một cách rõ ràng. Tuy nhiên, có một số thông tin trong Ground Truth mà câu trả lời chưa đề cập tới, như 'các cơ hội cải thiện của AI' và 'tạo nền tảng cho việc tối ưu hóa'. Hơn nữa, cách diễn đạt có thể được cải thiện để rõ ràng và chuyên nghiệp hơn."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_hard",
+      "doc_easy"
     ]
   },
   {
     "question": "Hãy kể tên các giai đoạn chính của quy trình AI Evaluation Factory.",
     "agent_answer": "Các giai đoạn chính của quy trình AI Evaluation Factory bao gồm:\n\n1. SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp): Tự động tạo câu hỏi/trả lời.\n2. Eval Engine (Bộ máy chấm điểm): Sử dụng LLM-as-a-Judge để đánh giá.\n3. Failure Analysis (Phân tích lỗi): Tìm ra nguyên nhân AI trả lời sai.\n4. Report (Báo cáo): Tổng hợp kết quả benchmark.",
     "expected_answer": "Các giai đoạn chính là: SDG (Tạo dữ liệu), Eval Engine (Bộ máy chấm điểm), Failure Analysis (Phân tích lỗi) và Report (Báo cáo).",
-    "latency": 2.367020799999864,
+    "latency": 2.3119292999999743,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
@@ -419,11 +200,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và đầy đủ, liệt kê đúng các giai đoạn chính của quy trình AI Evaluation Factory theo đúng thông tin trong Ground Truth. Hành văn rõ ràng và chuyên nghiệp."
+          "reasoning": "Câu trả lời của AI rất chính xác và hoàn toàn khớp với Ground Truth, liệt kê đầy đủ các giai đoạn chính của quy trình AI Evaluation Factory. Ngôn ngữ sử dụng chuyên nghiệp và rõ ràng."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI đưa ra chính xác các giai đoạn chính của quy trình AI Evaluation Factory, hoàn toàn khớp với Ground Truth. Ngôn ngữ sử dụng rõ ràng và chuyên nghiệp, dễ hiểu cho người đọc."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác, liệt kê đúng các giai đoạn chính của quy trình AI Evaluation Factory như trong ground truth. Ngôn ngữ rõ ràng, lịch sự và dễ hiểu, giúp người đọc dễ dàng nắm bắt thông tin."
         }
       }
     },
@@ -436,30 +217,30 @@
     ]
   },
   {
-    "question": "Hãy kể tên 4 giai đoạn chính của quy trình AI Evaluation Factory.",
-    "agent_answer": "Bốn giai đoạn chính của quy trình AI Evaluation Factory là:\n\n1. SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp): Tự động tạo câu hỏi/trả lời.\n2. Eval Engine (Bộ máy chấm điểm): Sử dụng LLM-as-a-Judge để đánh giá.\n3. Failure Analysis (Phân tích lỗi): Tìm ra nguyên nhân AI trả lời sai.\n4. Report (Báo cáo): Tổng hợp kết quả benchmark.",
-    "expected_answer": "4 giai đoạn chính là: SDG (Tạo dữ liệu), Eval Engine (Bộ máy chấm điểm), Failure Analysis (Phân tích lỗi) và Report (Báo cáo).",
-    "latency": 2.027264500000001,
+    "question": "Mục đích chính của việc đo lường Hit Rate, MRR và độ chính xác của câu trả lời trong AI Evaluation Factory là gì, xét trong bối cảnh một quy trình đánh giá chuyên sâu?",
+    "agent_answer": "Mục đích chính của việc đo lường Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời trong AI Evaluation Factory là để đánh giá hiệu suất và chất lượng của hệ thống AI trong việc cung cấp thông tin chính xác và hữu ích. \n\n- **Hit Rate** giúp xác định tỷ lệ câu trả lời đúng mà AI cung cấp so với tổng số câu hỏi, từ đó đánh giá khả năng đáp ứng của AI.\n- **MRR** đo lường vị trí của câu trả lời đúng trong danh sách các câu trả lời được đề xuất, cho thấy mức độ hiệu quả của AI trong việc xếp hạng các câu trả lời.\n- **Độ chính xác** phản ánh khả năng của AI trong việc đưa ra câu trả lời chính xác cho các câu hỏi cụ thể.\n\nTất cả những chỉ số này đều quan trọng trong việc cải thiện và tối ưu hóa hệ thống AI, giúp đảm bảo rằng nó hoạt động hiệu quả và đáp ứng được nhu cầu của người dùng trong bối cảnh một quy trình đánh giá chuyên sâu.",
+    "expected_answer": "Mục đích chính của việc đo lường Hit Rate, MRR và độ chính xác của câu trả lời là để thực hiện một quy trình đánh giá AI chuyên sâu, cung cấp các chỉ số định lượng cụ thể nhằm lượng hóa và đánh giá toàn diện hiệu suất và chất lượng của hệ thống AI.",
+    "latency": 4.70606029999999,
     "retrieval": {
       "hit_rate": 1.0,
-      "mrr": 1.0
+      "mrr": 0.5
     },
     "judge": {
-      "final_score": 5.0,
+      "final_score": 4.0,
       "agreement_rate": 1.0,
       "individual_scores": {
         "strict_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và phù hợp với Ground Truth. Ngôn ngữ được sử dụng rõ ràng và lịch sự, cung cấp một danh sách chi tiết về bốn giai đoạn của quy trình AI Evaluation Factory."
+          "score": 4,
+          "reasoning": "Câu trả lời của AI giải thích rõ mục đích của việc đo lường Hit Rate, MRR và độ chính xác trong bối cảnh đánh giá AI. Tuy nhiên, trong một số chi tiết, câu trả lời có phần thiếu chính xác khi không đề cập đến việc chỉ số này giúp lượng hóa và đánh giá toàn diện hiệu suất và chất lượng của hệ thống. Ngoài ra, mặc dù câu trả lời khá rõ ràng nhưng có thể cải thiện thêm về cách diễn đạt để tăng tính mạch lạc. Do đó, điểm số 4 là hợp lý."
         },
         "helpful_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và đã liệt kê đầy đủ 4 giai đoạn của quy trình AI Evaluation Factory. Ngôn ngữ sử dụng rõ ràng và dễ hiểu, không có lỗi chính tả hay ngữ pháp, thể hiện sự chuyên nghiệp. Do đó, câu trả lời đáp ứng tốt các tiêu chí đánh giá."
+          "score": 4,
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác và liên quan đến mục đích của việc đo lường Hit Rate, MRR và độ chính xác trong bối cảnh đánh giá AI. Tuy nhiên, nó có thể cải thiện bằng cách nêu rõ hơn về việc cung cấp các chỉ số định lượng và mối liên hệ giữa các chỉ số này với việc đánh giá toàn diện hiệu suất AI. Ngôn ngữ trong câu trả lời rõ ràng và lịch sự, nhưng thiếu một số chi tiết mà Ground Truth đã đưa ra."
         }
       }
     },
     "expected_retrieval_ids": [
-      "doc_easy"
+      "doc_hard"
     ],
     "retrieved_ids": [
       "doc_easy",
@@ -468,9 +249,9 @@
   },
   {
     "question": "Trong quy trình AI Evaluation Factory, nếu giai đoạn 'SDG (Tạo dữ liệu)' tạo ra dữ liệu không chính xác hoặc không đủ đại diện, điều đó có thể ảnh hưởng như thế nào đến giá trị của các chỉ số 'Hit Rate' và 'MRR' được đo lường sau này?",
-    "agent_answer": "Nếu giai đoạn 'SDG (Tạo dữ liệu tổng hợp)' tạo ra dữ liệu không chính xác hoặc không đủ đại diện, điều này có thể ảnh hưởng tiêu cực đến giá trị của các chỉ số 'Hit Rate' và 'MRR' được đo lường sau này. Cụ thể:\n\n1. **Hit Rate**: Nếu dữ liệu không chính xác hoặc không đại diện, khả năng AI đưa ra câu trả lời đúng sẽ giảm. Điều này dẫn đến việc Hit Rate (tỷ lệ câu trả lời đúng) sẽ thấp hơn thực tế, làm sai lệch đánh giá về hiệu suất của AI.\n\n2. **MRR (Mean Reciprocal Rank)**: Tương tự, nếu dữ liệu không đủ đại diện, thứ hạng của các câu trả lời đúng có thể không phản ánh chính xác khả năng của AI trong việc cung cấp thông tin chính xác. Điều này có thể làm giảm MRR, khiến cho việc đánh giá khả năng của AI trở nên không chính xác.\n\nTóm lại, chất lượng dữ liệu trong giai đoạn SDG là rất quan trọng, vì nó ảnh hưởng trực tiếp đến độ tin cậy của các chỉ số đánh giá hiệu suất AI trong các giai đoạn tiếp theo.",
+    "agent_answer": "Nếu giai đoạn 'SDG (Tạo dữ liệu tổng hợp)' tạo ra dữ liệu không chính xác hoặc không đủ đại diện, điều này có thể ảnh hưởng tiêu cực đến giá trị của các chỉ số 'Hit Rate' và 'MRR' được đo lường sau này. Cụ thể:\n\n1. **Hit Rate**: Đây là tỷ lệ phần trăm các câu trả lời đúng mà AI đưa ra so với tổng số câu hỏi. Nếu dữ liệu đầu vào không chính xác hoặc không đại diện, AI có thể được huấn luyện trên những thông tin sai lệch, dẫn đến việc đưa ra nhiều câu trả lời sai hơn. Kết quả là, Hit Rate sẽ bị giảm, phản ánh không chính xác khả năng thực sự của AI.\n\n2. **MRR (Mean Reciprocal Rank)**: Đây là chỉ số đo lường độ chính xác của các câu trả lời được xếp hạng. Nếu dữ liệu không chính xác, AI có thể xếp hạng các câu trả lời không đúng cao hơn hoặc không đủ chính xác, làm giảm giá trị của MRR. Điều này có thể dẫn đến việc đánh giá sai khả năng của AI trong việc cung cấp câu trả lời chính xác và phù hợp.\n\nTóm lại, chất lượng dữ liệu trong giai đoạn SDG là rất quan trọng, vì nó ảnh hưởng trực tiếp đến độ tin cậy và chính xác của các chỉ số đánh giá AI trong các giai đoạn tiếp theo.",
     "expected_answer": "Nếu dữ liệu được tạo ra ở giai đoạn SDG kém chất lượng, các chỉ số 'Hit Rate' và 'MRR' được đo lường sau đó sẽ không phản ánh đúng hiệu suất thực tế của AI. Điều này có thể dẫn đến việc đánh giá sai lệch về độ chính xác và chất lượng phản hồi của hệ thống, làm giảm độ tin cậy của toàn bộ quy trình đánh giá.",
-    "latency": 4.387311599999975,
+    "latency": 6.404240699999718,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 0.5
@@ -481,11 +262,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 4,
-          "reasoning": "Câu trả lời của AI chính xác trong việc nêu ra ảnh hưởng tiêu cực đến các chỉ số 'Hit Rate' và 'MRR' khi dữ liệu không chính xác hoặc không đủ đại diện. Tuy nhiên, một số phần diễn đạt vẫn có thể cải thiện để rõ ràng hơn, chẳng hạn như nhấn mạnh rằng đánh giá sai lệch có thể làm giảm độ tin cậy của toàn bộ quy trình đánh giá như trong Ground Truth đã đề cập."
+          "reasoning": "Câu trả lời của AI đúng về mặt thông tin và giải thích rõ ràng cách mà dữ liệu kém chất lượng có thể ảnh hưởng đến 'Hit Rate' và 'MRR'. Tuy nhiên, một số chỗ diễn đạt có thể được cải thiện để rõ ràng và súc tích hơn, ví dụ như việc kết nối các ý tưởng có thể lô-gic hơn. Mặc dù có thông tin hữu ích, nhưng nó vẫn có thể thiếu một chút trong việc liên kết trực tiếp với việc đánh giá độ tin cậy của toàn bộ quy trình như đã đề cập trong Ground Truth."
         },
         "helpful_judge": {
           "score": 4,
-          "reasoning": "Câu trả lời của AI chính xác trong việc chỉ ra rằng dữ liệu kém chất lượng ảnh hưởng đến 'Hit Rate' và 'MRR', đồng thời giải thích rõ ràng lý do tại sao điều này xảy ra. Tuy nhiên, câu trả lời có thể cải thiện bằng cách nhấn mạnh rằng các chỉ số này có thể dẫn đến đánh giá sai lệch về độ chính xác và chất lượng phản hồi của hệ thống, giống như trong Ground Truth."
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác và chi tiết về cách dữ liệu không chính xác từ giai đoạn SDG ảnh hưởng đến hai chỉ số 'Hit Rate' và 'MRR'. Câu trả lời giải thích rõ ràng tại sao dữ liệu kém chất lượng có thể dẫn đến kết quả sai lệch trong đánh giá hiệu suất AI. Tuy nhiên, có thể cải thiện cách diễn đạt bằng cách tóm tắt lại ý chính một cách ngắn gọn hơn và nhấn mạnh rõ ràng tác động của dữ liệu để nâng cao sự dễ hiểu. Tổng thể, câu trả lời vẫn duy trì tính chuyên nghiệp và phù hợp với câu hỏi."
         }
       }
     },
@@ -499,72 +280,10 @@
     ]
   },
   {
-    "question": "Khi hoàn tất cả bốn giai đoạn của AI Evaluation Factory, kết quả cuối cùng mà một tổ chức có thể thu được là gì, và làm thế nào các giai đoạn này bổ trợ lẫn nhau để đạt được kết quả đó?",
-    "agent_answer": "Khi hoàn tất tất cả bốn giai đoạn của AI Evaluation Factory, một tổ chức có thể thu được các kết quả cuối cùng như Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời. Những chỉ số này giúp tổ chức đánh giá hiệu suất của hệ thống AI trong việc cung cấp câu trả lời chính xác và phù hợp với yêu cầu của người dùng.\n\nCác giai đoạn trong quy trình này bổ trợ lẫn nhau như sau:\n\n1. **SDG (Synthetic Data Generation)**: Giai đoạn này tạo ra một lượng lớn câu hỏi và câu trả lời tổng hợp, cung cấp dữ liệu đầu vào cần thiết cho các giai đoạn tiếp theo. Việc có dữ liệu đa dạng và phong phú giúp đánh giá AI một cách toàn diện hơn.\n\n2. **Eval Engine**: Giai đoạn này sử dụng LLM-as-a-Judge để đánh giá các câu trả lời được tạo ra từ giai đoạn trước. Bộ máy chấm điểm này giúp xác định mức độ chính xác và tính phù hợp của các câu trả lời, từ đó cung cấp thông tin cần thiết cho việc phân tích.\n\n3. **Failure Analysis**: Sau khi đánh giá, giai đoạn này tập trung vào việc phân tích các lỗi mà AI gặp phải. Việc tìm ra nguyên nhân của các câu trả lời sai giúp tổ chức hiểu rõ hơn về điểm yếu của hệ thống và từ đó có thể cải thiện nó.\n\n4. **Report**: Cuối cùng, giai đoạn báo cáo tổng hợp tất cả các kết quả từ các giai đoạn trước, cung cấp cái nhìn tổng quan về hiệu suất của AI. Báo cáo này không chỉ giúp tổ chức đánh giá hiện trạng mà còn là cơ sở để đưa ra các quyết định cải tiến trong tương lai.\n\nTóm lại, mỗi giai đoạn trong AI Evaluation Factory không chỉ đóng vai trò riêng biệt mà còn tương tác và hỗ trợ lẫn nhau, tạo ra một quy trình đánh giá toàn diện và hiệu quả cho hệ thống AI.",
-    "expected_answer": "Khi hoàn tất cả bốn giai đoạn, một tổ chức sẽ thu được một báo cáo toàn diện (Report) về hiệu suất của AI, kèm theo các phân tích lỗi chi tiết (Failure Analysis) dựa trên dữ liệu được tạo ra (SDG) và được chấm điểm (Eval Engine). Điều này cho phép hiểu sâu sắc về điểm mạnh, điểm yếu và các cơ hội cải thiện của AI, tạo nền tảng cho việc tối ưu hóa.",
-    "latency": 6.220135700000355,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 1.0
-    },
-    "judge": {
-      "final_score": 3.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 3,
-          "reasoning": "Câu trả lời của AI cung cấp thông tin đúng về các chỉ số như Hit Rate, MRR và độ chính xác, nhưng không hoàn toàn chính xác trong việc mô tả kết quả cuối cùng. Nó thiếu sự khẳng định về báo cáo toàn diện (Report) như một kết quả chủ yếu và cách mà các giai đoạn hỗ trợ lẫn nhau chưa được thể hiện rõ ràng. Ngôn ngữ cũng chưa đủ chuyên nghiệp, có phần dài dòng và có thể cải thiện hơn. Do đó, điểm số chỉ đạt mức trung bình."
-        },
-        "helpful_judge": {
-          "score": 3,
-          "reasoning": "Câu trả lời cung cấp một số thông tin chính xác về các giai đoạn của AI Evaluation Factory và các kết quả có thể đạt được, nhưng thiếu một số chi tiết quan trọng. Đặc biệt, nó không nhấn mạnh rằng kết quả cuối cùng là một báo cáo toàn diện mà còn thiếu việc nêu rõ mối liên hệ giữa các giai đoạn bao gồm cả việc tối ưu hóa. Ngôn ngữ trong câu trả lời rõ ràng và chuyên nghiệp, nhưng có thể được cải thiện để cung cấp một cái nhìn sâu sắc hơn về tổng thể quy trình."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_hard"
-    ],
-    "retrieved_ids": [
-      "doc_hard",
-      "doc_easy"
-    ]
-  },
-  {
-    "question": "Mục đích chính của việc đo lường Hit Rate, MRR và độ chính xác của câu trả lời trong AI Evaluation Factory là gì, xét trong bối cảnh một quy trình đánh giá chuyên sâu?",
-    "agent_answer": "Mục đích chính của việc đo lường Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời trong AI Evaluation Factory là để đánh giá hiệu suất và chất lượng của hệ thống AI trong việc cung cấp thông tin chính xác và hữu ích. \n\n- **Hit Rate** giúp xác định tỷ lệ câu trả lời đúng mà AI cung cấp trong tổng số câu hỏi được đặt ra, từ đó phản ánh khả năng đáp ứng của hệ thống.\n- **MRR** đo lường vị trí của câu trả lời đúng trong danh sách các câu trả lời được đề xuất, cho thấy mức độ ưu tiên mà AI đặt cho các câu trả lời chính xác.\n- **Độ chính xác** đánh giá mức độ đúng đắn của các câu trả lời mà AI đưa ra, từ đó giúp cải thiện khả năng cung cấp thông tin chính xác cho người dùng.\n\nTổng thể, việc đo lường các chỉ số này trong quy trình đánh giá chuyên sâu giúp xác định điểm mạnh và điểm yếu của hệ thống AI, từ đó có thể thực hiện các cải tiến cần thiết để nâng cao hiệu suất và độ tin cậy của nó.",
-    "expected_answer": "Mục đích chính của việc đo lường Hit Rate, MRR và độ chính xác của câu trả lời là để thực hiện một quy trình đánh giá AI chuyên sâu, cung cấp các chỉ số định lượng cụ thể nhằm lượng hóa và đánh giá toàn diện hiệu suất và chất lượng của hệ thống AI.",
-    "latency": 4.072336300000188,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 0.5
-    },
-    "judge": {
-      "final_score": 4.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về mục đích đo lường Hit Rate, MRR và độ chính xác trong AI Evaluation Factory. Tuy nhiên, mặc dù nó có ích và mang lại cái nhìn tổng quát về các chỉ số này, nhưng có thể tinh chỉnh để nhấn mạnh rõ hơn về việc cung cấp các chỉ số định lượng và đánh giá toàn diện như trong Ground Truth. Ngôn ngữ trong câu trả lời cũng lịch sự và rõ ràng."
-        },
-        "helpful_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về bối cảnh và mục đích của việc đo lường Hit Rate, MRR, và độ chính xác trong quy trình đánh giá AI. Các định nghĩa của từng chỉ số được nêu rõ và liên quan đến câu hỏi. Tuy nhiên, câu trả lời có thể cải thiện hơn về cách diễn đạt để truyền đạt thông tin một cách mạch lạc hơn, chẳng hạn như không cần lặp lại nội dung liên quan đến cải thiện hiệu suất và độ tin cậy, mà nên nhấn mạnh vào việc cung cấp các chỉ số định lượng cụ thể như được nêu trong Ground Truth."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_hard"
-    ],
-    "retrieved_ids": [
-      "doc_easy",
-      "doc_hard"
-    ]
-  },
-  {
-    "question": "Quy trình AI Evaluation Factory gồm bao nhiêu giai đoạn chính?",
-    "agent_answer": "Quy trình AI Evaluation Factory gồm 4 giai đoạn chính.",
-    "expected_answer": "Quy trình gồm 4 giai đoạn chính.",
-    "latency": 0.652425399999629,
+    "question": "Hãy kể tên 4 giai đoạn chính của quy trình AI Evaluation Factory.",
+    "agent_answer": "Bốn giai đoạn chính của quy trình AI Evaluation Factory là:\n\n1. SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp): Tự động tạo câu hỏi/trả lời.\n2. Eval Engine (Bộ máy chấm điểm): Sử dụng LLM-as-a-Judge để đánh giá.\n3. Failure Analysis (Phân tích lỗi): Tìm ra nguyên nhân AI trả lời sai.\n4. Report (Báo cáo): Tổng hợp kết quả benchmark.",
+    "expected_answer": "4 giai đoạn chính là: SDG (Tạo dữ liệu), Eval Engine (Bộ máy chấm điểm), Failure Analysis (Phân tích lỗi) và Report (Báo cáo).",
+    "latency": 2.464577900000222,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
@@ -575,11 +294,42 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác so với Ground Truth và sử dụng ngôn ngữ rõ ràng, lịch sự."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và phù hợp với Ground Truth. Các giai đoạn được liệt kê đúng theo thứ tự và không có thông tin sai sót. Ngôn ngữ sử dụng cũng rõ ràng và chuyên nghiệp."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời chính xác hoàn toàn với thông tin đúng từ Ground Truth, đồng thời ngôn ngữ rõ ràng và lịch sự."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác với thông tin được cung cấp trong Ground Truth. Mỗi giai đoạn được nêu rõ ràng và khớp với đáp án đúng, thể hiện sự hiểu biết chính xác về quy trình AI Evaluation Factory. Ngôn ngữ sử dụng trong câu trả lời cũng rất chuyên nghiệp và dễ hiểu."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy",
+      "doc_hard"
+    ]
+  },
+  {
+    "question": "Quy trình AI Evaluation Factory gồm bao nhiêu giai đoạn chính?",
+    "agent_answer": "Quy trình AI Evaluation Factory gồm 4 giai đoạn chính.",
+    "expected_answer": "Quy trình gồm 4 giai đoạn chính.",
+    "latency": 0.8805819999997766,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời chính xác hoàn toàn so với thông tin trong Ground Truth. Nó cũng cung cấp thông tin rõ ràng và cụ thể về số lượng giai đoạn chính. Ngôn ngữ trong câu trả lời rất chuyên nghiệp."
+        },
+        "helpful_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời của AI chính xác hoàn toàn so với Ground Truth, cung cấp thông tin rõ ràng và đơn giản, đáp ứng tốt yêu cầu của câu hỏi."
         }
       }
     },
@@ -593,9 +343,9 @@
   },
   {
     "question": "Ngoài Hit Rate và MRR, AI Evaluation Factory có được đề cập là đo lường hiệu suất tốc độ (latency) của AI không?",
-    "agent_answer": "Trong tài liệu đã cung cấp, AI Evaluation Factory chỉ đề cập đến việc đo lường Hit Rate, MRR và độ chính xác của câu trả lời. Không có thông tin nào đề cập đến việc đo lường hiệu suất tốc độ (latency) của AI. Nếu bạn cần thêm thông tin về hiệu suất tốc độ, tôi có thể cung cấp kiến thức chung về chủ đề này.",
+    "agent_answer": "Trong tài liệu không đề cập đến việc AI Evaluation Factory đo lường hiệu suất tốc độ (latency) của AI. Quy trình chủ yếu tập trung vào việc đo lường Hit Rate, MRR và độ chính xác của câu trả lời. Nếu bạn cần thông tin thêm về việc đánh giá hiệu suất tốc độ, tôi có thể cung cấp kiến thức chung về chủ đề này.",
     "expected_answer": "Không, tài liệu chỉ rõ AI Evaluation Factory đo lường Hit Rate, MRR và độ chính xác của câu trả lời, không đề cập đến hiệu suất tốc độ (latency).",
-    "latency": 1.5391045000001213,
+    "latency": 1.9279727000002822,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
@@ -606,11 +356,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI chính xác hoàn toàn về thông tin trong tài liệu và giải thích rõ ràng rằng không có đề cập nào đến việc đo lường hiệu suất tốc độ. Ngôn ngữ được sử dụng trong câu trả lời lịch sự và chuyên nghiệp."
+          "reasoning": "Câu trả lời chính xác hoàn toàn với Ground Truth và giải thích rõ ràng về những gì AI Evaluation Factory đo lường. Ngoài ra, phong cách diễn đạt chuyên nghiệp và lịch sự."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác theo Ground Truth, xác nhận rằng AI Evaluation Factory chỉ đo lường Hit Rate, MRR và độ chính xác mà không đề cập đến độ trễ (latency). Ngôn ngữ sử dụng rõ ràng và lịch sự, đồng thời cung cấp thêm khả năng hỗ trợ nếu người dùng cần thông tin thêm về tốc độ."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác, phản ánh đúng nội dung mà tài liệu đề cập. Câu trả lời có tính liên quan cao, giải quyết trực tiếp câu hỏi về việc đo lường hiệu suất tốc độ (latency). Ngoài ra, cách diễn đạt rõ ràng và chuyên nghiệp."
         }
       }
     },
@@ -627,7 +377,7 @@
     "question": "AI Evaluation Factory giúp đo lường những chỉ số nào?",
     "agent_answer": "AI Evaluation Factory giúp đo lường các chỉ số như Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời.",
     "expected_answer": "Nó giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
-    "latency": 1.1049410999999054,
+    "latency": 1.296800500000245,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
@@ -638,166 +388,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác so với Ground Truth, cung cấp thông tin chính xác về các chỉ số mà AI Evaluation Factory giúp đo lường. Ngôn ngữ rõ ràng và chuyên nghiệp."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và đúng với Ground Truth. Ngoài ra, cách diễn đạt của AI cũng rõ ràng và chuyên nghiệp."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác so với Ground Truth, đưa ra các chỉ số cụ thể mà AI Evaluation Factory giúp đo lường, sử dụng ngôn ngữ rõ ràng và chuyên nghiệp."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_easy"
-    ],
-    "retrieved_ids": [
-      "doc_easy",
-      "doc_hard"
-    ]
-  },
-  {
-    "question": "Trước khi Bộ máy chấm điểm (Eval Engine) có thể thực hiện chức năng của mình một cách hiệu quả trong quy trình AI Evaluation Factory, giai đoạn nào cần phải được hoàn thành và tại sao lại cần thiết theo thứ tự đó?",
-    "agent_answer": "Trước khi Bộ máy chấm điểm (Eval Engine) có thể thực hiện chức năng của mình một cách hiệu quả trong quy trình AI Evaluation Factory, giai đoạn Tạo dữ liệu tổng hợp (SDG - Synthetic Data Generation) cần phải được hoàn thành. \n\nGiai đoạn này là cần thiết vì nó tạo ra các câu hỏi và câu trả lời mà Bộ máy chấm điểm sẽ sử dụng để đánh giá hiệu suất của AI. Nếu không có dữ liệu tổng hợp chất lượng, Bộ máy chấm điểm sẽ không có cơ sở để thực hiện đánh giá chính xác, dẫn đến kết quả không đáng tin cậy. Do đó, việc hoàn thành giai đoạn SDG trước tiên là rất quan trọng để đảm bảo rằng quy trình đánh giá tiếp theo có thể diễn ra một cách hiệu quả và chính xác.",
-    "expected_answer": "Giai đoạn SDG (Tạo dữ liệu) cần phải được hoàn thành trước Eval Engine. Lý do là Bộ máy chấm điểm cần dữ liệu để thực hiện việc chấm điểm và đánh giá hiệu suất AI, và SDG chịu trách nhiệm tạo ra bộ dữ liệu thử nghiệm đó.",
-    "latency": 2.6649294000003465,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 1.0
-    },
-    "judge": {
-      "final_score": 5.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và phù hợp với Ground Truth. Nó cung cấp thông tin rõ ràng về việc giai đoạn Tạo dữ liệu tổng hợp (SDG) cần thiết cho chức năng của Bộ máy chấm điểm (Eval Engine) trong quy trình AI Evaluation Factory. Lý do được nêu rõ ràng và thuyết phục, thể hiện sự hiểu biết về quy trình. Ngôn ngữ sử dụng trong câu trả lời cũng rất chuyên nghiệp và dễ hiểu."
-        },
-        "helpful_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và nhất quán với Ground Truth. Nó nêu rõ giai đoạn cần thiết (SDG) và lý do cần thiết cho việc hoàn thành giai đoạn này trước khi Bộ máy chấm điểm hoạt động. Ngôn ngữ sử dụng trong câu trả lời rõ ràng, mạch lạc và lịch sự, thể hiện sự chuyên nghiệp."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_hard"
-    ],
-    "retrieved_ids": [
-      "doc_hard",
-      "doc_easy"
-    ]
-  },
-  {
-    "question": "Những khía cạnh nào trong cấu trúc và chức năng của AI Evaluation Factory thể hiện rõ tính 'chuyên sâu' của quy trình này, vượt ra ngoài việc chỉ đánh giá bề mặt?",
-    "agent_answer": "AI Evaluation Factory thể hiện tính 'chuyên sâu' của quy trình đánh giá AI qua các khía cạnh sau:\n\n1. **Tạo dữ liệu tổng hợp (SDG)**: Quy trình bắt đầu bằng việc tự động tạo ra các câu hỏi và câu trả lời, cho phép đánh giá AI trong nhiều tình huống khác nhau. Điều này không chỉ giúp kiểm tra khả năng của AI mà còn đảm bảo rằng dữ liệu đầu vào phong phú và đa dạng, từ đó phản ánh chính xác hơn về hiệu suất của AI.\n\n2. **Bộ máy chấm điểm (Eval Engine)**: Việc sử dụng LLM-as-a-Judge để đánh giá cho phép có được những phân tích sâu sắc hơn về chất lượng câu trả lời. Thay vì chỉ đơn thuần kiểm tra đúng/sai, quy trình này có thể đánh giá các yếu tố như tính hợp lý, độ liên quan và sự sáng tạo trong câu trả lời.\n\n3. **Phân tích lỗi (Failure Analysis)**: Giai đoạn này không chỉ đơn thuần là xác định các câu trả lời sai mà còn đi sâu vào nguyên nhân của những sai sót đó. Điều này giúp hiểu rõ hơn về các điểm yếu của AI và cung cấp thông tin quý giá để cải thiện mô hình.\n\n4. **Báo cáo (Report)**: Việc tổng hợp kết quả benchmark không chỉ đơn giản là đưa ra số liệu mà còn cung cấp cái nhìn tổng quan về hiệu suất của AI qua các chỉ số như Hit Rate, MRR và độ chính xác. Điều này cho phép các nhà phát triển và nhà nghiên cứu có cái nhìn sâu sắc hơn về cách thức hoạt động của AI trong các tình huống thực tế.\n\nTất cả những khía cạnh này kết hợp lại tạo nên một quy trình đánh giá toàn diện, không chỉ dừng lại ở việc kiểm tra bề mặt mà còn đi sâu vào phân tích và cải tiến hiệu suất của AI.",
-    "expected_answer": "Tính 'chuyên sâu' của AI Evaluation Factory được thể hiện qua nhiều khía cạnh: khả năng đo lường đa dạng các chỉ số như Hit Rate, MRR và độ chính xác; sự phân chia thành 4 giai đoạn rõ ràng bao gồm SDG (Tạo dữ liệu) và đặc biệt là 'Failure Analysis' (Phân tích lỗi), cho phép đi sâu vào nguyên nhân gây lỗi chứ không chỉ dừng lại ở kết quả, và cuối cùng là 'Report' tổng hợp toàn diện thông tin.",
-    "latency": 8.104887399999825,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 0.5
-    },
-    "judge": {
-      "final_score": 4.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về các khía cạnh thể hiện tính 'chuyên sâu' của quy trình đánh giá AI, bao gồm việc tạo dữ liệu, chấm điểm, phân tích lỗi và báo cáo. Tuy nhiên, một số yếu tố như khả năng đo lường đa dạng được đề cập trong Ground Truth chưa được nhấn mạnh rõ ràng trong câu trả lời, làm giảm tính đầy đủ của thông tin. Ngôn ngữ sử dụng trong câu trả lời là rõ ràng và chuyên nghiệp."
-        },
-        "helpful_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác và liên quan về các khía cạnh thể hiện tính 'chuyên sâu' của AI Evaluation Factory. Nó đề cập đến các yếu tố như tạo dữ liệu, bộ máy chấm điểm, phân tích lỗi, và báo cáo, đều nằm trong Ground Truth. Tuy nhiên, có một số điểm có thể cải thiện như tối ưu hóa cách diễn đạt để trở nên rõ ràng và mạch lạc hơn, đặc biệt trong cách thức phân tích và trình bày các chỉ số như Hit Rate hay MRR."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_hard"
-    ],
-    "retrieved_ids": [
-      "doc_easy",
-      "doc_hard"
-    ]
-  },
-  {
-    "question": "Vai trò của Hit Rate và MRR trong AI Evaluation Factory là gì, và tại sao việc đo lường chúng cùng với độ chính xác lại cần thiết cho một 'quy trình đánh giá AI chuyên sâu'?",
-    "agent_answer": "Hit Rate và MRR (Mean Reciprocal Rank) đóng vai trò quan trọng trong AI Evaluation Factory vì chúng giúp đánh giá hiệu suất của hệ thống AI trong việc cung cấp câu trả lời chính xác và phù hợp với yêu cầu của người dùng.\n\n1. **Hit Rate**: Đây là tỷ lệ phần trăm của các câu hỏi mà AI trả lời đúng trong tổng số câu hỏi được đặt ra. Việc đo lường Hit Rate giúp xác định mức độ thành công của AI trong việc cung cấp câu trả lời chính xác, từ đó có thể đánh giá khả năng hoạt động của nó trong các tình huống thực tế.\n\n2. **MRR (Mean Reciprocal Rank)**: MRR đo lường thứ hạng trung bình của câu trả lời đúng trong danh sách các câu trả lời mà AI cung cấp. Điều này rất quan trọng vì trong nhiều trường hợp, người dùng có thể chỉ quan tâm đến câu trả lời đúng đầu tiên mà AI đưa ra. MRR giúp đánh giá khả năng của AI trong việc ưu tiên câu trả lời chính xác hơn.\n\nViệc đo lường Hit Rate, MRR và độ chính xác là cần thiết cho một quy trình đánh giá AI chuyên sâu vì:\n\n- **Đánh giá toàn diện**: Những chỉ số này cung cấp cái nhìn tổng quan về hiệu suất của AI, từ đó giúp xác định các lĩnh vực cần cải thiện.\n- **Phân tích lỗi**: Khi biết được tỷ lệ thành công và thứ hạng của câu trả lời, các nhà phát triển có thể thực hiện phân tích lỗi hiệu quả hơn để tìm ra nguyên nhân của các câu trả lời sai.\n- **Cải tiến liên tục**: Dựa trên các chỉ số này, quy trình có thể được điều chỉnh và cải tiến để nâng cao chất lượng câu trả lời của AI.\n\nTóm lại, Hit Rate, MRR và độ chính xác là những chỉ số thiết yếu trong việc đánh giá và cải thiện hiệu suất của hệ thống AI, đảm bảo rằng nó đáp ứng tốt nhất nhu cầu của người dùng.",
-    "expected_answer": "Hit Rate và MRR cung cấp cái nhìn sâu sắc hơn về hiệu suất tìm kiếm và xếp hạng của AI ngoài độ chính xác đơn thuần. Hit Rate đo lường tỷ lệ câu trả lời đúng được tìm thấy, trong khi MRR đánh giá chất lượng vị trí của câu trả lời đó. Kết hợp ba chỉ số này cho phép đánh giá toàn diện khả năng của AI trong việc không chỉ tìm ra câu trả lời đúng mà còn trình bày chúng một cách hiệu quả và ưu tiên, điều rất quan trọng trong một quy trình đánh giá chuyên sâu.",
-    "latency": 6.459561400000439,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 1.0
-    },
-    "judge": {
-      "final_score": 3.5,
-      "agreement_rate": 0.75,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 3,
-          "reasoning": "Câu trả lời cung cấp thông tin đúng về Hit Rate và MRR và giải thích vai trò của chúng trong việc đánh giá hiệu suất AI. Tuy nhiên, nó thiếu một số yếu tố quan trọng trong việc giải thích mối quan hệ của Hit Rate và MRR với độ chính xác mà Ground Truth chỉ ra. Đặc biệt, không nhấn mạnh rằng MRR đánh giá vị trí nghe của câu trả lời đúng, cũng như không đề cập đến khía cạnh quan trọng của việc trình bày câu trả lời một cách hiệu quả. Hơn nữa, cách diễn đạt có thể sẽ rõ ràng hơn. Vì vậy, mặc dù có thông tin đúng nhưng thiếu sót và hơi lan man, đánh giá là Fair."
-        },
-        "helpful_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI đã cung cấp thông tin chính xác về vai trò của Hit Rate và MRR trong việc đánh giá hiệu suất của AI, và giải thích lý do tại sao đo lường chúng là cần thiết cho một quy trình đánh giá AI chuyên sâu. Tuy nhiên, câu trả lời thiếu một số thông tin quan trọng về cách mà việc đánh giá vị trí của câu trả lời (MRR) cũng quan trọng như việc tìm thấy câu trả lời đúng. Ngôn ngữ diễn đạt chuyên nghiệp nhưng vẫn có thể cải thiện để rõ ràng hơn trong một số điểm."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_hard"
-    ],
-    "retrieved_ids": [
-      "doc_hard",
-      "doc_easy"
-    ]
-  },
-  {
-    "question": "Mối quan hệ giữa 'Eval Engine (Bộ máy chấm điểm)' và 'Failure Analysis (Phân tích lỗi)' trong AI Evaluation Factory là gì, và tại sao thứ tự này lại quan trọng để đạt được mục tiêu 'đánh giá AI chuyên sâu'?",
-    "agent_answer": "Mối quan hệ giữa 'Eval Engine (Bộ máy chấm điểm)' và 'Failure Analysis (Phân tích lỗi)' trong AI Evaluation Factory là rất chặt chẽ và có tính chất bổ sung cho nhau. \n\n- **Eval Engine** là giai đoạn đầu tiên trong quá trình đánh giá, nơi mà các câu trả lời của AI được chấm điểm dựa trên các tiêu chí như Hit Rate, MRR và độ chính xác. Giai đoạn này sử dụng LLM-as-a-Judge để đánh giá chất lượng của các câu trả lời, từ đó cung cấp những thông tin ban đầu về hiệu suất của AI.\n\n- **Failure Analysis** theo sau giai đoạn chấm điểm, và nó tập trung vào việc phân tích các lỗi mà AI đã mắc phải trong quá trình trả lời. Giai đoạn này tìm ra nguyên nhân cụ thể dẫn đến các câu trả lời sai, từ đó giúp cải thiện mô hình AI.\n\nThứ tự này quan trọng vì:\n\n1. **Cung cấp thông tin cần thiết**: Giai đoạn chấm điểm cung cấp dữ liệu và thông tin về hiệu suất của AI, điều này là cần thiết để thực hiện phân tích lỗi một cách hiệu quả. Nếu không có đánh giá ban đầu, việc xác định nguyên nhân của các lỗi sẽ trở nên khó khăn hơn.\n\n2. **Cải thiện liên tục**: Việc phân tích lỗi sau khi đã có đánh giá giúp xác định các điểm yếu cụ thể trong mô hình AI, từ đó có thể đưa ra các biện pháp cải thiện. Điều này tạo ra một vòng lặp phản hồi liên tục, giúp nâng cao chất lượng của AI theo thời gian.\n\n3. **Đạt được mục tiêu đánh giá chuyên sâu**: Kết hợp giữa đánh giá và phân tích lỗi cho phép tổ chức có cái nhìn toàn diện về hiệu suất của AI, từ đó đưa ra các quyết định chính xác hơn trong việc phát triển và tối ưu hóa mô hình.\n\nTóm lại, Eval Engine và Failure Analysis không chỉ là hai giai đoạn riêng biệt mà còn là những phần không thể thiếu trong quy trình đánh giá AI chuyên sâu, giúp đảm bảo rằng AI được cải thiện và phát triển một cách hiệu quả.",
-    "expected_answer": "'Eval Engine' chịu trách nhiệm chấm điểm các câu trả lời, cung cấp dữ liệu định lượng về hiệu suất của AI. Sau đó, 'Failure Analysis' sẽ sử dụng kết quả chấm điểm này để phân tích sâu hơn các trường hợp AI thất bại, tìm ra nguyên nhân gốc rễ. Thứ tự này quan trọng vì nó cho phép hiểu rõ hơn không chỉ 'AI hoạt động tốt đến mức nào' mà còn 'tại sao AI lại thất bại', từ đó cung cấp thông tin chuyên sâu để cải thiện hệ thống, đúng với bản chất đánh giá chuyên sâu.",
-    "latency": 7.033639499999481,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 1.0
-    },
-    "judge": {
-      "final_score": 3.5,
-      "agreement_rate": 0.75,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 3,
-          "reasoning": "Câu trả lời của AI có nhiều thông tin đúng về mối quan hệ giữa 'Eval Engine' và 'Failure Analysis', cũng như lý do tại sao thứ tự này quan trọng. Tuy nhiên, một số chi tiết cụ thể về cách thức hoạt động của từng phần có thể chưa đầy đủ và có phần lan man. Hơn nữa, ngôn ngữ chưa hoàn toàn chuyên nghiệp và rõ ràng, cần cải thiện để đạt độ mạch lạc và logic tốt hơn."
-        },
-        "helpful_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI đưa ra một phân tích chính xác về mối quan hệ giữa 'Eval Engine' và 'Failure Analysis', đồng thời giải thích rõ ràng lý do tại sao thứ tự của chúng quan trọng trong quy trình đánh giá AI chuyên sâu. Tuy nhiên, một số phần có thể diễn đạt rõ ràng hơn để dễ hiểu cho người đọc, đặc biệt trong việc phân tích sâu ngắn gọn hơn. Cách diễn đạt sử dụng ngôn ngữ chuyên nghiệp và lịch sự, nhưng vẫn có chỗ cho sự cải thiện trong việc tóm tắt ý chính một cách ngắn gọn hơn."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_hard"
-    ],
-    "retrieved_ids": [
-      "doc_hard",
-      "doc_easy"
-    ]
-  },
-  {
-    "question": "SDG trong quy trình AI Evaluation Factory có nghĩa là gì?",
-    "agent_answer": "SDG trong quy trình AI Evaluation Factory có nghĩa là \"Synthetic Data Generation\", tức là Tạo dữ liệu tổng hợp. Giai đoạn này liên quan đến việc tự động tạo ra các câu hỏi và câu trả lời để phục vụ cho quá trình đánh giá AI.",
-    "expected_answer": "SDG có nghĩa là Tạo dữ liệu (Synthetic Data Generation).",
-    "latency": 1.3576751999999033,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 1.0
-    },
-    "judge": {
-      "final_score": 5.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI chính xác về định nghĩa của SDG là 'Synthetic Data Generation' và giải thích rõ ràng vai trò của nó trong quy trình AI Evaluation Factory. Ngôn ngữ trong câu trả lời cũng lịch sự và dễ hiểu."
-        },
-        "helpful_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI chính xác khi giải thích SDG là 'Synthetic Data Generation' và mô tả đúng vai trò của giai đoạn này trong quy trình AI Evaluation Factory. Ngôn ngữ rõ ràng và lịch sự, đáp ứng tốt yêu cầu câu hỏi."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và nhắc lại đúng những chỉ số được đề cập trong Ground Truth. Ngôn ngữ sử dụng rõ ràng và lịch sự, đáp ứng tốt yêu cầu về độ chuyên nghiệp."
         }
       }
     },
@@ -811,9 +406,9 @@
   },
   {
     "question": "Ngoài việc đánh giá độ chính xác của câu trả lời, AI Evaluation Factory còn cung cấp cái nhìn định lượng nào khác về hiệu suất của AI?",
-    "agent_answer": "Ngoài việc đánh giá độ chính xác của câu trả lời, AI Evaluation Factory còn cung cấp cái nhìn định lượng về hiệu suất của AI thông qua việc đo lường Hit Rate và MRR (Mean Reciprocal Rank). Hit Rate cho biết tỷ lệ câu trả lời đúng trong tổng số câu hỏi, trong khi MRR đo lường thứ hạng trung bình của câu trả lời đúng trong danh sách các câu trả lời được đề xuất. Những chỉ số này giúp đánh giá toàn diện hơn về khả năng hoạt động của AI.",
+    "agent_answer": "Ngoài việc đánh giá độ chính xác của câu trả lời, AI Evaluation Factory còn cung cấp cái nhìn định lượng về hiệu suất của AI thông qua việc đo lường Hit Rate và MRR (Mean Reciprocal Rank). Hit Rate cho biết tỷ lệ câu trả lời đúng trong tổng số câu hỏi, trong khi MRR đo lường vị trí của câu trả lời đúng trong danh sách các câu trả lời được đề xuất. Những chỉ số này giúp đánh giá hiệu quả tổng thể của hệ thống AI trong việc cung cấp thông tin chính xác và hữu ích.",
     "expected_answer": "Ngoài độ chính xác của câu trả lời, AI Evaluation Factory còn cung cấp các chỉ số định lượng về Hit Rate và MRR để đánh giá hiệu suất của AI.",
-    "latency": 2.346590799999831,
+    "latency": 2.8107347000004665,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 0.5
@@ -824,11 +419,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời cung cấp thông tin chính xác và đầy đủ về các chỉ số định lượng như Hit Rate và MRR, cùng với cách thức chúng đo lường hiệu suất AI. Nội dung rõ ràng và có liên quan đến câu hỏi, thể hiện sự chuyên nghiệp trong ngôn ngữ."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác, cung cấp thông tin đúng về các chỉ số Hit Rate và MRR, cũng như cách chúng được sử dụng để đánh giá hiệu suất của AI. Ngôn ngữ sử dụng rõ ràng, lịch sự và phù hợp với câu hỏi của người dùng."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và đầy đủ thông tin liên quan đến câu hỏi. Nó giải thích rõ ràng về các chỉ số định lượng (Hit Rate và MRR) và cách chúng giúp đánh giá hiệu suất của AI. Ngôn ngữ sử dụng cũng rõ ràng và chuyên nghiệp."
+          "reasoning": "Câu trả lời của AI chính xác hoàn toàn với thông tin từ Ground Truth. Nó giải thích rõ ràng các chỉ số Hit Rate và MRR, cũng như vai trò của chúng trong việc đánh giá hiệu suất của AI. Ngôn ngữ sử dụng chuyên nghiệp và dễ hiểu, đáp ứng đầy đủ yêu cầu của câu hỏi mà người dùng đưa ra."
         }
       }
     },
@@ -841,10 +436,10 @@
     ]
   },
   {
-    "question": "AI Evaluation Factory là gì?",
-    "agent_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu, nhằm đo lường các chỉ số như Hit Rate, MRR và độ chính xác của câu trả lời. Quy trình này bao gồm 4 giai đoạn chính: \n\n1. **SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp)**: Tự động tạo ra các câu hỏi và câu trả lời.\n2. **Eval Engine (Bộ máy chấm điểm)**: Sử dụng LLM-as-a-Judge để thực hiện việc đánh giá.\n3. **Failure Analysis (Phân tích lỗi)**: Tìm ra nguyên nhân dẫn đến việc AI trả lời sai.\n4. **Report (Báo cáo)**: Tổng hợp và trình bày kết quả benchmark.\n\nQuy trình này giúp cải thiện hiệu suất của các hệ thống AI thông qua việc đánh giá và phân tích chi tiết.",
-    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
-    "latency": 2.8316841000005297,
+    "question": "SDG trong quy trình AI Evaluation Factory có nghĩa là gì?",
+    "agent_answer": "SDG trong quy trình AI Evaluation Factory có nghĩa là \"Synthetic Data Generation\", tức là Tạo dữ liệu tổng hợp. Giai đoạn này liên quan đến việc tự động tạo ra các câu hỏi và câu trả lời để phục vụ cho quá trình đánh giá AI.",
+    "expected_answer": "SDG có nghĩa là Tạo dữ liệu (Synthetic Data Generation).",
+    "latency": 1.6333504000003813,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
@@ -855,11 +450,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI rất chính xác và đầy đủ, mô tả đúng quy trình đánh giá AI chuyên sâu. Nó không chỉ xác định được khái niệm 'AI Evaluation Factory' mà còn cung cấp thông tin chi tiết về các giai đoạn của quy trình. Ngôn ngữ sử dụng rõ ràng, chuyên nghiệp và liên quan trực tiếp đến câu hỏi của người dùng."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác, định nghĩa đúng về SDG là 'Synthetic Data Generation' và giải thích rõ ràng về vai trò của nó trong quy trình AI Evaluation Factory. Ngôn ngữ sử dụng cũng rất chuyên nghiệp."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về AI Evaluation Factory, nêu rõ chức năng và các giai đoạn của quy trình, từ đó giải quyết đúng câu hỏi của người dùng. Ngôn ngữ diễn đạt rõ ràng, chuyên nghiệp và dễ hiểu."
+          "reasoning": "Câu trả lời của AI chính xác với thông tin trong Ground Truth, đúng nghĩa của SDG là 'Synthetic Data Generation'. Ngoài ra, ngôn ngữ rõ ràng và chuyên nghiệp, giải thích thêm về vai trò của giai đoạn này trong quy trình AI Evaluation Factory, do đó rất liên quan và hữu ích cho câu hỏi."
         }
       }
     },
@@ -872,10 +467,10 @@
     ]
   },
   {
-    "question": "Nếu một quy trình không thực hiện 'đánh giá AI chuyên sâu' thì nó có thể được coi là AI Evaluation Factory theo định nghĩa của tài liệu không?",
-    "agent_answer": "Theo định nghĩa trong tài liệu, AI Evaluation Factory là quy trình đánh giá AI chuyên sâu. Nếu một quy trình không thực hiện 'đánh giá AI chuyên sâu', thì nó sẽ không được coi là AI Evaluation Factory. Quy trình này cần phải bao gồm các giai đoạn như Tạo dữ liệu tổng hợp, Bộ máy chấm điểm, Phân tích lỗi và Báo cáo để đáp ứng tiêu chí của AI Evaluation Factory.",
-    "expected_answer": "Không, theo tài liệu, AI Evaluation Factory được định nghĩa là 'quy trình đánh giá AI chuyên sâu', do đó, nếu không thực hiện 'đánh giá AI chuyên sâu' thì nó không thể được coi là AI Evaluation Factory.",
-    "latency": 1.9948205999999118,
+    "question": "Trước khi Bộ máy chấm điểm (Eval Engine) có thể thực hiện chức năng của mình một cách hiệu quả trong quy trình AI Evaluation Factory, giai đoạn nào cần phải được hoàn thành và tại sao lại cần thiết theo thứ tự đó?",
+    "agent_answer": "Trước khi Bộ máy chấm điểm (Eval Engine) có thể thực hiện chức năng của mình một cách hiệu quả trong quy trình AI Evaluation Factory, giai đoạn Tạo dữ liệu tổng hợp (SDG - Synthetic Data Generation) cần phải được hoàn thành trước. \n\nLý do là giai đoạn SDG tạo ra các câu hỏi và câu trả lời cần thiết để đánh giá hiệu suất của AI. Nếu không có dữ liệu đầu vào phù hợp, Bộ máy chấm điểm sẽ không có cơ sở để thực hiện đánh giá chính xác. Dữ liệu tổng hợp này cung cấp các tình huống và kịch bản mà AI sẽ phải xử lý, từ đó cho phép Eval Engine đánh giá Hit Rate, MRR và độ chính xác của câu trả lời một cách hiệu quả. \n\nDo đó, việc hoàn thành giai đoạn SDG là cần thiết để đảm bảo rằng Bộ máy chấm điểm có đủ thông tin và ngữ cảnh để thực hiện đánh giá chính xác và đáng tin cậy.",
+    "expected_answer": "Giai đoạn SDG (Tạo dữ liệu) cần phải được hoàn thành trước Eval Engine. Lý do là Bộ máy chấm điểm cần dữ liệu để thực hiện việc chấm điểm và đánh giá hiệu suất AI, và SDG chịu trách nhiệm tạo ra bộ dữ liệu thử nghiệm đó.",
+    "latency": 4.1775696000004245,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
@@ -886,11 +481,73 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và nhất quán với Ground Truth. Nó giải thích rõ ràng rằng quy trình không thực hiện đánh giá AI chuyên sâu thì không thể được coi là AI Evaluation Factory, đồng thời cung cấp thông tin bổ sung về các giai đoạn trong quy trình. Ngôn ngữ sử dụng là lịch sự và dễ hiểu."
+          "reasoning": "Câu trả lời của AI chính xác và hoàn toàn phù hợp với Ground Truth. Nó giải thích rõ ràng lý do giai đoạn Tạo dữ liệu tổng hợp (SDG) là cần thiết trước bộ máy chấm điểm (Eval Engine), cụ thể là vì SDG cung cấp dữ liệu cần thiết cho đánh giá hiệu suất AI. Hành văn mạch lạc và chuyên nghiệp, không có lỗi ngữ pháp hay diễn đạt."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác với Ground Truth, giải thích rõ ràng rằng quy trình không thực hiện 'đánh giá AI chuyên sâu' thì không thể được coi là AI Evaluation Factory. Ngôn ngữ sử dụng trong câu trả lời cũng rất chuyên nghiệp và dễ hiểu."
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác và đồng nhất với Ground Truth. Nó nêu rõ giai đoạn SDG cần phải hoàn thành và lý do vì sao điều này là cần thiết, đồng thời giải thích rõ ràng về vai trò của dữ liệu tổng hợp trong quá trình đánh giá hiệu suất AI. Ngôn ngữ được sử dụng lịch sự và dễ hiểu."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_hard",
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Vai trò của Hit Rate và MRR trong AI Evaluation Factory là gì, và tại sao việc đo lường chúng cùng với độ chính xác lại cần thiết cho một 'quy trình đánh giá AI chuyên sâu'?",
+    "agent_answer": "Hit Rate và MRR (Mean Reciprocal Rank) đóng vai trò quan trọng trong AI Evaluation Factory vì chúng giúp đo lường hiệu suất của hệ thống AI trong việc cung cấp câu trả lời chính xác và phù hợp với yêu cầu của người dùng.\n\n1. **Hit Rate**: Đây là tỷ lệ phần trăm của các câu hỏi mà AI trả lời đúng trong tổng số câu hỏi được đặt ra. Hit Rate giúp đánh giá khả năng của AI trong việc cung cấp câu trả lời chính xác, từ đó xác định mức độ tin cậy của hệ thống.\n\n2. **MRR (Mean Reciprocal Rank)**: Đây là chỉ số đo lường độ chính xác của các câu trả lời được xếp hạng. MRR tính toán vị trí của câu trả lời đúng trong danh sách các câu trả lời được đề xuất. Chỉ số này rất hữu ích trong các hệ thống tìm kiếm hoặc gợi ý, nơi mà không chỉ câu trả lời đúng mà còn thứ tự của chúng cũng quan trọng.\n\nViệc đo lường Hit Rate, MRR và độ chính xác là cần thiết cho một quy trình đánh giá AI chuyên sâu vì:\n\n- **Đánh giá toàn diện**: Các chỉ số này cung cấp cái nhìn tổng quan về hiệu suất của AI, giúp xác định các lĩnh vực cần cải thiện.\n- **Phân tích lỗi**: Khi hiểu rõ về Hit Rate và MRR, các nhà phát triển có thể thực hiện phân tích lỗi hiệu quả hơn, từ đó tìm ra nguyên nhân của các câu trả lời sai và cải thiện mô hình.\n- **Tối ưu hóa hệ thống**: Các chỉ số này giúp tối ưu hóa các thuật toán và quy trình, đảm bảo rằng AI ngày càng chính xác và hiệu quả hơn trong việc phục vụ người dùng.\n\nTóm lại, Hit Rate, MRR và độ chính xác là những chỉ số thiết yếu trong việc đánh giá và cải thiện hiệu suất của hệ thống AI, đảm bảo rằng nó đáp ứng tốt nhất nhu cầu của người dùng.",
+    "expected_answer": "Hit Rate và MRR cung cấp cái nhìn sâu sắc hơn về hiệu suất tìm kiếm và xếp hạng của AI ngoài độ chính xác đơn thuần. Hit Rate đo lường tỷ lệ câu trả lời đúng được tìm thấy, trong khi MRR đánh giá chất lượng vị trí của câu trả lời đó. Kết hợp ba chỉ số này cho phép đánh giá toàn diện khả năng của AI trong việc không chỉ tìm ra câu trả lời đúng mà còn trình bày chúng một cách hiệu quả và ưu tiên, điều rất quan trọng trong một quy trình đánh giá chuyên sâu.",
+    "latency": 7.725664399999914,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Câu trả lời của AI cung cấp thông tin đúng về Hit Rate và MRR, nhưng thiếu một số điểm quan trọng so với Ground Truth. Nó không nhấn mạnh tầm quan trọng của việc trình bày và ưu tiên câu trả lời, điều mà Ground Truth đã nêu rõ. Ngoài ra, việc giải thích về giá trị của các chỉ số trong một quy trình đánh giá chuyên sâu cũng còn thiếu sót. Mặc dù ngôn ngữ lịch sự và rõ ràng, nhưng thông tin không hoàn toàn đầy đủ để đạt điểm cao hơn."
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Câu trả lời cung cấp thông tin chính xác về Hit Rate và MRR. Tuy nhiên, nó thiếu chiều sâu trong việc giải thích rõ ràng cách mà Hit Rate và MRR cung cấp cái nhìn sâu sắc hơn về hiệu suất tìm kiếm và xếp hạng của AI. Một số điểm liên quan đến tầm quan trọng của việc trình bày câu trả lời một cách hiệu quả và ưu tiên không được đề cập. Hơn nữa, cách diễn đạt có thể cải thiện để làm cho bài viết rõ ràng và dễ hiểu hơn cho người đọc bình thường."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_hard",
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Nếu một quy trình không thực hiện 'đánh giá AI chuyên sâu' thì nó có thể được coi là AI Evaluation Factory theo định nghĩa của tài liệu không?",
+    "agent_answer": "Theo định nghĩa trong tài liệu, AI Evaluation Factory là quy trình đánh giá AI chuyên sâu, bao gồm các giai đoạn cụ thể như tạo dữ liệu tổng hợp, chấm điểm, phân tích lỗi và báo cáo. Nếu một quy trình không thực hiện 'đánh giá AI chuyên sâu', thì nó sẽ không được coi là AI Evaluation Factory theo định nghĩa này.",
+    "expected_answer": "Không, theo tài liệu, AI Evaluation Factory được định nghĩa là 'quy trình đánh giá AI chuyên sâu', do đó, nếu không thực hiện 'đánh giá AI chuyên sâu' thì nó không thể được coi là AI Evaluation Factory.",
+    "latency": 1.7647386000007828,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và giải thích rõ ràng về định nghĩa của AI Evaluation Factory, đồng thời khẳng định rằng nếu quy trình không thực hiện 'đánh giá AI chuyên sâu', thì nó không thể được coi là AI Evaluation Factory. Ngôn ngữ sử dụng cũng lịch sự và dễ hiểu."
+        },
+        "helpful_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và phù hợp với định nghĩa trong tài liệu, giải thích rõ ràng rằng một quy trình không thực hiện 'đánh giá AI chuyên sâu' sẽ không được coi là AI Evaluation Factory. Ngôn ngữ được sử dụng trong câu trả lời rất chuyên nghiệp và dễ hiểu."
         }
       }
     },
@@ -904,10 +561,41 @@
     ]
   },
   {
-    "question": "Hãy kể tên 4 giai đoạn chính của quy trình AI Evaluation Factory.",
-    "agent_answer": "Bốn giai đoạn chính của quy trình AI Evaluation Factory là:\n\n1. SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp): Tự động tạo câu hỏi/trả lời.\n2. Eval Engine (Bộ máy chấm điểm): Sử dụng LLM-as-a-Judge để đánh giá.\n3. Failure Analysis (Phân tích lỗi): Tìm ra nguyên nhân AI trả lời sai.\n4. Report (Báo cáo): Tổng hợp kết quả benchmark.",
-    "expected_answer": "4 giai đoạn chính là: 1. SDG (Tạo dữ liệu), 2. Eval Engine (Bộ máy chấm điểm), 3. Failure Analysis (Phân tích lỗi), 4. Report (Báo cáo).",
-    "latency": 2.0108274000003803,
+    "question": "Mối quan hệ giữa 'Eval Engine (Bộ máy chấm điểm)' và 'Failure Analysis (Phân tích lỗi)' trong AI Evaluation Factory là gì, và tại sao thứ tự này lại quan trọng để đạt được mục tiêu 'đánh giá AI chuyên sâu'?",
+    "agent_answer": "Mối quan hệ giữa 'Eval Engine (Bộ máy chấm điểm)' và 'Failure Analysis (Phân tích lỗi)' trong AI Evaluation Factory là rất chặt chẽ và có tính chất bổ sung cho nhau. \n\n- **Eval Engine** là giai đoạn đầu tiên trong quá trình phân tích, nơi mà các câu trả lời của AI được đánh giá dựa trên các tiêu chí như Hit Rate, MRR và độ chính xác. Giai đoạn này sử dụng LLM-as-a-Judge để chấm điểm các câu trả lời, từ đó xác định mức độ hiệu quả của AI trong việc cung cấp thông tin chính xác.\n\n- Sau khi có kết quả từ Eval Engine, giai đoạn **Failure Analysis** sẽ diễn ra. Giai đoạn này tập trung vào việc phân tích các lỗi mà AI đã mắc phải trong quá trình đánh giá. Mục tiêu là tìm ra nguyên nhân gốc rễ của những câu trả lời sai, từ đó có thể đưa ra các biện pháp cải thiện cho AI.\n\nThứ tự này quan trọng vì:\n\n1. **Phân tích có cơ sở**: Việc đánh giá trước tiên cung cấp dữ liệu và thông tin cần thiết để phân tích lỗi. Nếu không có kết quả đánh giá, việc xác định nguyên nhân của các lỗi sẽ trở nên khó khăn hơn.\n\n2. **Cải tiến liên tục**: Bằng cách hiểu rõ các lỗi sau khi đã có đánh giá, các nhà phát triển có thể thực hiện các điều chỉnh cần thiết để cải thiện hiệu suất của AI. Điều này tạo ra một vòng lặp cải tiến liên tục, giúp AI ngày càng hoàn thiện hơn.\n\n3. **Đảm bảo tính chính xác**: Việc phân tích lỗi sau khi đánh giá giúp đảm bảo rằng các vấn đề được giải quyết một cách có hệ thống, từ đó nâng cao độ chính xác và độ tin cậy của AI trong các ứng dụng thực tế.\n\nTóm lại, Eval Engine và Failure Analysis là hai giai đoạn không thể tách rời trong quy trình đánh giá AI chuyên sâu, và thứ tự của chúng đóng vai trò quan trọng trong việc đạt được mục tiêu cải thiện hiệu suất của AI.",
+    "expected_answer": "'Eval Engine' chịu trách nhiệm chấm điểm các câu trả lời, cung cấp dữ liệu định lượng về hiệu suất của AI. Sau đó, 'Failure Analysis' sẽ sử dụng kết quả chấm điểm này để phân tích sâu hơn các trường hợp AI thất bại, tìm ra nguyên nhân gốc rễ. Thứ tự này quan trọng vì nó cho phép hiểu rõ hơn không chỉ 'AI hoạt động tốt đến mức nào' mà còn 'tại sao AI lại thất bại', từ đó cung cấp thông tin chuyên sâu để cải thiện hệ thống, đúng với bản chất đánh giá chuyên sâu.",
+    "latency": 8.256263299999773,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Câu trả lời có thông tin đúng và cung cấp một cái nhìn hợp lý về mối quan hệ giữa Eval Engine và Failure Analysis, đồng thời nêu rõ tầm quan trọng của thứ tự này. Tuy nhiên, câu trả lời thiếu độ chính xác khi không đề cập đến sự cần thiết phải hiểu rõ 'tại sao AI lại thất bại', và cách mà thông tin được cung cấp từ Eval Engine có thể giúp ích cho việc cải thiện hệ thống. Cách diễn đạt đôi khi hơi lan man và có thể được trình bày rõ ràng hơn."
+        },
+        "helpful_judge": {
+          "score": 4,
+          "reasoning": "Câu trả lời của AI cung cấp thông tin đúng và liên quan đến câu hỏi, mô tả mối quan hệ giữa Eval Engine và Failure Analysis trong quy trình đánh giá AI. Tuy nhiên, có một số chi tiết có thể được cải thiện để tăng cường độ chính xác và rõ ràng hơn so với Ground Truth. Cách diễn đạt cũng lịch sự và dễ hiểu, nhưng vẫn có thể diễn đạt theo những cách súc tích hơn."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_hard",
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory là gì?",
+    "agent_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu, nhằm đo lường các chỉ số như Hit Rate, MRR và độ chính xác của câu trả lời. Quy trình này bao gồm 4 giai đoạn chính: \n\n1. **SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp)**: Tự động tạo ra các câu hỏi và câu trả lời.\n2. **Eval Engine (Bộ máy chấm điểm)**: Sử dụng LLM-as-a-Judge để thực hiện việc đánh giá.\n3. **Failure Analysis (Phân tích lỗi)**: Tìm ra nguyên nhân dẫn đến việc AI trả lời sai.\n4. **Report (Báo cáo)**: Tổng hợp và trình bày kết quả benchmark.\n\nQuy trình này giúp cải thiện hiệu suất của các hệ thống AI thông qua việc đánh giá và phân tích một cách có hệ thống.",
+    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
+    "latency": 3.3605283999995663,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
@@ -918,11 +606,73 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác so với Ground Truth về 4 giai đoạn chính của quy trình AI Evaluation Factory. Các thuật ngữ và mô tả đều đúng và rõ ràng, thể hiện tính chuyên nghiệp trong cách diễn đạt."
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về AI Evaluation Factory, giải thích rõ quy trình đánh giá AI chuyên sâu và nêu rõ các giai đoạn chính một cách chi tiết. Ngôn ngữ sử dụng lịch sự, rõ ràng và dễ hiểu, phù hợp với yêu cầu về sự chuyên nghiệp."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI chính xác và phù hợp với thông tin trong Ground Truth. Các giai đoạn được nêu rõ ràng và đúng thứ tự, sử dụng ngôn ngữ chuyên nghiệp."
+          "reasoning": "Câu trả lời của AI cung cấp một mô tả chính xác và đầy đủ về AI Evaluation Factory, đi sâu vào các giai đoạn của quy trình và các chỉ số liên quan. Đồng thời, ngôn ngữ được sử dụng rõ ràng và chuyên nghiệp, giúp người đọc dễ hiểu."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy",
+      "doc_hard"
+    ]
+  },
+  {
+    "question": "Hãy kể tên 4 giai đoạn chính của quy trình AI Evaluation Factory.",
+    "agent_answer": "Bốn giai đoạn chính của quy trình AI Evaluation Factory là:\n\n1. SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp): Tự động tạo câu hỏi/trả lời.\n2. Eval Engine (Bộ máy chấm điểm): Sử dụng LLM-as-a-Judge để đánh giá.\n3. Failure Analysis (Phân tích lỗi): Tìm ra nguyên nhân AI trả lời sai.\n4. Report (Báo cáo): Tổng hợp kết quả benchmark.",
+    "expected_answer": "4 giai đoạn chính là: 1. SDG (Tạo dữ liệu), 2. Eval Engine (Bộ máy chấm điểm), 3. Failure Analysis (Phân tích lỗi), 4. Report (Báo cáo).",
+    "latency": 2.334962299999461,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 4.5,
+      "agreement_rate": 0.75,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác với Ground Truth, liệt kê đúng 4 giai đoạn chính của quy trình AI Evaluation Factory và sử dụng ngôn ngữ rõ ràng, lịch sự."
+        },
+        "helpful_judge": {
+          "score": 4,
+          "reasoning": "Câu trả lời của AI chính xác về các giai đoạn chính của quy trình AI Evaluation Factory. Tuy nhiên, phần mô tả cho giai đoạn 'SDG' hơi lạc đề khi nhấn mạnh vào việc 'tự động tạo câu hỏi/trả lời' mà không đề cập rõ đến 'tạo dữ liệu tổng hợp'. Cách diễn đạt rõ ràng và có thể cải thiện thêm để nâng cao tính chuyên nghiệp."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy",
+      "doc_hard"
+    ]
+  },
+  {
+    "question": "Quy trình AI Evaluation Factory gồm mấy giai đoạn chính?",
+    "agent_answer": "Quy trình AI Evaluation Factory gồm 4 giai đoạn chính.",
+    "expected_answer": "Quy trình AI Evaluation Factory gồm 4 giai đoạn chính.",
+    "latency": 0.7611520999998902,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời hoàn toàn chính xác với Ground Truth, cung cấp thông tin đúng mà người dùng cần biết về số giai đoạn của quy trình AI Evaluation Factory. Ngôn ngữ rõ ràng và lịch sự."
+        },
+        "helpful_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác với thông tin trong Ground Truth, đồng thời sử dụng ngôn ngữ rõ ràng và chuyên nghiệp."
         }
       }
     },
@@ -936,24 +686,24 @@
   },
   {
     "question": "Với tư cách là một 'quy trình đánh giá AI chuyên sâu', AI Evaluation Factory có điểm gì nổi bật so với các hình thức đánh giá cơ bản thông thường?",
-    "agent_answer": "AI Evaluation Factory nổi bật so với các hình thức đánh giá cơ bản thông thường nhờ vào quy trình đánh giá chuyên sâu và hệ thống hóa của nó. Cụ thể, những điểm nổi bật bao gồm:\n\n1. **Tạo dữ liệu tổng hợp (SDG)**: Quy trình bắt đầu bằng việc tự động tạo ra câu hỏi và câu trả lời, giúp đảm bảo rằng dữ liệu đánh giá là phong phú và đa dạng, từ đó phản ánh chính xác hơn khả năng của AI.\n\n2. **Sử dụng LLM-as-a-Judge**: Bộ máy chấm điểm trong AI Evaluation Factory sử dụng các mô hình ngôn ngữ lớn (LLM) để đánh giá câu trả lời, mang lại độ chính xác cao hơn so với các phương pháp đánh giá thủ công hoặc đơn giản.\n\n3. **Phân tích lỗi chi tiết**: Giai đoạn phân tích lỗi giúp xác định nguyên nhân cụ thể dẫn đến các câu trả lời sai, từ đó cung cấp thông tin quý giá để cải thiện mô hình AI.\n\n4. **Báo cáo tổng hợp**: Cuối cùng, quy trình kết thúc bằng việc tổng hợp kết quả benchmark, giúp các nhà phát triển và nhà nghiên cứu có cái nhìn tổng quan về hiệu suất của AI và các lĩnh vực cần cải thiện.\n\nNhững yếu tố này kết hợp lại tạo nên một quy trình đánh giá toàn diện và hiệu quả hơn, giúp nâng cao chất lượng và độ tin cậy của các hệ thống AI.",
+    "agent_answer": "AI Evaluation Factory nổi bật so với các hình thức đánh giá cơ bản thông thường ở một số điểm chính sau:\n\n1. **Quy trình chuyên sâu**: AI Evaluation Factory không chỉ đơn thuần là đánh giá mà còn bao gồm nhiều giai đoạn khác nhau, từ việc tạo dữ liệu tổng hợp cho đến phân tích lỗi và báo cáo kết quả. Điều này giúp đảm bảo rằng quá trình đánh giá là toàn diện và chi tiết.\n\n2. **Sử dụng công nghệ tiên tiến**: Việc áp dụng LLM-as-a-Judge trong giai đoạn chấm điểm cho phép đánh giá câu trả lời một cách chính xác và khách quan hơn, so với các phương pháp đánh giá thủ công hoặc đơn giản.\n\n3. **Tập trung vào phân tích lỗi**: Giai đoạn phân tích lỗi giúp xác định nguyên nhân cụ thể của các câu trả lời sai, từ đó cung cấp thông tin quý giá để cải thiện mô hình AI. Điều này không thường thấy trong các hình thức đánh giá cơ bản.\n\n4. **Đo lường các chỉ số quan trọng**: AI Evaluation Factory đo lường các chỉ số như Hit Rate, MRR và độ chính xác, giúp cung cấp cái nhìn sâu sắc hơn về hiệu suất của AI so với các phương pháp đánh giá thông thường có thể chỉ tập trung vào một hoặc hai chỉ số.\n\n5. **Báo cáo tổng hợp**: Giai đoạn báo cáo không chỉ đơn thuần là đưa ra kết quả mà còn tổng hợp và phân tích các dữ liệu thu thập được, giúp các nhà phát triển và nhà nghiên cứu có cái nhìn tổng quát về hiệu suất của AI.\n\nTóm lại, AI Evaluation Factory mang lại một quy trình đánh giá toàn diện, chính xác và có khả năng cải thiện hiệu suất của AI một cách hiệu quả hơn so với các hình thức đánh giá cơ bản.",
     "expected_answer": "Điểm nổi bật là nó là một quy trình đánh giá AI chuyên sâu, vượt xa các hình thức đánh giá cơ bản thông thường.",
-    "latency": 4.573233399999481,
+    "latency": 6.680178999999953,
     "retrieval": {
       "hit_rate": 0.0,
       "mrr": 0.0
     },
     "judge": {
-      "final_score": 4.0,
-      "agreement_rate": 1.0,
+      "final_score": 3.5,
+      "agreement_rate": 0.75,
       "individual_scores": {
         "strict_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về quy trình đánh giá AI chuyên sâu trong AI Evaluation Factory so với các hình thức đánh giá cơ bản. Tuy nhiên, mặc dù nội dung có thể được coi là hữu ích và chi tiết, nhưng việc diễn đạt có thể được cải thiện để rõ ràng hơn và tập trung nhiều hơn vào sự khác biệt chính giữa hai hình thức đánh giá, vì đó là trọng tâm của câu hỏi."
+          "score": 3,
+          "reasoning": "Câu trả lời của AI có thông tin đúng về tính chất chuyên sâu của quy trình đánh giá AI, nhưng lại không hoàn toàn bám sát vào trọng tâm câu hỏi, cũng như không thể hiện một cách rõ ràng điểm nổi bật so với các hình thức đánh giá cơ bản thông thường. Điều này dẫn đến việc thiếu tính súc tích và điển hình trong câu trả lời."
         },
         "helpful_judge": {
           "score": 4,
-          "reasoning": "Câu trả lời của AI đúng và nêu rõ các điểm nổi bật của AI Evaluation Factory so với các hình thức đánh giá cơ bản, tuy nhiên, một số phần có thể được rút gọn để cải thiện độ rõ ràng. Cách diễn đạt lịch sự và chuyên nghiệp, nhưng hơi dài dòng."
+          "reasoning": "Câu trả lời của AI có chứa thông tin chính xác và chi tiết về điểm nổi bật của AI Evaluation Factory so với các hình thức đánh giá cơ bản thông thường. Tuy nhiên, có thể cải thiện việc tóm tắt các điểm chính một cách ngắn gọn hơn để giúp người đọc dễ hiểu hơn. Ngôn ngữ sử dụng cũng lịch sự và rõ ràng."
         }
       }
     },
@@ -967,9 +717,9 @@
   },
   {
     "question": "Sau khi toàn bộ quy trình AI Evaluation Factory được hoàn thành, đặc biệt là sau giai đoạn Phân tích lỗi, kết quả và những phát hiện quan trọng sẽ được tổng hợp và truyền đạt dưới hình thức nào cho các bên liên quan?",
-    "agent_answer": "Sau khi toàn bộ quy trình AI Evaluation Factory được hoàn thành, đặc biệt là sau giai đoạn Phân tích lỗi, kết quả và những phát hiện quan trọng sẽ được tổng hợp và truyền đạt dưới hình thức báo cáo (Report). Báo cáo này sẽ cung cấp cái nhìn tổng quan về kết quả benchmark và những thông tin cần thiết cho các bên liên quan.",
+    "agent_answer": "Sau khi toàn bộ quy trình AI Evaluation Factory được hoàn thành, đặc biệt là sau giai đoạn Phân tích lỗi, kết quả và những phát hiện quan trọng sẽ được tổng hợp và truyền đạt dưới hình thức báo cáo (Report). Báo cáo này sẽ cung cấp cái nhìn tổng quan về kết quả benchmark và các thông tin liên quan đến hiệu suất của AI.",
     "expected_answer": "Sau khi hoàn thành các giai đoạn, bao gồm cả Phân tích lỗi, kết quả và những phát hiện quan trọng sẽ được tổng hợp và truyền đạt dưới hình thức Báo cáo (Report). Báo cáo này cung cấp cái nhìn tổng quan về hiệu suất AI, các vấn đề được phát hiện và có thể bao gồm các đề xuất cải tiến.",
-    "latency": 1.6320097999996506,
+    "latency": 1.9304482000006828,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 0.5
@@ -980,11 +730,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 4,
-          "reasoning": "Câu trả lời của AI chủ yếu đúng với Ground Truth, nhưng thiếu thông tin chi tiết về các vấn đề được phát hiện và các đề xuất cải tiến. Ngôn ngữ cũng được thể hiện một cách rõ ràng và chuyên nghiệp, nhưng có thể cải thiện thêm để đảm bảo đầy đủ thông tin."
+          "reasoning": "Câu trả lời của AI chính xác trong việc chỉ ra rằng kết quả và những phát hiện quan trọng sẽ được truyền đạt dưới hình thức báo cáo, giống như Ground Truth. Tuy nhiên, nó thiếu thông tin về việc báo cáo có thể bao gồm các đề xuất cải tiến, điều này làm cho câu trả lời không đầy đủ hoàn toàn. Ngôn ngữ sử dụng trong câu trả lời cũng chuyên nghiệp và rõ ràng."
         },
         "helpful_judge": {
           "score": 4,
-          "reasoning": "Câu trả lời chứa thông tin chính xác về việc kết quả sẽ được tổng hợp trong báo cáo, tuy nhiên thiếu đề cập đến việc cung cấp các đề xuất cải tiến, điều này làm giảm độ hoàn thiện của câu trả lời. Ngữ điệu lịch sự và rõ ràng."
+          "reasoning": "Câu trả lời của AI là chính xác và giải quyết đúng vấn đề được hỏi. Tuy nhiên, có một phần thiếu sót nhỏ về các đề xuất cải tiến không được đề cập trong câu trả lời, điều này làm cho thông tin chưa hoàn toàn đầy đủ. Ngôn ngữ được sử dụng là rõ ràng và chuyên nghiệp."
         }
       }
     },
@@ -997,13 +747,44 @@
     ]
   },
   {
-    "question": "Quy trình AI Evaluation Factory gồm mấy giai đoạn chính?",
-    "agent_answer": "Quy trình AI Evaluation Factory gồm 4 giai đoạn chính.",
-    "expected_answer": "Quy trình AI Evaluation Factory gồm 4 giai đoạn chính.",
-    "latency": 0.7213737000001856,
+    "question": "Trong quy trình AI Evaluation Factory, vai trò cụ thể của giai đoạn SDG là gì và tại sao nó được xem là bước khởi đầu thiết yếu?",
+    "agent_answer": "Giai đoạn SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp) trong quy trình AI Evaluation Factory có vai trò cụ thể là tự động tạo ra các câu hỏi và câu trả lời. Đây là bước khởi đầu thiết yếu vì nó cung cấp dữ liệu đầu vào cần thiết cho các giai đoạn tiếp theo trong quy trình đánh giá AI.\n\nViệc tạo ra dữ liệu tổng hợp giúp đảm bảo rằng có đủ và đa dạng các tình huống để kiểm tra khả năng của AI. Điều này không chỉ giúp đánh giá chính xác hơn mà còn giúp phát hiện các điểm yếu trong khả năng của AI, từ đó cải thiện hiệu suất của nó. Nếu không có giai đoạn này, quy trình đánh giá sẽ thiếu dữ liệu phong phú và có thể dẫn đến kết quả không chính xác hoặc không đầy đủ.",
+    "expected_answer": "Giai đoạn SDG (Tạo dữ liệu) là bước khởi đầu thiết yếu trong quy trình AI Evaluation Factory vì nó chịu trách nhiệm tạo ra các bộ dữ liệu chất lượng cao, cần thiết để tiến hành đánh giá AI một cách chuyên sâu và toàn diện.",
+    "latency": 3.2891889000002266,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Câu trả lời của AI cung cấp thông tin về giai đoạn SDG nhưng không hoàn toàn chính xác. Giai đoạn SDG được mô tả như là việc tự động tạo ra các câu hỏi và trả lời, trong khi đó Ground Truth nhấn mạnh việc tạo ra bộ dữ liệu chất lượng cao cho đánh giá AI, không chỉ dừng lại ở câu hỏi và trả lời. Mặc dù câu trả lời có phần liên quan và đưa ra lý do tại sao giai đoạn này quan trọng, nhưng thông tin vẫn còn thiếu sót và không chính xác hoàn toàn. Ngôn ngữ sử dụng cũng khá rõ ràng nhưng còn chưa thật sự chuyên nghiệp."
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Câu trả lời của AI có thông tin đúng nhưng thiếu sót về vai trò cụ thể của giai đoạn SDG. Nó mô tả việc tạo ra câu hỏi và câu trả lời mà không nhấn mạnh rằng nó tạo ra bộ dữ liệu chất lượng cao cần thiết cho đánh giá AI. Ngoài ra, câu trả lời hơi lan man khi đề cập đến các điểm yếu mà giai đoạn này giúp phát hiện mà không tập trung vào mục tiêu chính của giai đoạn SDG. Mặc dù ngôn ngữ khá rõ ràng nhưng có thể cải thiện tính chuyên nghiệp bằng cách rút gọn và khúc triết hơn."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_hard",
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Giai đoạn nào trong AI Evaluation Factory có vai trò giải thích nguyên nhân gốc rễ của các vấn đề đã được chấm điểm?",
+    "agent_answer": "Giai đoạn có vai trò giải thích nguyên nhân gốc rễ của các vấn đề đã được chấm điểm trong AI Evaluation Factory là giai đoạn 3, Failure Analysis (Phân tích lỗi). Giai đoạn này tập trung vào việc tìm ra nguyên nhân AI trả lời sai.",
+    "expected_answer": "Giai đoạn 'Failure Analysis (Phân tích lỗi)' có vai trò giải thích nguyên nhân gốc rễ của các vấn đề đã được chấm điểm.",
+    "latency": 1.4403043000002071,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
     },
     "judge": {
       "final_score": 5.0,
@@ -1011,42 +792,42 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và phù hợp với thông tin trong Ground Truth. Ngoài ra, câu trả lời được diễn đạt một cách rõ ràng và lịch sự."
+          "reasoning": "Câu trả lời của AI chính xác hoàn toàn so với thông tin trong Ground Truth. Nó không chỉ xác định đúng giai đoạn 'Failure Analysis' mà còn cung cấp thêm thông tin về mục đích của giai đoạn này, thể hiện sự rõ ràng và chuyên nghiệp trong cách diễn đạt."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và trùng khớp với thông tin từ Ground Truth. Câu trả lời rõ ràng, súc tích và sử dụng ngôn ngữ chuyên nghiệp."
+          "reasoning": "Câu trả lời của AI chính xác hoàn toàn với thông tin trong Ground Truth, đồng thời sử dụng ngôn ngữ rõ ràng và chuyên nghiệp để giải thích giai đoạn liên quan trong AI Evaluation Factory."
         }
       }
     },
     "expected_retrieval_ids": [
-      "doc_easy"
+      "doc_adversarial"
     ],
     "retrieved_ids": [
-      "doc_easy",
-      "doc_hard"
+      "doc_hard",
+      "doc_easy"
     ]
   },
   {
     "question": "Nếu giai đoạn 'Report (Báo cáo)' không được thực hiện một cách toàn diện, tổng hợp đầy đủ từ các giai đoạn trước đó, điều đó có thể làm suy yếu mục tiêu 'đánh giá AI chuyên sâu' của AI Evaluation Factory như thế nào?",
-    "agent_answer": "Nếu giai đoạn 'Report (Báo cáo)' không được thực hiện một cách toàn diện và không tổng hợp đầy đủ từ các giai đoạn trước đó, điều này có thể làm suy yếu mục tiêu 'đánh giá AI chuyên sâu' của AI Evaluation Factory theo nhiều cách:\n\n1. **Thiếu thông tin tổng quan**: Báo cáo không đầy đủ sẽ không cung cấp cái nhìn tổng quan về hiệu suất của AI, dẫn đến việc các bên liên quan không thể hiểu rõ về khả năng và hạn chế của hệ thống AI.\n\n2. **Khó khăn trong việc ra quyết định**: Nếu không có báo cáo chi tiết, các quyết định liên quan đến cải tiến hoặc điều chỉnh AI sẽ thiếu cơ sở dữ liệu vững chắc, có thể dẫn đến những quyết định sai lầm hoặc không hiệu quả.\n\n3. **Không phát hiện được xu hướng**: Giai đoạn báo cáo là nơi tổng hợp và phân tích dữ liệu từ các giai đoạn trước. Nếu không thực hiện đúng, các xu hướng và mẫu quan trọng có thể bị bỏ lỡ, làm giảm khả năng cải thiện AI trong tương lai.\n\n4. **Giảm độ tin cậy**: Một báo cáo không đầy đủ có thể làm giảm độ tin cậy của quy trình đánh giá, khiến người dùng hoặc các bên liên quan nghi ngờ về tính chính xác và hiệu quả của AI.\n\n5. **Thiếu minh bạch**: Một báo cáo không rõ ràng có thể dẫn đến sự thiếu minh bạch trong quy trình đánh giá, làm giảm sự tin tưởng từ phía người dùng và các bên liên quan.\n\nTóm lại, giai đoạn 'Report (Báo cáo)' đóng vai trò quan trọng trong việc tổng hợp và truyền đạt kết quả đánh giá, và việc thực hiện không đầy đủ có thể ảnh hưởng nghiêm trọng đến toàn bộ quy trình đánh giá AI.",
+    "agent_answer": "Nếu giai đoạn 'Report (Báo cáo)' không được thực hiện một cách toàn diện và không tổng hợp đầy đủ từ các giai đoạn trước đó, điều này có thể làm suy yếu mục tiêu 'đánh giá AI chuyên sâu' của AI Evaluation Factory theo nhiều cách:\n\n1. **Thiếu thông tin tổng quát**: Báo cáo không đầy đủ có thể dẫn đến việc thiếu thông tin quan trọng về hiệu suất của AI, làm cho các bên liên quan không thể đưa ra quyết định chính xác về việc cải thiện hoặc điều chỉnh mô hình AI.\n\n2. **Khó khăn trong việc xác định xu hướng**: Nếu không có một báo cáo tổng hợp rõ ràng, việc phân tích các xu hướng trong dữ liệu đánh giá sẽ trở nên khó khăn, khiến cho việc nhận diện các vấn đề tiềm ẩn trong AI trở nên phức tạp hơn.\n\n3. **Giảm độ tin cậy**: Một báo cáo không đầy đủ có thể làm giảm độ tin cậy của quy trình đánh giá, vì các kết quả không được chứng minh rõ ràng có thể dẫn đến sự nghi ngờ về tính chính xác của các chỉ số như Hit Rate, MRR và độ chính xác.\n\n4. **Thiếu cơ sở cho cải tiến**: Giai đoạn báo cáo là cơ sở để đưa ra các khuyến nghị và cải tiến cho AI. Nếu không có một báo cáo toàn diện, các nhà phát triển sẽ thiếu thông tin cần thiết để tối ưu hóa mô hình.\n\n5. **Khó khăn trong việc giao tiếp kết quả**: Một báo cáo không đầy đủ có thể gây khó khăn trong việc truyền đạt kết quả đánh giá đến các bên liên quan, từ đó ảnh hưởng đến sự hợp tác và hỗ trợ trong các dự án AI.\n\nTóm lại, giai đoạn 'Report (Báo cáo)' đóng vai trò quan trọng trong việc đảm bảo rằng các kết quả đánh giá AI được hiểu rõ và có thể được sử dụng để cải thiện hiệu suất của mô hình, do đó việc thực hiện giai đoạn này một cách toàn diện là rất cần thiết.",
     "expected_answer": "Nếu 'Report' không tổng hợp toàn diện, nó có thể thất bại trong việc trình bày cái nhìn đầy đủ về hiệu suất AI, bao gồm cả các vấn đề được phát hiện qua 'Failure Analysis'. Điều này sẽ làm giảm khả năng cung cấp thông tin hữu ích để ra quyết định cải thiện AI, khiến quy trình đánh giá không đạt được chiều sâu cần thiết và không thể khai thác tối đa giá trị từ các giai đoạn trước.",
-    "latency": 5.531705799999145,
+    "latency": 7.200810799999999,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 0.5
     },
     "judge": {
-      "final_score": 3.5,
-      "agreement_rate": 0.75,
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
       "individual_scores": {
         "strict_judge": {
-          "score": 3,
-          "reasoning": "Câu trả lời của AI đưa ra nhiều điểm hợp lý về sự quan trọng của giai đoạn báo cáo trong quá trình đánh giá AI, tuy nhiên, vẫn thiếu một số yếu tố chính có trong Ground Truth. Cụ thể, AI không đề cập đến việc 'Failure Analysis' là một phần quan trọng mà nếu không được báo cáo sẽ làm giảm độ sâu trong đánh giá. Các thông tin được nêu trong câu trả lời tuy có liên quan và hợp lý, nhưng còn thiếu sót trong việc tổng hợp các vấn đề cụ thể mà Ground Truth đã chỉ ra. Mặc dù cách diễn đạt rõ ràng và lịch sự, nhưng sự thiếu chính xác và đầy đủ trong thông tin làm giảm điểm số."
+          "score": 4,
+          "reasoning": "Câu trả lời của AI đã cung cấp những phân tích hợp lý về tác động của việc không thực hiện giai đoạn 'Report' một cách toàn diện đối với việc đánh giá AI. Tuy nhiên, có một số khía cạnh mà câu trả lời có thể cải thiện, chẳng hạn như việc cần nhấn mạnh rõ hơn vào vấn đề 'Failure Analysis' mà Ground Truth đã đề cập. Dù vậy, thông tin vẫn chính xác và chuyên nghiệp."
         },
         "helpful_judge": {
           "score": 4,
-          "reasoning": "Câu trả lời của AI cung cấp những thông tin chính xác và hữu ích liên quan đến vấn đề được đặt ra. Nó nêu rõ các cách mà giai đoạn 'Report' không đầy đủ có thể làm suy yếu mục tiêu 'đánh giá AI chuyên sâu'. Tuy nhiên, có một số điểm chưa được đề cập đến, chẳng hạn như việc không đề cập đến 'Failure Analysis', điều này khiến cho câu trả lời chưa hoàn toàn bao quát như ground truth. Ngôn ngữ sử dụng cũng rõ ràng và chuyên nghiệp."
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác và liên quan đến câu hỏi, nêu rõ các tác động tiềm ẩn của việc không thực hiện giai đoạn 'Report' một cách toàn diện. Tuy nhiên, một vài điểm trong câu trả lời có thể không hoàn toàn khớp với Ground Truth, như việc chưa đề cập rõ ràng đến 'Failure Analysis', là một khía cạnh quan trọng trong việc trình bày một cái nhìn đầy đủ về hiệu suất AI. Ngôn ngữ sử dụng trong câu trả lời cũng rõ ràng và chuyên nghiệp."
         }
       }
     },
@@ -1060,72 +841,10 @@
     ]
   },
   {
-    "question": "Giai đoạn nào trong AI Evaluation Factory có vai trò giải thích nguyên nhân gốc rễ của các vấn đề đã được chấm điểm?",
-    "agent_answer": "Giai đoạn có vai trò giải thích nguyên nhân gốc rễ của các vấn đề đã được chấm điểm trong AI Evaluation Factory là giai đoạn \"Failure Analysis\" (Phân tích lỗi). Giai đoạn này tập trung vào việc tìm ra nguyên nhân AI trả lời sai.",
-    "expected_answer": "Giai đoạn 'Failure Analysis (Phân tích lỗi)' có vai trò giải thích nguyên nhân gốc rễ của các vấn đề đã được chấm điểm.",
-    "latency": 1.8826576000001296,
-    "retrieval": {
-      "hit_rate": 0.0,
-      "mrr": 0.0
-    },
-    "judge": {
-      "final_score": 5.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và tương thích với Ground Truth. Ngoài ra, ngôn ngữ sử dụng cũng rõ ràng và chuyên nghiệp."
-        },
-        "helpful_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác, đúng với thông tin trong Ground Truth. Nó nêu rõ giai đoạn 'Failure Analysis' và giải thích rõ ràng về vai trò của giai đoạn này trong việc tìm ra nguyên nhân khi AI trả lời sai. Ngôn ngữ được sử dụng cũng lịch sự và dễ hiểu."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_adversarial"
-    ],
-    "retrieved_ids": [
-      "doc_hard",
-      "doc_easy"
-    ]
-  },
-  {
-    "question": "Trong quy trình AI Evaluation Factory, vai trò cụ thể của giai đoạn SDG là gì và tại sao nó được xem là bước khởi đầu thiết yếu?",
-    "agent_answer": "Giai đoạn SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp) trong quy trình AI Evaluation Factory có vai trò cụ thể là tự động tạo ra các câu hỏi và câu trả lời. Đây là bước khởi đầu thiết yếu vì nó cung cấp dữ liệu đầu vào cần thiết cho các giai đoạn tiếp theo trong quy trình đánh giá AI.\n\nViệc tạo ra dữ liệu tổng hợp giúp đảm bảo rằng có đủ và đa dạng các tình huống để kiểm tra khả năng của AI. Điều này không chỉ giúp đánh giá chính xác hơn mà còn giúp phát hiện các điểm yếu trong khả năng của AI trước khi tiến hành các bước đánh giá và phân tích sâu hơn. Nếu không có giai đoạn SDG, quy trình đánh giá sẽ thiếu dữ liệu cần thiết để thực hiện các phép đo như Hit Rate, MRR và độ chính xác của câu trả lời.",
-    "expected_answer": "Giai đoạn SDG (Tạo dữ liệu) là bước khởi đầu thiết yếu trong quy trình AI Evaluation Factory vì nó chịu trách nhiệm tạo ra các bộ dữ liệu chất lượng cao, cần thiết để tiến hành đánh giá AI một cách chuyên sâu và toàn diện.",
-    "latency": 3.3645429000007425,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 1.0
-    },
-    "judge": {
-      "final_score": 3.5,
-      "agreement_rate": 0.75,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 3,
-          "reasoning": "Câu trả lời của AI chứa thông tin có liên quan đến giai đoạn SDG, nhưng nó không hoàn toàn chính xác. Giai đoạn SDG không chỉ đơn thuần là tự động tạo ra các câu hỏi và câu trả lời mà còn phải chịu trách nhiệm tạo ra các bộ dữ liệu chất lượng cao, điều này không được đề cập rõ ràng trong câu trả lời. Cách diễn đạt cũng chưa hoàn toàn rõ ràng, làm cho thông tin trở nên hơi lan man."
-        },
-        "helpful_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI có độ chính xác cao về vai trò của giai đoạn SDG trong quy trình AI Evaluation Factory, nhưng cách diễn đạt có thể cải thiện để rõ ràng hơn về lý do tại sao nó là bước khởi đầu thiết yếu. Câu trả lời đã cung cấp thông tin liên quan và hữu ích, nhưng có thể bổ sung thêm về chất lượng và tính toàn diện của bộ dữ liệu mà giai đoạn này tạo ra để hoàn thiện hơn. Ngôn ngữ sử dụng cũng lịch sự và rõ ràng."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_hard"
-    ],
-    "retrieved_ids": [
-      "doc_hard",
-      "doc_easy"
-    ]
-  },
-  {
     "question": "AI Evaluation Factory là gì?",
     "agent_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu, nhằm đo lường các chỉ số như Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời. Quy trình này bao gồm 4 giai đoạn chính: \n\n1. **SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp)**: Tự động tạo ra các câu hỏi và câu trả lời.\n2. **Eval Engine (Bộ máy chấm điểm)**: Sử dụng LLM-as-a-Judge để thực hiện việc đánh giá.\n3. **Failure Analysis (Phân tích lỗi)**: Tìm ra nguyên nhân dẫn đến việc AI trả lời sai.\n4. **Report (Báo cáo)**: Tổng hợp và trình bày kết quả benchmark.\n\nQuy trình này giúp cải thiện hiệu suất của các hệ thống AI thông qua việc đánh giá và phân tích một cách có hệ thống.",
     "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
-    "latency": 3.232317299999522,
+    "latency": 4.275251799999751,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
@@ -1136,11 +855,42 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI cung cấp một định nghĩa chính xác và đầy đủ về AI Evaluation Factory, phù hợp với Ground Truth. Nó mô tả quy trình một cách rõ ràng, có cấu trúc và các giai đoạn chính được nêu rõ ràng, giúp người đọc hiểu rõ về quy trình này. Hơn nữa, ngôn ngữ được sử dụng lịch sự và chuyên nghiệp, không có lỗi ngữ pháp hay thiếu sót trong cách diễn đạt."
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về định nghĩa của AI Evaluation Factory, không chỉ nêu rõ đó là quy trình đánh giá AI chuyên sâu mà còn miêu tả chi tiết các giai đoạn của quy trình. Nội dung này cực kỳ liên quan và thể hiện sự chuyên nghiệp trong cách trình bày, sử dụng ngôn ngữ rõ ràng và có tổ chức."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI chính xác theo Ground Truth vì nó xác định rõ ràng AI Evaluation Factory là quy trình đánh giá AI chuyên sâu. Đồng thời, câu trả lời đã cung cấp thông tin chi tiết về các giai đoạn của quy trình, liên quan đến câu hỏi hỏi. Ngôn ngữ cũng rất chuyên nghiệp, rõ ràng và lịch sự."
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về AI Evaluation Factory, bao gồm các khía cạnh cụ thể của quy trình và mục tiêu nhằm cải thiện hệ thống AI. Ngôn ngữ rõ ràng và chuyên nghiệp, giúp người đọc dễ dàng hiểu được nội dung."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy",
+      "doc_hard"
+    ]
+  },
+  {
+    "question": "Giai đoạn SDG trong quy trình AI Evaluation Factory có nghĩa là gì?",
+    "agent_answer": "Giai đoạn SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp) trong quy trình AI Evaluation Factory có nghĩa là tự động tạo ra các câu hỏi và câu trả lời. Giai đoạn này đóng vai trò quan trọng trong việc cung cấp dữ liệu cần thiết để đánh giá hiệu suất của AI.",
+    "expected_answer": "SDG là viết tắt của 'Tạo dữ liệu'.",
+    "latency": 1.639361600000484,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 2.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI cung cấp thông tin sai lệch về giai đoạn SDG. SDG không chỉ đơn thuần là 'Tạo dữ liệu tổng hợp' mà còn không đề cập chính xác đến ngữ nghĩa của nó như trong Ground Truth. Thông tin về việc 'tự động tạo ra các câu hỏi và câu trả lời' là không chính xác và không liên quan đến định nghĩa chính xác của SDG. Mặc dù ngôn ngữ có phần rõ ràng, nhưng thông tin chính không chính xác tạo ra sự hiểu lầm."
+        },
+        "helpful_judge": {
+          "score": 2,
+          "reasoning": "Câu trả lời của AI có thông tin sai lệch một phần về ý nghĩa của SDG. Mặc dù nó đề cập đến việc tạo dữ liệu, mô tả 'tạo ra các câu hỏi và câu trả lời' không phản ánh đúng bản chất của 'Tạo dữ liệu tổng hợp'. Do đó, thông tin không hoàn toàn chính xác, và sự liên quan có thể gây hiểu lầm."
         }
       }
     },
@@ -1156,7 +906,7 @@
     "question": "Trong AI Evaluation Factory, giai đoạn nào đảm nhiệm việc cung cấp nguyên liệu thô cần thiết để bắt đầu quá trình đánh giá hiệu suất của AI?",
     "agent_answer": "Trong AI Evaluation Factory, giai đoạn đảm nhiệm việc cung cấp nguyên liệu thô cần thiết để bắt đầu quá trình đánh giá hiệu suất của AI là giai đoạn 1: SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp). Giai đoạn này tự động tạo ra các câu hỏi và câu trả lời để phục vụ cho quá trình đánh giá.",
     "expected_answer": "Giai đoạn SDG (Tạo dữ liệu) đảm nhiệm việc cung cấp nguyên liệu thô cần thiết.",
-    "latency": 1.5007095000000845,
+    "latency": 3.15498370000023,
     "retrieval": {
       "hit_rate": 0.0,
       "mrr": 0.0
@@ -1167,11 +917,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI chính xác hoàn toàn so với Ground Truth, khi xác định giai đoạn SDG là giai đoạn cung cấp nguyên liệu thô. Nội dung cũng được trình bày rõ ràng và chuyên nghiệp."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và phù hợp với Ground Truth. Đặc biệt, nó nêu rõ giai đoạn SDG là giai đoạn cung cấp nguyên liệu thô và giải thích được chức năng của giai đoạn này trong quá trình đánh giá hiệu suất của AI. Ngôn ngữ sử dụng cũng rất lịch sự và rõ ràng, đáp ứng tiêu chí về sự chuyên nghiệp."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và cung cấp thông tin đầy đủ về giai đoạn SDG trong AI Evaluation Factory. Nó đáp ứng đúng câu hỏi được đưa ra và sử dụng ngôn ngữ chuyên nghiệp, lịch sự."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác theo Ground Truth. Nó cung cấp thông tin đúng về giai đoạn SDG và mô tả chức năng của giai đoạn này một cách rõ ràng và chuyên nghiệp."
         }
       }
     },
@@ -1184,41 +934,10 @@
     ]
   },
   {
-    "question": "Giai đoạn SDG trong quy trình AI Evaluation Factory có nghĩa là gì?",
-    "agent_answer": "Giai đoạn SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp) trong quy trình AI Evaluation Factory có nghĩa là tự động tạo ra các câu hỏi và câu trả lời. Giai đoạn này đóng vai trò quan trọng trong việc cung cấp dữ liệu cần thiết để đánh giá hiệu suất của các mô hình AI.",
-    "expected_answer": "SDG là viết tắt của 'Tạo dữ liệu'.",
-    "latency": 1.7394355999995241,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 1.0
-    },
-    "judge": {
-      "final_score": 2.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 2,
-          "reasoning": "Câu trả lời không chính xác hoàn toàn về ý nghĩa của SDG. SDG được định nghĩa là 'Tạo dữ liệu tổng hợp', trong khi câu trả lời lại mô tả nó là quá trình tự động tạo ra các câu hỏi và câu trả lời, điều này không nhất thiết phải đúng trong bối cảnh. Mặc dù câu trả lời có thể liên quan đến quy trình AI Evaluation Factory nhưng nó không trả lời chính xác câu hỏi và thiếu rõ ràng trong việc giải thích chức năng của giai đoạn này."
-        },
-        "helpful_judge": {
-          "score": 2,
-          "reasoning": "Câu trả lời của AI có thông tin sai lệch một phần khi giải thích giai đoạn SDG, mặc dù có đề cập đến việc tạo dữ liệu, nhưng chưa chính xác và rõ ràng về nghĩa của 'Tạo dữ liệu tổng hợp'. Không mô tả đúng nghĩa trong bối cảnh đặt ra nên không hoàn toàn liên quan đến câu hỏi của người dùng."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_easy"
-    ],
-    "retrieved_ids": [
-      "doc_easy",
-      "doc_hard"
-    ]
-  },
-  {
     "question": "Kể tên các giai đoạn chính của quy trình AI Evaluation Factory.",
     "agent_answer": "Các giai đoạn chính của quy trình AI Evaluation Factory bao gồm:\n\n1. SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp): Tự động tạo câu hỏi/trả lời.\n2. Eval Engine (Bộ máy chấm điểm): Sử dụng LLM-as-a-Judge để đánh giá.\n3. Failure Analysis (Phân tích lỗi): Tìm ra nguyên nhân AI trả lời sai.\n4. Report (Báo cáo): Tổng hợp kết quả benchmark.",
     "expected_answer": "Các giai đoạn chính là SDG (Tạo dữ liệu), Eval Engine (Bộ máy chấm điểm), Failure Analysis (Phân tích lỗi) và Report (Báo cáo).",
-    "latency": 1.7866866999993363,
+    "latency": 2.9191467000000557,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
@@ -1229,11 +948,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và trùng khớp với thông tin trong Ground Truth, liệt kê đúng các giai đoạn của quy trình AI Evaluation Factory. Ngôn ngữ sử dụng rõ ràng và chuyên nghiệp."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và liệt kê đầy đủ các giai đoạn chính của quy trình AI Evaluation Factory giống như ground truth. Ngôn ngữ sử dụng rõ ràng và chuyên nghiệp, giúp người đọc dễ dàng nắm bắt thông tin."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI chính xác hoàn toàn với thông tin được cung cấp trong Ground Truth. Tất cả các giai đoạn chính của quy trình AI Evaluation Factory đều được liệt kê đúng tên và mô tả một cách rõ ràng và dễ hiểu. Ngôn ngữ sử dụng lịch sự, mạch lạc, không có sự nhầm lẫn hay sai lệch."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và đầy đủ, liệt kê đúng các giai đoạn chính của quy trình AI Evaluation Factory. Ngôn ngữ sử dụng rõ ràng và phù hợp với ngữ cảnh chuyên nghiệp."
         }
       }
     },
@@ -1247,24 +966,24 @@
   },
   {
     "question": "Tại sao giai đoạn SDG (Tạo dữ liệu) lại là điểm khởi đầu thiết yếu cho AI Evaluation Factory, và nó có vai trò gì trong việc đảm bảo tính chuyên sâu của quá trình đánh giá?",
-    "agent_answer": "Giai đoạn SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp) là điểm khởi đầu thiết yếu cho AI Evaluation Factory vì nó cung cấp nền tảng dữ liệu cần thiết để thực hiện các bước đánh giá tiếp theo. Việc tự động tạo ra câu hỏi và câu trả lời giúp đảm bảo rằng quy trình đánh giá có đủ dữ liệu đa dạng và phong phú, từ đó phản ánh chính xác khả năng của AI trong các tình huống thực tế.\n\nVai trò của giai đoạn SDG trong việc đảm bảo tính chuyên sâu của quá trình đánh giá bao gồm:\n\n1. **Đảm bảo Độ Đầy Đủ và Đa Dạng**: Bằng cách tạo ra một lượng lớn dữ liệu tổng hợp, giai đoạn này giúp đảm bảo rằng AI được đánh giá trên nhiều loại câu hỏi và ngữ cảnh khác nhau, từ đó cung cấp cái nhìn toàn diện về hiệu suất của nó.\n\n2. **Giảm Thiểu Thiên Kiến**: Dữ liệu tổng hợp có thể được thiết kế để giảm thiểu các thiên kiến có thể có trong dữ liệu thực tế, giúp đánh giá AI một cách công bằng hơn.\n\n3. **Tăng Cường Khả Năng Tái Lặp**: Việc sử dụng dữ liệu tổng hợp cho phép quy trình đánh giá có thể được lặp lại một cách dễ dàng, giúp theo dõi sự tiến bộ của AI qua thời gian.\n\n4. **Hỗ Trợ Phân Tích Lỗi**: Dữ liệu tổng hợp có thể được tạo ra với các đặc điểm cụ thể để kiểm tra các khía cạnh khác nhau của AI, từ đó hỗ trợ giai đoạn phân tích lỗi trong việc xác định nguyên nhân của các câu trả lời sai.\n\nTóm lại, giai đoạn SDG không chỉ là bước khởi đầu mà còn là yếu tố quyết định trong việc đảm bảo rằng quy trình đánh giá AI diễn ra một cách chuyên sâu và hiệu quả.",
+    "agent_answer": "Giai đoạn SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp) là điểm khởi đầu thiết yếu cho AI Evaluation Factory vì nó cung cấp nền tảng dữ liệu cần thiết để thực hiện các bước đánh giá tiếp theo. Vai trò của giai đoạn này trong việc đảm bảo tính chuyên sâu của quá trình đánh giá bao gồm:\n\n1. **Tạo ra dữ liệu đa dạng**: SDG cho phép tự động tạo ra một lượng lớn câu hỏi và câu trả lời, giúp đảm bảo rằng quá trình đánh giá không bị giới hạn bởi dữ liệu thực tế có sẵn. Điều này giúp mô phỏng nhiều tình huống khác nhau mà AI có thể gặp phải.\n\n2. **Đảm bảo tính đại diện**: Dữ liệu tổng hợp có thể được thiết kế để bao quát các khía cạnh khác nhau của vấn đề, từ đó giúp đánh giá AI một cách toàn diện hơn. Điều này giúp phát hiện ra những điểm yếu mà có thể không xuất hiện trong dữ liệu thực tế.\n\n3. **Tiết kiệm thời gian và chi phí**: Việc tạo dữ liệu tổng hợp tự động giúp giảm thiểu thời gian và chi phí so với việc thu thập và xử lý dữ liệu thực tế, đồng thời vẫn đảm bảo chất lượng và độ tin cậy của dữ liệu.\n\n4. **Hỗ trợ cho các giai đoạn tiếp theo**: Dữ liệu được tạo ra trong giai đoạn SDG sẽ được sử dụng trong giai đoạn đánh giá (Eval Engine) và phân tích lỗi (Failure Analysis), giúp cung cấp cái nhìn sâu sắc về hiệu suất của AI và nguyên nhân của các lỗi.\n\nTóm lại, giai đoạn SDG không chỉ là bước khởi đầu mà còn là yếu tố quyết định cho sự thành công và tính chuyên sâu của toàn bộ quy trình đánh giá AI.",
     "expected_answer": "Giai đoạn SDG (Tạo dữ liệu) là thiết yếu vì chất lượng và sự đa dạng của dữ liệu đầu vào ảnh hưởng trực tiếp đến độ tin cậy và chuyên sâu của toàn bộ quá trình đánh giá. Dữ liệu chất lượng cao đảm bảo rằng các chỉ số như Hit Rate, MRR và độ chính xác được đo lường một cách công bằng và đại diện cho các tình huống thực tế, từ đó hỗ trợ hiệu quả cho việc phân tích lỗi và báo cáo.",
-    "latency": 6.2764453999998295,
+    "latency": 8.297399299999597,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
     },
     "judge": {
-      "final_score": 3.5,
-      "agreement_rate": 0.75,
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
       "individual_scores": {
         "strict_judge": {
-          "score": 3,
-          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về vai trò của giai đoạn SDG trong quy trình đánh giá AI, nhưng có nhiều điểm chưa rõ ràng hoặc không hoàn toàn phù hợp với Ground Truth. Mặc dù nó đề cập đến tính chất đa dạng và các lợi ích của dữ liệu tổng hợp, nhưng không đề cập cụ thể đến các chỉ số như Hit Rate hay MRR, điều này làm giảm tính đầy đủ và chính xác của câu trả lời. Ngoài ra, cách diễn đạt tuy chuyên nghiệp nhưng có phần dài dòng có thể gây khó hiểu cho người đọc."
+          "score": 4,
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về giai đoạn SDG và vai trò của nó trong quá trình đánh giá AI. Tuy nhiên, một số chi tiết về các chỉ số như Hit Rate, MRR và độ chính xác không được đề cập, dẫn đến sự thiếu sót nhỏ trong độ chính xác. Cách diễn đạt rõ ràng và chuyên nghiệp, nhưng có thể cải thiện bằng cách tập trung hơn vào các khía cạnh trọng tâm mà Ground Truth đã chỉ ra."
         },
         "helpful_judge": {
           "score": 4,
-          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về vai trò của giai đoạn SDG trong quá trình đánh giá AI. Các lý do được nêu ra liên quan chặt chẽ đến câu hỏi, như đảm bảo tính đa dạng và giảm thiểu thiên kiến. Tuy nhiên, câu trả lời thiếu một số thông tin cụ thể về các chỉ số hiệu suất được nêu trong Ground Truth như Hit Rate hay MRR, điều này làm giảm độ chính xác hoàn hảo. Ngôn ngữ sử dụng rõ ràng và chuyên nghiệp, tuy nhiên có thể cải thiện bằng cách thêm chi tiết hoặc ví dụ cụ thể hơn."
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác và liên quan đến vai trò của giai đoạn SDG trong AI Evaluation Factory. Nó giải thích rõ ràng về tầm quan trọng của dữ liệu tổng hợp, bao gồm việc tạo ra dữ liệu đa dạng, đảm bảo tính đại diện, tiết kiệm thời gian và chi phí, và hỗ trợ cho các giai đoạn tiếp theo. Tuy nhiên, có thể cải thiện một chút trong cách diễn đạt để rõ ràng hơn về sự ảnh hưởng của chất lượng dữ liệu đối với các chỉ số như Hit Rate và MRR, điều này giúp tăng tính sâu sắc hơn cho câu trả lời. Tổng thể vẫn là một câu trả lời tốt và chuyên nghiệp."
         }
       }
     },
@@ -1280,7 +999,7 @@
     "question": "AI Evaluation Factory giúp đo lường những chỉ số nào?",
     "agent_answer": "AI Evaluation Factory giúp đo lường các chỉ số như Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời.",
     "expected_answer": "Nó giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
-    "latency": 1.077323299999989,
+    "latency": 1.0566664999996647,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
@@ -1291,11 +1010,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và trùng khớp với thông tin trong Ground Truth. Nó giải quyết đúng vấn đề người dùng hỏi, với ngôn ngữ rõ ràng và chuyên nghiệp."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác với Ground Truth, cung cấp thông tin đúng về các chỉ số mà AI Evaluation Factory đo lường. Ngôn ngữ lịch sự và rõ ràng, không có điểm nào cần cải thiện."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và tương đồng với thông tin trong Ground Truth. Nó cũng rõ ràng và chuyên nghiệp trong cách diễn đạt."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và trùng khớp với Ground Truth. Ngôn ngữ sử dụng rõ ràng, lịch sự và cung cấp thông tin cần thiết để người dùng hiểu. Không có vấn đề gì với sự liên quan và cách diễn đạt."
         }
       }
     },
@@ -1308,10 +1027,41 @@
     ]
   },
   {
+    "question": "Sau khi 'Eval Engine' thực hiện chấm điểm, giai đoạn 'Failure Analysis' tiếp theo đóng vai trò gì trong việc cải thiện và tối ưu hóa hiệu suất của AI?",
+    "agent_answer": "Giai đoạn 'Failure Analysis' trong quy trình AI Evaluation Factory đóng vai trò quan trọng trong việc cải thiện và tối ưu hóa hiệu suất của AI. Sau khi 'Eval Engine' thực hiện chấm điểm, giai đoạn này sẽ phân tích các lỗi mà AI gặp phải trong quá trình trả lời. \n\nCụ thể, 'Failure Analysis' giúp xác định nguyên nhân của những câu trả lời sai, từ đó cung cấp thông tin chi tiết về các điểm yếu của mô hình AI. Việc hiểu rõ nguyên nhân sai sót cho phép các nhà phát triển điều chỉnh và cải thiện các thuật toán, dữ liệu huấn luyện hoặc quy trình xử lý thông tin, nhằm nâng cao độ chính xác và hiệu suất tổng thể của AI trong các lần đánh giá tiếp theo. \n\nTóm lại, giai đoạn này không chỉ giúp nhận diện vấn đề mà còn là cơ sở để thực hiện các biện pháp cải tiến hiệu quả cho AI.",
+    "expected_answer": "Sau khi 'Eval Engine' chấm điểm, giai đoạn 'Failure Analysis' đóng vai trò quan trọng trong việc xác định, phân tích sâu các lỗi và điểm yếu của AI. Mục đích chính là cung cấp thông tin chi tiết để hiểu nguyên nhân thất bại, từ đó làm cơ sở cho việc cải thiện và tối ưu hóa hiệu suất AI.",
+    "latency": 3.9955933999999615,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 0.5
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 4,
+          "reasoning": "Câu trả lời của AI chính xác và có nội dung hữu ích, tương đồng với thông tin trong Ground Truth. Tuy nhiên, có thể cải thiện cách diễn đạt để rõ ràng hơn và tránh lặp lại một số ý trong phần tóm tắt."
+        },
+        "helpful_judge": {
+          "score": 4,
+          "reasoning": "Câu trả lời của AI chính xác và liên quan đến câu hỏi, nêu rõ vai trò của giai đoạn 'Failure Analysis' trong việc cải thiện hiệu suất của AI. Tuy nhiên, có một số điểm có thể diễn đạt cách rõ ràng và súc tích hơn, ví dụ như việc không cần nhắc lại cụ thể quy trình 'Eval Engine'."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy",
+      "doc_hard"
+    ]
+  },
+  {
     "question": "Trong các giai đoạn của AI Evaluation Factory, giai đoạn nào được thiết kế để *chỉ* trình bày kết quả mà không trực tiếp tham gia vào việc phân tích lỗi hay tạo dữ liệu?",
     "agent_answer": "Giai đoạn được thiết kế để *chỉ* trình bày kết quả mà không trực tiếp tham gia vào việc phân tích lỗi hay tạo dữ liệu là giai đoạn 4: Report (Báo cáo). Giai đoạn này tổng hợp kết quả benchmark mà không can thiệp vào các giai đoạn khác.",
     "expected_answer": "Giai đoạn 'Report (Báo cáo)' được thiết kế để trình bày kết quả mà không trực tiếp tham gia vào việc phân tích lỗi hay tạo dữ liệu.",
-    "latency": 1.27036119999957,
+    "latency": 1.5639195999992808,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
@@ -1322,11 +1072,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời hoàn toàn chính xác, đúng với thông tin từ Ground Truth. Ngoài ra, ngôn ngữ được sử dụng rõ ràng và chuyên nghiệp, phù hợp với yêu cầu."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác với thông tin trong Ground Truth. Nó trả lời đúng câu hỏi và diễn đạt một cách rõ ràng, chuyên nghiệp."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và tương thích với thông tin của Ground Truth. Nó rõ ràng xác định giai đoạn 4 là giai đoạn báo cáo, nhấn mạnh rằng giai đoạn này chỉ trình bày kết quả mà không can thiệp vào phân tích lỗi hay tạo dữ liệu. Ngôn ngữ sử dụng cũng rất chuyên nghiệp và dễ hiểu."
+          "reasoning": "Câu trả lời của AI chính xác hoàn toàn với thông tin trong Ground Truth. Nó nêu rõ giai đoạn được hỏi là 'Report (Báo cáo)', đồng thời cung cấp thêm thông tin về chức năng của giai đoạn này. Ngôn ngữ sử dụng ngắn gọn, rõ ràng và chuyên nghiệp."
         }
       }
     },
@@ -1340,13 +1090,13 @@
     ]
   },
   {
-    "question": "Sau khi 'Eval Engine' thực hiện chấm điểm, giai đoạn 'Failure Analysis' tiếp theo đóng vai trò gì trong việc cải thiện và tối ưu hóa hiệu suất của AI?",
-    "agent_answer": "Giai đoạn 'Failure Analysis' trong quy trình AI Evaluation Factory đóng vai trò quan trọng trong việc cải thiện và tối ưu hóa hiệu suất của AI. Sau khi 'Eval Engine' thực hiện chấm điểm, giai đoạn này sẽ phân tích các lỗi mà AI đã mắc phải trong quá trình trả lời. \n\nCụ thể, 'Failure Analysis' giúp xác định nguyên nhân gốc rễ của những câu trả lời sai, từ đó cung cấp thông tin quý giá để điều chỉnh và cải thiện mô hình AI. Việc hiểu rõ lý do tại sao AI không đạt yêu cầu sẽ giúp các nhà phát triển có thể thực hiện các biện pháp khắc phục, như điều chỉnh thuật toán, cải thiện dữ liệu huấn luyện hoặc tối ưu hóa quy trình xử lý thông tin. Nhờ đó, hiệu suất của AI sẽ được nâng cao, dẫn đến tỷ lệ chính xác cao hơn trong các lần đánh giá tiếp theo.",
-    "expected_answer": "Sau khi 'Eval Engine' chấm điểm, giai đoạn 'Failure Analysis' đóng vai trò quan trọng trong việc xác định, phân tích sâu các lỗi và điểm yếu của AI. Mục đích chính là cung cấp thông tin chi tiết để hiểu nguyên nhân thất bại, từ đó làm cơ sở cho việc cải thiện và tối ưu hóa hiệu suất AI.",
-    "latency": 3.0517995000000155,
+    "question": "Các chỉ số như Hit Rate, MRR và độ chính xác của câu trả lời, cùng với 4 giai đoạn chính của AI Evaluation Factory, làm thế nào để cùng nhau minh chứng cho tuyên bố rằng đây là một 'quy trình đánh giá AI chuyên sâu'?",
+    "agent_answer": "Để minh chứng cho tuyên bố rằng AI Evaluation Factory là một 'quy trình đánh giá AI chuyên sâu', chúng ta có thể xem xét mối liên hệ giữa các chỉ số như Hit Rate, MRR và độ chính xác của câu trả lời với 4 giai đoạn chính của quy trình.\n\n1. **Hit Rate**: Đây là tỷ lệ phần trăm các câu hỏi mà AI trả lời đúng. Giai đoạn SDG tạo ra các câu hỏi và câu trả lời, giúp đảm bảo rằng dữ liệu đầu vào cho quá trình đánh giá là phong phú và đa dạng. Giai đoạn Eval Engine sẽ sử dụng các chỉ số này để đánh giá hiệu suất của AI, từ đó cung cấp cái nhìn rõ ràng về khả năng của AI trong việc đáp ứng các yêu cầu.\n\n2. **MRR (Mean Reciprocal Rank)**: Đây là chỉ số đo lường mức độ chính xác của các câu trả lời được xếp hạng. Giai đoạn Eval Engine sẽ đánh giá các câu trả lời dựa trên thứ tự mà chúng được đưa ra, cho phép phân tích sâu hơn về cách AI xử lý thông tin và đưa ra quyết định. Giai đoạn Failure Analysis sẽ giúp xác định lý do tại sao AI không đạt được thứ hạng cao trong một số trường hợp, từ đó cải thiện quy trình.\n\n3. **Độ chính xác của câu trả lời**: Đây là một chỉ số quan trọng để đánh giá chất lượng của các câu trả lời mà AI cung cấp. Giai đoạn Eval Engine sẽ đo lường độ chính xác này, trong khi giai đoạn Failure Analysis sẽ phân tích các lỗi để tìm ra nguyên nhân và cải thiện độ chính xác trong tương lai.\n\n4. **Báo cáo (Report)**: Giai đoạn cuối cùng tổng hợp tất cả các kết quả từ các giai đoạn trước, cung cấp một cái nhìn tổng quan về hiệu suất của AI. Điều này không chỉ giúp minh chứng cho hiệu quả của quy trình mà còn cung cấp thông tin quý giá cho việc cải tiến AI.\n\nTóm lại, sự kết hợp giữa các chỉ số đánh giá và các giai đoạn trong quy trình AI Evaluation Factory cho thấy đây là một quy trình đánh giá AI chuyên sâu, giúp đảm bảo rằng AI không chỉ hoạt động hiệu quả mà còn có thể cải tiến liên tục dựa trên phân tích và báo cáo chi tiết.",
+    "expected_answer": "AI Evaluation Factory được coi là quy trình đánh giá chuyên sâu vì nó không chỉ đo lường các chỉ số hiệu suất quan trọng như Hit Rate, MRR và độ chính xác để định lượng kết quả, mà còn bao gồm các giai đoạn có cấu trúc. Từ việc tạo dữ liệu chuẩn (SDG), chấm điểm một cách khách quan (Eval Engine), đến việc phân tích sâu các nguyên nhân thất bại (Failure Analysis) và tổng hợp kết quả toàn diện (Report), mỗi bước đều đóng góp vào việc cung cấp cái nhìn chi tiết và sâu sắc về hiệu suất và hạn chế của AI.",
+    "latency": 10.286904100000356,
     "retrieval": {
       "hit_rate": 1.0,
-      "mrr": 0.5
+      "mrr": 1.0
     },
     "judge": {
       "final_score": 4.0,
@@ -1354,11 +1104,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 4,
-          "reasoning": "Câu trả lời của AI đã nêu rõ vai trò của giai đoạn 'Failure Analysis' và cách thức nó giúp cải thiện hiệu suất của AI, tương tự như mục đích trong Ground Truth. Tuy nhiên, nó thiếu một số chi tiết cụ thể hơn và cách diễn đạt có thể được cải thiện để rõ ràng và ngắn gọn hơn."
+          "reasoning": "Câu trả lời của AI cung cấp thông tin liên quan đến các chỉ số hiệu suất và các giai đoạn trong quy trình đánh giá AI, tuy nhiên, nó chưa thật sự diễn đạt rõ ràng và mạch lạc như Ground Truth. Các khái niệm như 'Hit Rate', 'MRR' và 'độ chính xác' được giải thích hợp lý, nhưng việc liên kết giữa chúng và các giai đoạn trong quy trình chưa thực sự chặt chẽ. Mặc dù thông tin chính xác, cách trình bày có thể cải thiện để tăng tính rõ ràng và súc tích hơn."
         },
         "helpful_judge": {
           "score": 4,
-          "reasoning": "Câu trả lời của AI chính xác trong việc mô tả vai trò của giai đoạn 'Failure Analysis' và đưa ra thông tin hữu ích về cách nó giúp cải thiện hiệu suất của AI. Tuy nhiên, câu trả lời hơi dài dòng và có thể làm rõ hơn về điểm tập trung vào việc xác định và phân tích các lỗi của AI, giống như trong Ground Truth. Ngôn ngữ chuyên nghiệp nhưng có thể cải thiện tính súc tích."
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác và liên quan đến việc minh chứng cho tuyên bố về quy trình đánh giá AI chuyên sâu. Nó giải thích chi tiết từng chỉ số và giai đoạn liên quan, đồng thời chỉ ra cách mà các yếu tố này tương tác với nhau. Mặc dù có một số điểm cần làm rõ hơn hoặc cải thiện cách diễn đạt để dễ hiểu hơn, nhưng tổng thể, câu trả lời vẫn rất có ích và chuyên nghiệp."
         }
       }
     },
@@ -1366,30 +1116,61 @@
       "doc_hard"
     ],
     "retrieved_ids": [
-      "doc_easy",
-      "doc_hard"
+      "doc_hard",
+      "doc_easy"
     ]
   },
   {
-    "question": "AI Evaluation Factory là gì?",
-    "agent_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu, nhằm đo lường các chỉ số như Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời. Quy trình này bao gồm 4 giai đoạn chính: \n\n1. **SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp)**: Tự động tạo ra các câu hỏi và câu trả lời.\n2. **Eval Engine (Bộ máy chấm điểm)**: Sử dụng LLM-as-a-Judge để thực hiện việc đánh giá.\n3. **Failure Analysis (Phân tích lỗi)**: Tìm ra nguyên nhân dẫn đến việc AI trả lời sai.\n4. **Report (Báo cáo)**: Tổng hợp và trình bày kết quả benchmark.\n\nQuy trình này giúp cải thiện hiệu suất của các hệ thống AI thông qua việc đánh giá và phân tích một cách có hệ thống.",
-    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
-    "latency": 2.608077500000036,
+    "question": "Mối quan hệ giữa giai đoạn 'Failure Analysis' và 'Report' là gì trong quy trình AI Evaluation Factory, và làm thế nào chúng cùng nhau hỗ trợ việc ra quyết định chiến lược cho việc cải thiện AI?",
+    "agent_answer": "Trong quy trình AI Evaluation Factory, giai đoạn 'Failure Analysis' và 'Report' có mối quan hệ chặt chẽ và hỗ trợ lẫn nhau trong việc ra quyết định chiến lược để cải thiện AI.\n\nGiai đoạn 'Failure Analysis' tập trung vào việc xác định nguyên nhân của các lỗi mà AI gặp phải trong quá trình trả lời. Qua việc phân tích các trường hợp sai sót, đội ngũ phát triển có thể hiểu rõ hơn về những điểm yếu trong mô hình AI, từ đó đưa ra các biện pháp khắc phục cụ thể.\n\nSau khi hoàn thành phân tích lỗi, giai đoạn 'Report' sẽ tổng hợp các kết quả benchmark, bao gồm cả những phát hiện từ 'Failure Analysis'. Báo cáo này không chỉ cung cấp cái nhìn tổng quan về hiệu suất của AI mà còn nêu rõ các vấn đề đã được xác định và các khuyến nghị cải tiến.\n\nKhi kết hợp lại, 'Failure Analysis' cung cấp thông tin chi tiết về các vấn đề cụ thể, trong khi 'Report' tổng hợp và trình bày thông tin đó một cách có hệ thống. Điều này giúp các nhà quản lý và nhà phát triển đưa ra quyết định chiến lược dựa trên dữ liệu cụ thể, từ đó cải thiện hiệu suất và độ chính xác của AI một cách hiệu quả hơn.",
+    "expected_answer": "Giai đoạn Failure Analysis cung cấp các hiểu biết sâu sắc về các điểm yếu cụ thể của AI bằng cách xác định và phân loại các loại lỗi. Những phân tích này sau đó được tổng hợp và trình bày một cách có cấu trúc trong giai đoạn Report. Cùng nhau, chúng không chỉ cho thấy 'AI đang hoạt động như thế nào' mà còn 'tại sao nó hoạt động như vậy' và 'cần cải thiện ở đâu', từ đó cung cấp cơ sở dữ liệu vững chắc cho các nhà quản lý và kỹ sư AI đưa ra các quyết định chiến lược để tối ưu hóa hiệu suất và chất lượng AI.",
+    "latency": 5.523053599999912,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
     },
     "judge": {
-      "final_score": 5.0,
+      "final_score": 4.0,
       "agreement_rate": 1.0,
       "individual_scores": {
         "strict_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI là chính xác và cung cấp một cái nhìn sâu sắc về quy trình đánh giá AI. Nó không chỉ xác định đúng mục đích của AI Evaluation Factory mà còn mô tả rõ ràng các giai đoạn trong quy trình, giúp người đọc hiểu rõ hơn. Ngôn ngữ sử dụng cũng rất rõ ràng và chuyên nghiệp."
+          "score": 4,
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về mối quan hệ giữa 'Failure Analysis' và 'Report' trong quy trình AI Evaluation Factory, đồng thời nêu rõ cách mà các giai đoạn này hỗ trợ việc ra quyết định chiến lược. Tuy nhiên, câu trả lời thiếu một số chi tiết cụ thể và không nhấn mạnh rõ ràng về các loại lỗi mà 'Failure Analysis' phân loại, điều này có thể làm giảm tính toàn vẹn so với Ground Truth."
         },
         "helpful_judge": {
-          "score": 5,
-          "reasoning": "Câu trả lời của AI chính xác trong việc định nghĩa AI Evaluation Factory và cung cấp chi tiết về các giai đoạn trong quy trình đánh giá. Thông tin được trình bày rõ ràng, mạch lạc và chuyên nghiệp, phù hợp với yêu cầu của câu hỏi. Do đó, đáp án được đánh giá là hoàn hảo."
+          "score": 4,
+          "reasoning": "Câu trả lời của AI chính xác trong việc mô tả mối quan hệ giữa 'Failure Analysis' và 'Report' trong quy trình AI Evaluation Factory. Nó cung cấp cái nhìn rõ ràng về cách những giai đoạn này hỗ trợ nhau trong việc ra quyết định chiến lược cho việc cải thiện AI. Tuy nhiên, điều thiếu sót là không có sự nhấn mạnh đúng mức về việc phân loại các loại lỗi trong 'Failure Analysis' và một số điểm chi tiết khác trong Ground Truth, điều này làm cho câu trả lời chưa hoàn thiện. Ngôn ngữ sử dụng trong câu trả lời cũng khá chuyên nghiệp và dễ hiểu."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_hard",
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory là gì?",
+    "agent_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu, nhằm đo lường các chỉ số như Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời. Quy trình này bao gồm 4 giai đoạn chính: \n\n1. **SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp)**: Tự động tạo ra các câu hỏi và câu trả lời.\n2. **Eval Engine (Bộ máy chấm điểm)**: Sử dụng LLM-as-a-Judge để thực hiện việc đánh giá.\n3. **Failure Analysis (Phân tích lỗi)**: Tìm ra nguyên nhân dẫn đến các câu trả lời sai của AI.\n4. **Report (Báo cáo)**: Tổng hợp và trình bày kết quả benchmark.\n\nQuy trình này giúp cải thiện hiệu suất của các hệ thống AI thông qua việc đánh giá và phân tích một cách có hệ thống.",
+    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
+    "latency": 4.141998800000692,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 4,
+          "reasoning": "Câu trả lời của AI chính xác về định nghĩa của AI Evaluation Factory, nhưng có phần mở rộng quá mức với chi tiết về các giai đoạn quy trình mà không hoàn toàn cần thiết cho câu hỏi được hỏi. Ngôn ngữ rõ ràng và lịch sự, tuy nhiên thông tin có thể được tinh giản để tăng tính súc tích."
+        },
+        "helpful_judge": {
+          "score": 4,
+          "reasoning": "Câu trả lời của AI đã cung cấp thông tin chính xác về AI Evaluation Factory là một quy trình đánh giá AI chuyên sâu, phù hợp với đáp án đúng. Tuy nhiên, phần giải thích về các giai đoạn của quy trình có thể có vẻ hơi dài dòng và không hoàn toàn cần thiết cho câu hỏi gốc, có thể gây ra sự lan man nhất định."
         }
       }
     },
@@ -1405,7 +1186,7 @@
     "question": "Ngoài việc chỉ thực hiện đánh giá tổng thể, AI Evaluation Factory tập trung vào những chỉ số định lượng cụ thể nào để cung cấp cái nhìn chi tiết về chất lượng phản hồi của AI?",
     "agent_answer": "AI Evaluation Factory tập trung vào các chỉ số định lượng cụ thể như Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời. Những chỉ số này giúp cung cấp cái nhìn chi tiết về chất lượng phản hồi của AI, từ đó đánh giá hiệu suất và khả năng của hệ thống AI trong việc cung cấp thông tin chính xác và hữu ích.",
     "expected_answer": "AI Evaluation Factory tập trung vào đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
-    "latency": 1.5038855000002513,
+    "latency": 2.2954402000004848,
     "retrieval": {
       "hit_rate": 0.0,
       "mrr": 0.0
@@ -1416,11 +1197,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và phản ánh đúng thông tin trong Ground Truth. Nó đề cập đúng các chỉ số định lượng cụ thể mà AI Evaluation Factory tập trung vào, đồng thời giải thích đầy đủ vai trò của những chỉ số này trong việc đánh giá chất lượng phản hồi của AI. Ngôn ngữ sử dụng trong câu trả lời cũng rất chuyên nghiệp và rõ ràng."
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác, liệt kê đúng các chỉ số định lượng mà AI Evaluation Factory tập trung vào là Hit Rate, MRR và độ chính xác của câu trả lời. Hơn nữa, câu trả lời trình bày rõ ràng và chuyên nghiệp, giải quyết đúng vấn đề câu hỏi đề ra."
         },
         "helpful_judge": {
           "score": 5,
-          "reasoning": "Câu trả lời của AI chính xác, nêu rõ các chỉ số định lượng cụ thể mà AI Evaluation Factory tập trung vào, và các thông tin liên quan khác về chất lượng phản hồi của AI. Ngôn ngữ chuyên nghiệp, lịch sự và rõ ràng."
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về các chỉ số định lượng mà AI Evaluation Factory tập trung vào, hoàn toàn phù hợp với Ground Truth. Ngôn ngữ sử dụng rõ ràng và chuyên nghiệp, giải thích chi tiết về cách các chỉ số này giúp đánh giá chất lượng phản hồi của AI."
         }
       }
     },
@@ -1433,72 +1214,10 @@
     ]
   },
   {
-    "question": "Các chỉ số như Hit Rate, MRR và độ chính xác của câu trả lời, cùng với 4 giai đoạn chính của AI Evaluation Factory, làm thế nào để cùng nhau minh chứng cho tuyên bố rằng đây là một 'quy trình đánh giá AI chuyên sâu'?",
-    "agent_answer": "Để minh chứng cho tuyên bố rằng AI Evaluation Factory là một 'quy trình đánh giá AI chuyên sâu', chúng ta có thể xem xét mối liên hệ giữa các chỉ số như Hit Rate, MRR, độ chính xác của câu trả lời và 4 giai đoạn chính của quy trình.\n\n1. **Hit Rate, MRR và độ chính xác**: \n   - **Hit Rate** đo lường tỷ lệ câu trả lời đúng trong tổng số câu hỏi được đặt ra, cho thấy khả năng của AI trong việc cung cấp thông tin chính xác.\n   - **MRR (Mean Reciprocal Rank)** là chỉ số đánh giá mức độ chính xác của các câu trả lời được xếp hạng, phản ánh khả năng của AI trong việc đưa ra câu trả lời đúng ở vị trí cao trong danh sách.\n   - **Độ chính xác** là một chỉ số tổng quát hơn, cho biết tỷ lệ phần trăm câu trả lời đúng so với tổng số câu trả lời.\n\n2. **4 giai đoạn chính**:\n   - **SDG (Synthetic Data Generation)**: Giai đoạn này tạo ra một lượng lớn dữ liệu câu hỏi/trả lời, giúp đảm bảo rằng quy trình đánh giá có đủ thông tin để kiểm tra khả năng của AI trong nhiều tình huống khác nhau.\n   - **Eval Engine**: Sử dụng LLM-as-a-Judge để đánh giá các câu trả lời, đảm bảo rằng việc đánh giá được thực hiện một cách khách quan và chính xác, từ đó cung cấp các chỉ số như Hit Rate và MRR.\n   - **Failure Analysis**: Giai đoạn này giúp xác định nguyên nhân của các câu trả lời sai, từ đó cải thiện mô hình AI. Việc phân tích lỗi là rất quan trọng trong việc nâng cao độ chính xác và hiệu suất của AI.\n   - **Report**: Giai đoạn tổng hợp kết quả benchmark giúp cung cấp cái nhìn tổng quan về hiệu suất của AI, cho phép các bên liên quan hiểu rõ hơn về khả năng của hệ thống.\n\nKhi kết hợp các chỉ số đánh giá với quy trình 4 giai đoạn, AI Evaluation Factory không chỉ cung cấp một cái nhìn sâu sắc về hiệu suất của AI mà còn tạo ra một quy trình liên tục để cải thiện và tối ưu hóa khả năng của nó. Điều này chứng tỏ rằng quy trình này thực sự là một phương pháp đánh giá AI chuyên sâu, có hệ thống và có khả năng phát hiện và khắc phục các vấn đề một cách hiệu quả.",
-    "expected_answer": "AI Evaluation Factory được coi là quy trình đánh giá chuyên sâu vì nó không chỉ đo lường các chỉ số hiệu suất quan trọng như Hit Rate, MRR và độ chính xác để định lượng kết quả, mà còn bao gồm các giai đoạn có cấu trúc. Từ việc tạo dữ liệu chuẩn (SDG), chấm điểm một cách khách quan (Eval Engine), đến việc phân tích sâu các nguyên nhân thất bại (Failure Analysis) và tổng hợp kết quả toàn diện (Report), mỗi bước đều đóng góp vào việc cung cấp cái nhìn chi tiết và sâu sắc về hiệu suất và hạn chế của AI.",
-    "latency": 9.533657799999673,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 1.0
-    },
-    "judge": {
-      "final_score": 4.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI đã cung cấp thông tin chính xác về các chỉ số như Hit Rate, MRR và độ chính xác, cũng như giải thích rõ ràng về bốn giai đoạn chính của quy trình đánh giá AI. Thông tin được trình bày có liên quan đến câu hỏi và thể hiện sự chuyên nghiệp trong cách diễn đạt. Tuy nhiên, câu trả lời chưa hoàn toàn khái quát và hệ thống hoá để thật sự nhấn mạnh sự liên kết giữa các chỉ số và giai đoạn trong quy trình đánh giá. Vì vậy, có thể cải thiện thêm để đạt điểm tuyệt đối."
-        },
-        "helpful_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời cung cấp thông tin chính xác về các chỉ số như Hit Rate, MRR và độ chính xác, cũng như các giai đoạn chính của quy trình AI Evaluation Factory. Tuy nhiên, cách diễn đạt có thể cô đọng hơn và tập trung vào việc minh chứng rõ ràng tại sao quy trình này được coi là chuyên sâu. Mặc dù đã đưa ra sự liên kết giữa các yếu tố, nhưng có thể làm nổi bật hơn sự kết nối giữa chúng nhằm củng cố tuyên bố. Ngôn ngữ lịch sự và dễ hiểu, nhưng có thể tối ưu thêm ở một số đoạn."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_hard"
-    ],
-    "retrieved_ids": [
-      "doc_hard",
-      "doc_easy"
-    ]
-  },
-  {
-    "question": "Mối quan hệ giữa giai đoạn 'Failure Analysis' và 'Report' là gì trong quy trình AI Evaluation Factory, và làm thế nào chúng cùng nhau hỗ trợ việc ra quyết định chiến lược cho việc cải thiện AI?",
-    "agent_answer": "Giai đoạn 'Failure Analysis' và 'Report' trong quy trình AI Evaluation Factory có mối quan hệ chặt chẽ và hỗ trợ lẫn nhau trong việc ra quyết định chiến lược để cải thiện AI.\n\n1. **Mối quan hệ giữa 'Failure Analysis' và 'Report':**\n   - **Failure Analysis** là giai đoạn mà các nguyên nhân dẫn đến việc AI trả lời sai được xác định và phân tích. Qua đó, các vấn đề cụ thể trong khả năng của AI được làm rõ, giúp hiểu rõ hơn về những điểm yếu cần cải thiện.\n   - **Report** là giai đoạn tổng hợp kết quả benchmark, trong đó bao gồm các phát hiện từ giai đoạn phân tích lỗi. Báo cáo này không chỉ cung cấp cái nhìn tổng quan về hiệu suất của AI mà còn nêu bật các vấn đề đã được phát hiện trong giai đoạn phân tích lỗi.\n\n2. **Hỗ trợ ra quyết định chiến lược:**\n   - Thông qua việc phân tích lỗi, các nhà phát triển có thể xác định các lĩnh vực cụ thể cần cải thiện, từ đó đưa ra các chiến lược phát triển AI hiệu quả hơn.\n   - Báo cáo tổng hợp kết quả từ giai đoạn phân tích lỗi giúp các nhà quản lý và các bên liên quan có cái nhìn rõ ràng về tình hình hiện tại của AI, từ đó có thể đưa ra quyết định dựa trên dữ liệu và thông tin cụ thể.\n   - Cả hai giai đoạn này cùng nhau cung cấp một quy trình liên tục để cải thiện AI, đảm bảo rằng các thay đổi và cải tiến được thực hiện dựa trên những hiểu biết sâu sắc về hiệu suất và các vấn đề tồn tại.\n\nTóm lại, 'Failure Analysis' cung cấp thông tin chi tiết về các vấn đề của AI, trong khi 'Report' tổng hợp và trình bày thông tin đó một cách có hệ thống, hỗ trợ việc ra quyết định chiến lược cho việc cải thiện AI.",
-    "expected_answer": "Giai đoạn Failure Analysis cung cấp các hiểu biết sâu sắc về các điểm yếu cụ thể của AI bằng cách xác định và phân loại các loại lỗi. Những phân tích này sau đó được tổng hợp và trình bày một cách có cấu trúc trong giai đoạn Report. Cùng nhau, chúng không chỉ cho thấy 'AI đang hoạt động như thế nào' mà còn 'tại sao nó hoạt động như vậy' và 'cần cải thiện ở đâu', từ đó cung cấp cơ sở dữ liệu vững chắc cho các nhà quản lý và kỹ sư AI đưa ra các quyết định chiến lược để tối ưu hóa hiệu suất và chất lượng AI.",
-    "latency": 5.740557099999933,
-    "retrieval": {
-      "hit_rate": 1.0,
-      "mrr": 1.0
-    },
-    "judge": {
-      "final_score": 4.0,
-      "agreement_rate": 1.0,
-      "individual_scores": {
-        "strict_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về mối quan hệ giữa giai đoạn 'Failure Analysis' và 'Report' trong quy trình AI Evaluation Factory. Tuy nhiên, phần mô tả chưa hoàn toàn đầy đủ so với Ground Truth, đặc biệt là về việc phân loại lỗi và lý do tại sao chúng hoạt động như vậy. Ngôn ngữ rõ ràng và chuyên nghiệp, nhưng vẫn có thể cải thiện thêm để đạt được độ chính xác và chi tiết tối đa."
-        },
-        "helpful_judge": {
-          "score": 4,
-          "reasoning": "Câu trả lời của AI chính xác và giải thích mối quan hệ giữa 'Failure Analysis' và 'Report' trong quy trình AI Evaluation Factory tương đối rõ ràng. Tuy nhiên, nó chưa hoàn toàn đề cập đến khía cạnh 'tại sao AI hoạt động như vậy' và không nhấn mạnh sự cần thiết phải phân loại các loại lỗi, điều này có thể làm cho thông tin thêm đầy đủ hơn. Ngôn ngữ sử dụng rõ ràng và lịch sự, nhưng có thể cải thiện hơn để đạt được mức độ chuyên nghiệp tối ưu."
-        }
-      }
-    },
-    "expected_retrieval_ids": [
-      "doc_hard"
-    ],
-    "retrieved_ids": [
-      "doc_hard",
-      "doc_easy"
-    ]
-  },
-  {
     "question": "Giai đoạn đầu tiên của quy trình AI Evaluation Factory là gì?",
     "agent_answer": "Giai đoạn đầu tiên của quy trình AI Evaluation Factory là SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp). Trong giai đoạn này, hệ thống tự động tạo ra các câu hỏi và câu trả lời.",
     "expected_answer": "Giai đoạn đầu tiên là SDG (Tạo dữ liệu).",
-    "latency": 1.0883793999992122,
+    "latency": 1.273913399999401,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
@@ -1509,11 +1228,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 4,
-          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về giai đoạn đầu tiên của quy trình AI Evaluation Factory là SDG (Synthetic Data Generation). Tuy nhiên, phần mô tả về việc 'hệ thống tự động tạo ra các câu hỏi và câu trả lời' có thể gây hiểu lầm, vì không phải tất cả các hoạt động trong giai đoạn này đều liên quan đến việc tạo câu hỏi và câu trả lời. Ngôn ngữ sử dụng cũng cần được cải thiện để rõ ràng và chuyên nghiệp hơn."
+          "reasoning": "Câu trả lời của AI chính xác về nội dung của giai đoạn đầu tiên là SDG (Synthetic Data Generation), tuy nhiên, có thêm thông tin về việc hệ thống tự động tạo ra câu hỏi và câu trả lời, điều này không phải là phần chính của định nghĩa giai đoạn này. Điều này có thể làm cho câu trả lời trở nên hơi lan man, mặc dù phần chính vẫn đúng."
         },
         "helpful_judge": {
           "score": 4,
-          "reasoning": "Câu trả lời của AI là chính xác vì nó xác định giai đoạn đầu tiên là SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp). Tuy nhiên, việc nhấn mạnh vào phần 'hệ thống tự động tạo ra các câu hỏi và câu trả lời' có thể gây nhầm lẫn vì không phải là phần chính yếu của định nghĩa SDG. Hành văn lịch sự và rõ ràng."
+          "reasoning": "Câu trả lời của AI chính xác khi xác định rằng giai đoạn đầu tiên là SDG (Synthetic Data Generation) và cung cấp thông tin bổ sung về việc hệ thống tự động tạo ra các câu hỏi và câu trả lời. Tuy nhiên, sự giải thích về việc tạo ra câu hỏi và câu trả lời có thể gây hiểu lầm hoặc không hoàn toàn cần thiết, dẫn đến điểm số không thể đạt tối đa."
         }
       }
     },
@@ -1526,10 +1245,73 @@
     ]
   },
   {
+    "question": "Quy trình AI Evaluation Factory gồm bao nhiêu giai đoạn chính?",
+    "agent_answer": "Quy trình AI Evaluation Factory gồm 4 giai đoạn chính.",
+    "expected_answer": "Quy trình gồm 4 giai đoạn chính.",
+    "latency": 0.720169000000169,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác với thông tin trong Ground Truth, và được diễn đạt rõ ràng, lịch sự."
+        },
+        "helpful_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời của AI chính xác hoàn toàn so với Ground Truth, cung cấp thông tin đầy đủ và rõ ràng về số lượng giai đoạn trong quy trình AI Evaluation Factory."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy",
+      "doc_hard"
+    ]
+  },
+  {
+    "question": "Nếu một quy trình đánh giá AI đang gặp khó khăn trong việc xác định nguyên nhân gốc rễ của các sai sót trong hiệu suất, giai đoạn nào của AI Evaluation Factory sẽ cung cấp cái nhìn sâu sắc nhất để giải quyết vấn đề này?",
+    "agent_answer": "Giai đoạn sẽ cung cấp cái nhìn sâu sắc nhất để giải quyết vấn đề xác định nguyên nhân gốc rễ của các sai sót trong hiệu suất là giai đoạn \"Failure Analysis\" (Phân tích lỗi). Trong giai đoạn này, quy trình tập trung vào việc tìm ra nguyên nhân mà AI trả lời sai, từ đó giúp cải thiện hiệu suất của hệ thống.",
+    "expected_answer": "Giai đoạn Failure Analysis (Phân tích lỗi) của AI Evaluation Factory sẽ cung cấp cái nhìn sâu sắc nhất để xác định nguyên nhân gốc rễ của các sai sót, vì đây là giai đoạn chuyên biệt để phân tích các lỗi và vấn đề hiệu suất.",
+    "latency": 1.8236888000001272,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 0.5
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác về việc xác định giai đoạn 'Failure Analysis' là phần quan trọng nhất trong quy trình để giải quyết vấn đề về nguyên nhân gốc rễ của sai sót. Nó không chỉ đúng về mặt nội dung mà còn diễn đạt rõ ràng và chuyên nghiệp."
+        },
+        "helpful_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời cung cấp chính xác thông tin về giai đoạn 'Failure Analysis' trong quy trình đánh giá AI, hoàn toàn phù hợp với ground truth. Ngôn ngữ sử dụng rõ ràng và chuyên nghiệp, giúp người đọc dễ dàng hiểu và nắm bắt thông tin."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_adversarial",
+      "doc_hard",
+      "doc_easy"
+    ]
+  },
+  {
     "question": "Tại sao việc tích hợp 'Failure Analysis' vào quy trình đánh giá lại quan trọng hơn chỉ đơn thuần đo lường các chỉ số như Hit Rate hoặc MRR trong việc hiểu và cải thiện hiệu suất của một hệ thống AI?",
-    "agent_answer": "Việc tích hợp 'Failure Analysis' vào quy trình đánh giá AI là rất quan trọng vì nó không chỉ giúp đo lường các chỉ số như Hit Rate hoặc MRR mà còn cung cấp cái nhìn sâu sắc về nguyên nhân của các lỗi mà hệ thống AI gặp phải. Dưới đây là một số lý do cụ thể:\n\n1. **Hiểu Nguyên Nhân Gốc Rễ**: 'Failure Analysis' cho phép các nhà phát triển và nhà nghiên cứu xác định chính xác lý do tại sao AI lại đưa ra câu trả lời sai. Điều này giúp họ hiểu rõ hơn về các điểm yếu trong mô hình hoặc dữ liệu.\n\n2. **Cải Thiện Mô Hình**: Khi biết được nguyên nhân của các lỗi, các nhà phát triển có thể thực hiện các điều chỉnh cần thiết để cải thiện mô hình, từ việc tối ưu hóa thuật toán đến việc cải thiện chất lượng dữ liệu đầu vào.\n\n3. **Tăng Cường Độ Tin Cậy**: Việc phân tích lỗi giúp tăng cường độ tin cậy của hệ thống AI bằng cách giảm thiểu khả năng xảy ra lỗi trong tương lai. Điều này rất quan trọng trong các ứng dụng mà độ chính xác là yếu tố sống còn.\n\n4. **Phát Triển Chiến Lược Đào Tạo**: 'Failure Analysis' cung cấp thông tin quý giá để phát triển các chiến lược đào tạo tốt hơn, giúp mô hình học hỏi từ những sai lầm và cải thiện hiệu suất theo thời gian.\n\n5. **Tối Ưu Hóa Quy Trình Đánh Giá**: Bằng cách hiểu rõ hơn về các lỗi, quy trình đánh giá có thể được tối ưu hóa để tập trung vào các khía cạnh quan trọng nhất, từ đó nâng cao hiệu quả của toàn bộ quy trình.\n\nTóm lại, 'Failure Analysis' không chỉ là một bước bổ sung mà còn là một phần thiết yếu trong việc cải thiện và tối ưu hóa hiệu suất của hệ thống AI.",
+    "agent_answer": "Việc tích hợp 'Failure Analysis' vào quy trình đánh giá AI là rất quan trọng vì nó không chỉ giúp đo lường các chỉ số như Hit Rate hoặc MRR mà còn cung cấp cái nhìn sâu sắc về nguyên nhân của các lỗi mà hệ thống AI gặp phải. Dưới đây là một số lý do cụ thể:\n\n1. **Hiểu Nguyên Nhân Gốc Rễ**: Chỉ số như Hit Rate và MRR chỉ phản ánh hiệu suất tổng thể mà không cho biết lý do tại sao một số câu trả lời không chính xác. 'Failure Analysis' giúp xác định các yếu tố cụ thể dẫn đến lỗi, từ đó có thể cải thiện mô hình.\n\n2. **Cải Thiện Chất Lượng Dữ Liệu**: Phân tích lỗi có thể chỉ ra rằng một số loại dữ liệu hoặc câu hỏi nhất định gây khó khăn cho AI. Điều này cho phép các nhà phát triển điều chỉnh dữ liệu đầu vào, cải thiện chất lượng và tính đại diện của nó.\n\n3. **Tối Ưu Hóa Mô Hình**: Khi biết được nguyên nhân của các lỗi, các nhà phát triển có thể điều chỉnh hoặc tối ưu hóa mô hình AI để giảm thiểu các lỗi tương tự trong tương lai.\n\n4. **Phát Triển Chiến Lược Đào Tạo**: 'Failure Analysis' cung cấp thông tin quý giá để xây dựng các chiến lược đào tạo hiệu quả hơn cho mô hình AI, giúp nó học hỏi từ những sai lầm và cải thiện theo thời gian.\n\n5. **Tăng Cường Độ Tin Cậy**: Bằng cách hiểu rõ hơn về các lỗi và cách khắc phục chúng, hệ thống AI có thể trở nên đáng tin cậy hơn trong các ứng dụng thực tế, từ đó nâng cao sự hài lòng của người dùng.\n\nTóm lại, 'Failure Analysis' không chỉ là một bước bổ sung mà còn là một phần thiết yếu trong quy trình đánh giá AI, giúp cải thiện hiệu suất và độ chính xác của hệ thống một cách bền vững.",
     "expected_answer": "Mặc dù Hit Rate và MRR cung cấp cái nhìn định lượng về hiệu suất, 'Failure Analysis' vượt xa điều đó bằng cách đi sâu vào lý do tại sao AI lại thất bại trong các trường hợp cụ thể. Việc này giúp xác định các điểm yếu cốt lõi, mô hình lỗi và các lĩnh vực cần cải thiện, từ đó cung cấp thông tin chi tiết hơn và có thể hành động được để tinh chỉnh và tối ưu hóa hệ thống AI, điều mà các chỉ số tổng hợp khó có thể làm được.",
-    "latency": 6.294923100000233,
+    "latency": 8.238526699999966,
     "retrieval": {
       "hit_rate": 1.0,
       "mrr": 1.0
@@ -1540,11 +1322,11 @@
       "individual_scores": {
         "strict_judge": {
           "score": 4,
-          "reasoning": "Câu trả lời của AI trình bày rõ ràng và chi tiết về tầm quan trọng của 'Failure Analysis' trong quy trình đánh giá hiệu suất của hệ thống AI. Tuy nhiên, nó không hoàn toàn chính xác khi cho rằng 'Failure Analysis' không chỉ đo lường mà còn cung cấp cái nhìn sâu sắc, trong khi Ground Truth nhấn mạnh rằng dữ liệu định lượng như Hit Rate và MRR có vai trò quan trọng nhưng không đủ. Câu trả lời vẫn liên quan và rất chuyên nghiệp, nhưng có thể cải thiện bằng cách kết hợp thông tin từ Ground Truth một cách chính xác hơn."
+          "reasoning": "Câu trả lời của AI cung cấp nhiều thông tin chính xác và liên quan đến vấn đề được đề cập, đặc biệt là việc giải thích rõ ràng về vai trò của 'Failure Analysis' trong quy trình đánh giá AI. Tuy nhiên, vẫn có một vài điểm có thể cải thiện, chẳng hạn như cách trình bày thông tin có thể gọn gàng và súc tích hơn để nâng cao sự rõ ràng và sức thuyết phục."
         },
         "helpful_judge": {
           "score": 4,
-          "reasoning": "Câu trả lời của AI rất chính xác và liên quan đến câu hỏi, giải thích rõ ràng lý do tại sao 'Failure Analysis' quan trọng hơn các chỉ số như Hit Rate hoặc MRR. Các yếu tố được nêu ra đầy đủ và có cấu trúc tốt. Tuy nhiên, có một phần có thể cải thiện bằng việc nhấn mạnh hơn về việc 'Failure Analysis' cung cấp thông tin chi tiết và có thể hành động hơn là chỉ đo lường hiệu suất như Hit Rate hay MRR, điều này sẽ làm cho câu trả lời gần gũi hơn với nội dung của Ground Truth."
+          "reasoning": "Câu trả lời của AI chính xác trong việc mô tả tầm quan trọng của 'Failure Analysis' trong quy trình đánh giá hiệu suất hệ thống AI. Nó đề cập đến nhiều khía cạnh hợp lý như hiểu nguyên nhân gốc rễ, cải thiện chất lượng dữ liệu, tối ưu hóa mô hình và tăng cường độ tin cậy, giúp cho câu trả lời có tính liên quan cao. Tuy nhiên, câu trả lời có phần lan man và có thể được định hình lại để tập trung hơn vào sự khác biệt cụ thể giữa 'Failure Analysis' và các chỉ số như Hit Rate, MRR, giống như thông tin trong Ground Truth."
         }
       }
     },
@@ -1554,6 +1336,224 @@
     "retrieved_ids": [
       "doc_hard",
       "doc_easy"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory giúp đo lường những chỉ số nào?",
+    "agent_answer": "AI Evaluation Factory giúp đo lường các chỉ số như Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời.",
+    "expected_answer": "Nó giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời.",
+    "latency": 1.0212713999999323,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và cung cấp thông tin tương tự như Ground Truth. Ngoài ra, ngôn ngữ trong câu trả lời cũng rất rõ ràng và chuyên nghiệp, không có vấn đề gì về độ liên quan."
+        },
+        "helpful_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời của AI hoàn toàn chính xác và phù hợp với đáp án đúng. Các chỉ số được đề cập trong câu trả lời trùng khớp với thông tin trong Ground Truth. Ngôn ngữ sử dụng rõ ràng và chuyên nghiệp."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy",
+      "doc_hard"
+    ]
+  },
+  {
+    "question": "Báo cáo cuối cùng (Report) được tạo ra từ AI Evaluation Factory mang lại giá trị cốt lõi gì cho các bên liên quan, dựa trên toàn bộ quy trình đã thực hiện?",
+    "agent_answer": "Báo cáo cuối cùng (Report) từ AI Evaluation Factory mang lại giá trị cốt lõi cho các bên liên quan bằng cách tổng hợp và trình bày kết quả benchmark một cách rõ ràng và chi tiết. Nó giúp các bên liên quan hiểu rõ về hiệu suất của hệ thống AI thông qua các chỉ số như Hit Rate, MRR và độ chính xác của câu trả lời. \n\nNgoài ra, báo cáo cũng cung cấp cái nhìn sâu sắc về các vấn đề và nguyên nhân gây ra lỗi thông qua giai đoạn phân tích lỗi (Failure Analysis), từ đó giúp các bên liên quan đưa ra quyết định thông minh hơn trong việc cải thiện và tối ưu hóa hệ thống AI. Tổng thể, báo cáo không chỉ là một tài liệu tham khảo mà còn là công cụ hỗ trợ cho việc phát triển và nâng cao chất lượng của các ứng dụng AI trong tương lai.",
+    "expected_answer": "Dựa trên toàn bộ quy trình đánh giá chuyên sâu, báo cáo cuối cùng (Report) từ AI Evaluation Factory cung cấp một cái nhìn tổng thể, chi tiết và đáng tin cậy về hiệu suất của AI, bao gồm các chỉ số định lượng, phân tích lỗi sâu rộng. Giá trị cốt lõi là giúp các bên liên quan đưa ra quyết định sáng suốt để cải thiện, tối ưu hóa và đảm bảo chất lượng hệ thống AI.",
+    "latency": 3.5917265999996744,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 0.5
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 4,
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác về giá trị cốt lõi của báo cáo từ AI Evaluation Factory, nhấn mạnh các yếu tố như tổng hợp kết quả benchmark và phân tích lỗi. Tuy nhiên, một số chi tiết có thể được diễn đạt rõ ràng hơn và khái niệm 'đáng tin cậy' trong Ground Truth có thể được nhắc đến để làm nổi bật hơn giá trị của báo cáo. Tuy nhiên, về cơ bản, câu trả lời vẫn chính xác và có ích."
+        },
+        "helpful_judge": {
+          "score": 4,
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác và có ích về nội dung của báo cáo từ AI Evaluation Factory, bao gồm các chỉ số và quá trình phân tích lỗi. Tuy nhiên, có một số điểm nhỏ trong việc diễn đạt có thể được cải thiện để trở nên rõ ràng và mạch lạc hơn. Tổng thể, câu trả lời đạt được các tiêu chí về độ chính xác, độ liên quan và sự chuyên nghiệp, nhưng có thể hoàn thiện hơn."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy",
+      "doc_hard"
+    ]
+  },
+  {
+    "question": "Tài liệu có mô tả phương pháp cụ thể hoặc công nghệ nền tảng mà SDG sử dụng để 'Tạo dữ liệu' không?",
+    "agent_answer": "Tài liệu không cung cấp thông tin cụ thể về phương pháp hoặc công nghệ nền tảng mà SDG (Synthetic Data Generation) sử dụng để tạo dữ liệu. Tuy nhiên, trong quy trình này, SDG tự động tạo câu hỏi và trả lời, có thể sử dụng các kỹ thuật như học máy hoặc mô hình ngôn ngữ để thực hiện nhiệm vụ này. Nếu bạn cần thêm thông tin chi tiết, tôi có thể giúp bạn tìm hiểu thêm về các công nghệ thường được sử dụng trong tạo dữ liệu tổng hợp.",
+    "expected_answer": "Không, tài liệu chỉ liệt kê 'SDG (Tạo dữ liệu)' như một giai đoạn nhưng không mô tả phương pháp cụ thể hoặc công nghệ nền tảng mà nó sử dụng.",
+    "latency": 3.056309699999474,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Câu trả lời của AI cho rằng tài liệu không cung cấp thông tin cụ thể về phương pháp hoặc công nghệ và đưa ra một số thông tin về quy trình có thể sử dụng các kỹ thuật học máy. Tuy nhiên, câu trả lời này vẫn thiếu sự chính xác, vì không nêu rõ được nội dung mà Ground Truth đã xác định. Câu trả lời không sai hoàn toàn nhưng có phần thông tin không cần thiết và thiếu chính xác, vì không hoàn toàn phối hợp với đánh giá 'không'. Ngôn ngữ khá chuyên nghiệp, nhưng sự thiếu sót trong thông tin chính xác dẫn đến điểm thấp hơn."
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Câu trả lời của AI có thông tin đúng rằng tài liệu không cung cấp thông tin cụ thể về phương pháp hoặc công nghệ nền tảng mà SDG sử dụng. Tuy nhiên, phần bổ sung về các kỹ thuật như học máy hoặc mô hình ngôn ngữ có thể gây nhầm lẫn và không liên quan trực tiếp đến câu hỏi. Ngoài ra, cách diễn đạt có thể rõ ràng hơn để tránh sự hiểu lầm."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_adversarial",
+      "doc_hard",
+      "doc_easy"
+    ]
+  },
+  {
+    "question": "Những khía cạnh nào trong cấu trúc và chức năng của AI Evaluation Factory thể hiện rõ tính 'chuyên sâu' của quy trình này, vượt ra ngoài việc chỉ đánh giá bề mặt?",
+    "agent_answer": "AI Evaluation Factory thể hiện rõ tính 'chuyên sâu' của quy trình đánh giá AI qua các khía cạnh sau:\n\n1. **Tạo dữ liệu tổng hợp (SDG)**: Quy trình bắt đầu bằng việc tự động tạo ra các câu hỏi và câu trả lời, cho phép đánh giá AI trong nhiều tình huống và ngữ cảnh khác nhau. Điều này giúp đảm bảo rằng AI được kiểm tra một cách toàn diện, không chỉ dựa trên dữ liệu thực tế mà còn trên các tình huống giả lập.\n\n2. **Bộ máy chấm điểm (Eval Engine)**: Việc sử dụng LLM-as-a-Judge để đánh giá cho phép có được những phân tích sâu sắc và chính xác hơn về hiệu suất của AI. Điều này không chỉ đơn thuần là đánh giá đúng hay sai mà còn xem xét các yếu tố như ngữ nghĩa, ngữ cảnh và độ phù hợp của câu trả lời.\n\n3. **Phân tích lỗi (Failure Analysis)**: Giai đoạn này tập trung vào việc tìm ra nguyên nhân gốc rễ của các lỗi trong câu trả lời của AI. Thay vì chỉ ghi nhận các sai sót, quy trình này đi sâu vào việc hiểu rõ lý do tại sao AI lại đưa ra câu trả lời không chính xác, từ đó giúp cải thiện mô hình.\n\n4. **Báo cáo (Report)**: Giai đoạn tổng hợp kết quả benchmark không chỉ đơn thuần là cung cấp số liệu mà còn phân tích và trình bày các phát hiện một cách chi tiết. Điều này giúp các nhà phát triển và nhà nghiên cứu có cái nhìn sâu sắc về hiệu suất của AI và các lĩnh vực cần cải thiện.\n\nTất cả những khía cạnh này kết hợp lại tạo nên một quy trình đánh giá AI toàn diện và sâu sắc, giúp nâng cao chất lượng và độ tin cậy của các hệ thống AI.",
+    "expected_answer": "Tính 'chuyên sâu' của AI Evaluation Factory được thể hiện qua nhiều khía cạnh: khả năng đo lường đa dạng các chỉ số như Hit Rate, MRR và độ chính xác; sự phân chia thành 4 giai đoạn rõ ràng bao gồm SDG (Tạo dữ liệu) và đặc biệt là 'Failure Analysis' (Phân tích lỗi), cho phép đi sâu vào nguyên nhân gây lỗi chứ không chỉ dừng lại ở kết quả, và cuối cùng là 'Report' tổng hợp toàn diện thông tin.",
+    "latency": 6.857579900000019,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 0.5
+    },
+    "judge": {
+      "final_score": 3.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 3,
+          "reasoning": "Câu trả lời của AI chứa thông tin đúng và chi tiết về các khía cạnh thể hiện tính 'chuyên sâu' trong quy trình đánh giá AI. Tuy nhiên, nó thiếu một số thông tin quan trọng so với Ground Truth, đặc biệt là các chỉ số cụ thể như Hit Rate và MRR. Ngoài ra, mặc dù ngôn ngữ được sử dụng là rõ ràng và lịch sự, nhưng vẫn có thể cải thiện thêm để trở nên chuyên nghiệp và mạch lạc hơn."
+        },
+        "helpful_judge": {
+          "score": 3,
+          "reasoning": "Câu trả lời của AI trình bày một số khía cạnh quan trọng của quy trình đánh giá, nhưng không hoàn toàn chính xác và đầy đủ như trong Ground Truth. Câu trả lời có thông tin đúng nhưng thiếu một số chỉ số đáng chú ý như Hit Rate và MRR, cũng như không nhấn mạnh rõ việc phân chia thành 4 giai đoạn như trong đáp án đúng. Ngôn ngữ sử dụng có phần rõ ràng và lịch sự, nhưng có thể được cải thiện để đưa ra một cái nhìn tổng thể hơn về 'chuyên sâu' của quy trình."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy",
+      "doc_hard"
+    ]
+  },
+  {
+    "question": "Thành phần nào trong AI Evaluation Factory có vai trò trọng yếu trong việc biến dữ liệu đã được tạo ra thành các điểm số phản ánh hiệu suất thực sự của AI?",
+    "agent_answer": "Thành phần trọng yếu trong AI Evaluation Factory có vai trò biến dữ liệu đã được tạo ra thành các điểm số phản ánh hiệu suất thực sự của AI là Eval Engine (Bộ máy chấm điểm). Bộ máy này sử dụng LLM-as-a-Judge để đánh giá và chấm điểm các câu trả lời, từ đó đo lường các chỉ số như Hit Rate, MRR và độ chính xác.",
+    "expected_answer": "Eval Engine (Bộ máy chấm điểm) có vai trò trọng yếu trong việc biến dữ liệu thành các điểm số phản ánh hiệu suất.",
+    "latency": 2.059154999999919,
+    "retrieval": {
+      "hit_rate": 0.0,
+      "mrr": 0.0
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời của AI cung cấp thông tin chính xác và đầy đủ về thành phần trọng yếu trong AI Evaluation Factory. Câu trả lời gọi tên đúng 'Eval Engine' và mô tả cách thức hoạt động của nó liên quan đến việc đánh giá và chấm điểm. Ngoài ra, hành văn rõ ràng, lịch sự và chuyên nghiệp."
+        },
+        "helpful_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời của AI chính xác và hoàn toàn phù hợp với Ground Truth. Nó nêu rõ thành phần trọng yếu là Eval Engine và giải thích thêm về cách thức hoạt động của nó trong việc biến dữ liệu thành các điểm số phản ánh hiệu suất. Ngôn ngữ sử dụng rõ ràng và chuyên nghiệp."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_adversarial"
+    ],
+    "retrieved_ids": [
+      "doc_easy",
+      "doc_hard"
+    ]
+  },
+  {
+    "question": "AI Evaluation Factory là gì?",
+    "agent_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu, nhằm đo lường các chỉ số như Hit Rate, MRR (Mean Reciprocal Rank) và độ chính xác của câu trả lời. Quy trình này bao gồm 4 giai đoạn chính: \n\n1. **SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp)**: Tự động tạo ra các câu hỏi và câu trả lời.\n2. **Eval Engine (Bộ máy chấm điểm)**: Sử dụng LLM-as-a-Judge để thực hiện việc đánh giá.\n3. **Failure Analysis (Phân tích lỗi)**: Tìm ra nguyên nhân dẫn đến việc AI trả lời sai.\n4. **Report (Báo cáo)**: Tổng hợp và trình bày kết quả benchmark.\n\nQuy trình này giúp cải thiện hiệu suất của các hệ thống AI thông qua việc đánh giá và phân tích một cách có hệ thống.",
+    "expected_answer": "AI Evaluation Factory là quy trình đánh giá AI chuyên sâu.",
+    "latency": 3.528383400000166,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 1.0
+    },
+    "judge": {
+      "final_score": 5.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời của AI chính xác, đầy đủ và giải thích rõ ràng về quy trình đánh giá AI chuyên sâu. Nó không chỉ cung cấp định nghĩa mà còn mô tả chi tiết các giai đoạn chính của quy trình, giúp người đọc hiểu rõ hơn về AI Evaluation Factory. Ngôn ngữ được sử dụng là lịch sự và rõ ràng."
+        },
+        "helpful_judge": {
+          "score": 5,
+          "reasoning": "Câu trả lời của AI chính xác, giải thích rõ ràng về quy trình đánh giá AI và bao gồm các giai đoạn cụ thể, giúp người dùng hiểu rõ hơn về khái niệm 'AI Evaluation Factory'. Ngôn ngữ được sử dụng một cách chuyên nghiệp, không có lỗi chính tả hay ngữ pháp, và diễn đạt dễ hiểu."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_easy"
+    ],
+    "retrieved_ids": [
+      "doc_easy",
+      "doc_hard"
+    ]
+  },
+  {
+    "question": "Dựa trên thông tin được cung cấp, việc áp dụng AI Evaluation Factory mang lại lợi ích gì trong việc nâng cao chất lượng AI, vượt xa việc chỉ đơn thuần chấm điểm?",
+    "agent_answer": "Việc áp dụng AI Evaluation Factory mang lại nhiều lợi ích trong việc nâng cao chất lượng AI, vượt xa việc chỉ đơn thuần chấm điểm. Cụ thể, các lợi ích bao gồm:\n\n1. **Đo lường chính xác**: Quy trình này cho phép đo lường các chỉ số quan trọng như Hit Rate, MRR và độ chính xác của câu trả lời, từ đó cung cấp cái nhìn sâu sắc về hiệu suất của AI.\n\n2. **Tạo dữ liệu tổng hợp**: Giai đoạn SDG giúp tự động tạo ra các câu hỏi và câu trả lời, đảm bảo rằng AI được đánh giá trên một tập dữ liệu phong phú và đa dạng, từ đó cải thiện khả năng học hỏi và thích ứng của nó.\n\n3. **Đánh giá khách quan**: Sử dụng LLM-as-a-Judge trong giai đoạn Eval Engine giúp đảm bảo rằng việc đánh giá được thực hiện một cách khách quan và nhất quán, giảm thiểu sự thiên lệch có thể xảy ra trong quá trình chấm điểm.\n\n4. **Phân tích lỗi chi tiết**: Giai đoạn Failure Analysis cho phép xác định nguyên nhân cụ thể dẫn đến các câu trả lời sai, từ đó cung cấp thông tin quý giá để cải thiện mô hình AI, giúp nó học hỏi từ những sai lầm và nâng cao độ chính xác.\n\n5. **Báo cáo tổng hợp**: Giai đoạn Report không chỉ tổng hợp kết quả benchmark mà còn cung cấp cái nhìn tổng quan về hiệu suất của AI, giúp các nhà phát triển và quản lý đưa ra quyết định thông minh hơn trong việc cải tiến và phát triển AI.\n\nTóm lại, AI Evaluation Factory không chỉ đơn thuần là một công cụ chấm điểm mà còn là một quy trình toàn diện giúp nâng cao chất lượng và hiệu suất của AI thông qua việc tạo ra dữ liệu, đánh giá khách quan, phân tích lỗi và báo cáo kết quả.",
+    "expected_answer": "AI Evaluation Factory không chỉ chấm điểm mà còn cung cấp khả năng phân tích lỗi (Failure Analysis) và báo cáo chi tiết (Report), giúp xác định nguyên nhân cốt lõi của các vấn đề về hiệu suất, từ đó đưa ra những cải tiến chuyên sâu để nâng cao chất lượng AI một cách có hệ thống.",
+    "latency": 6.761623000000327,
+    "retrieval": {
+      "hit_rate": 1.0,
+      "mrr": 0.5
+    },
+    "judge": {
+      "final_score": 4.0,
+      "agreement_rate": 1.0,
+      "individual_scores": {
+        "strict_judge": {
+          "score": 4,
+          "reasoning": "Câu trả lời của AI chủ yếu đúng và liên quan đến câu hỏi, nêu rõ các lợi ích của AI Evaluation Factory, vượt xa việc chấm điểm. Tuy nhiên, câu trả lời chưa hoàn toàn phù hợp với Ground Truth về việc nhấn mạnh việc xác định nguyên nhân cốt lõi của các vấn đề về hiệu suất và việc cải tiến có hệ thống, do đó có thể được cải thiện thêm. Ngôn ngữ sử dụng ngắn gọn, rõ ràng và lịch sự."
+        },
+        "helpful_judge": {
+          "score": 4,
+          "reasoning": "Câu trả lời của AI chính xác và liên quan đến câu hỏi, nêu rõ các lợi ích của AI Evaluation Factory vượt xa việc chấm điểm. Cách trình bày rõ ràng và có hệ thống, nhưng có thể rút ngắn và tập trung hơn vào các điểm chính, do đó vẫn có thể cải thiện."
+        }
+      }
+    },
+    "expected_retrieval_ids": [
+      "doc_hard"
+    ],
+    "retrieved_ids": [
+      "doc_easy",
+      "doc_hard"
     ]
   }
 ]
