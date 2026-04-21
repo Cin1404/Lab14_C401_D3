@@ -38,7 +38,7 @@ class MultiModelJudge:
 
     async def _get_score_from_persona(self, system_instruction: str, question: str, answer: str, ground_truth: str) -> Dict:
         """
-        Gọi OpenAI với một Persona (vai trò) cụ thể.
+        Gọi OpenAI với một Persona (vai trò) cụ thể và tính toán chi phí.
         """
         prompt = f"""
         Dữ liệu đánh giá:
@@ -59,11 +59,19 @@ class MultiModelJudge:
                 response_format={"type": "json_object"}
             )
             
-            content = response.choices[0].message.content
-            return json.loads(content)
+            # Tính toán chi phí (gpt-4o-mini: $0.15/1M input, $0.60/1M output)
+            usage = response.usage
+            input_cost = (usage.prompt_tokens / 1_000_000) * 0.15
+            output_cost = (usage.completion_tokens / 1_000_000) * 0.60
+            total_cost = input_cost + output_cost
+
+            content = json.loads(response.choices[0].message.content)
+            content["usage_cost"] = total_cost
+            
+            return content
         except Exception as e:
             print(f"Error calling OpenAI Judge: {e}")
-            return {"score": 3, "reasoning": f"Lỗi kỹ thuật khi chấm điểm: {str(e)}"}
+            return {"score": 3, "reasoning": f"Lỗi kỹ thuật khi chấm điểm: {str(e)}", "usage_cost": 0}
 
     async def evaluate_multi_judge(self, question: str, answer: str, ground_truth: str) -> Dict[str, Any]:
         """
@@ -85,6 +93,7 @@ class MultiModelJudge:
         
         score_a = judgements[0].get("score", 3)
         score_b = judgements[1].get("score", 3)
+        total_cost = sum(j.get("usage_cost", 0) for j in judgements)
         
         avg_score = (score_a + score_b) / 2
         agreement = 1.0 if score_a == score_b else (1.0 - abs(score_a - score_b)/4)
@@ -92,6 +101,7 @@ class MultiModelJudge:
         return {
             "final_score": avg_score,
             "agreement_rate": agreement,
+            "total_cost": total_cost,
             "individual_scores": {
                 "strict_judge": judgements[0],
                 "helpful_judge": judgements[1]

@@ -7,6 +7,7 @@ from engine.runner import BenchmarkRunner
 from agent.main_agent2 import MainAgent
 from engine.retrieval_eval import RetrievalEvaluator
 from engine.llm_judge_2 import MultiModelJudge
+from engine.ragas_eval import RagasEvaluator
 
 async def run_benchmark_with_results(agent_version: str):
     print(f"\n🚀 Khởi động Benchmark cho {agent_version}...")
@@ -24,17 +25,26 @@ async def run_benchmark_with_results(agent_version: str):
         print(f"❌ File {dataset_path} rỗng.")
         return None, None
 
+    # Khởi tạo hỗ trợ xử lý lỗi UTF-8 cho console
+    if os.name == 'nt':
+        import sys
+        sys.stdout.reconfigure(encoding='utf-8')
+
     # Khởi tạo components
     agent = MainAgent()
     retrieval_eval = RetrievalEvaluator()
     llm_judge = MultiModelJudge()
+    ragas_eval = RagasEvaluator()
     
     runner = BenchmarkRunner(agent, retrieval_eval, llm_judge)
     
-    # Chạy Benchmark
+    # 1. Chạy Benchmark cơ bản
     results = await runner.run_all(dataset)
 
-    # Tính toán Metrics
+    # 2. Chạy Đánh giá RAGAS (Bổ sung Faithfulness & Relevancy)
+    ragas_scores = await ragas_eval.calculate_metrics(results)
+
+    # Tính toán Metrics tổng thể
     total = len(results)
     if total == 0:
         return results, {}
@@ -56,7 +66,9 @@ async def run_benchmark_with_results(agent_version: str):
             "hit_rate": avg_hit_rate,
             "avg_mrr": avg_mrr,
             "avg_score": avg_judge_score,
-            "agreement_rate": avg_agreement
+            "agreement_rate": avg_agreement,
+            "avg_faithfulness": ragas_scores.get("avg_faithfulness", 0),
+            "avg_relevancy": ragas_scores.get("avg_relevancy", 0)
         }
     }
     
@@ -81,6 +93,8 @@ def print_report(summary: dict):
     print("-" * 40)
     print(f"GENERATION STAGE:")
     print(f"  - Avg Score:    {m['avg_score']:.2f}/5.0")
+    print(f"  - Faithfulness: {m.get('avg_faithfulness', 0):.2%}")
+    print(f"  - Relevancy:     {m.get('avg_relevancy', 0):.2%}")
     print(f"  - Avg Latency:  {m['avg_latency']:.2f}s")
     print(f"  - Agreement:    {m['agreement_rate']:.1%}")
     print("="*40 + "\n")
