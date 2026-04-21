@@ -1,4 +1,4 @@
-# BÁO CÁO CÁ NHÂN - TỐI ƯU HÓA LLM AGENT BENCHMARK
+# BÁO CÁO CÁ NHÂN - TỐI ƯU HÓA RAG, BENCHMARK & RELEASE GATE
 **Họ và tên:** Lưu Quang Lực  
 **MSSV:** 2A202600121  
 
