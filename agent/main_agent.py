@@ -1,91 +1,39 @@
 import asyncio
-import os
 from typing import List, Dict
-from openai import AsyncOpenAI
-from dotenv import load_dotenv
-
-# Load environment variables
-load_dotenv()
 
 class MainAgent:
     """
-    Agent tối ưu sử dụng RAG-lite với OpenAI.
-    Đã được cải tiến để đạt điểm cao trong Benchmark (Hit Rate & Quality).
+    Đây là Agent mẫu sử dụng kiến trúc RAG đơn giản.
+    Sinh viên nên thay thế phần này bằng Agent thực tế đã phát triển ở các buổi trước.
     """
     def __init__(self):
-        self.name = "SupportAgent-v2-Optimized"
-        api_key = os.getenv("OPENAI_API_KEY")
-        self.client = AsyncOpenAI(api_key=api_key)
-        
-        # Kiến thức hệ thống (Ground Truth Context)
-        self.knowledge_base = """
-        AI Evaluation Factory là quy trình đánh giá AI chuyên sâu. 
-        Nó giúp đo lường Hit Rate, MRR và độ chính xác của câu trả lời. 
-        Quy trình gồm 4 giai đoạn chính: 
-        1. SDG (Synthetic Data Generation - Tạo dữ liệu tổng hợp): Tự động tạo câu hỏi/trả lời.
-        2. Eval Engine (Bộ máy chấm điểm): Sử dụng LLM-as-a-Judge để đánh giá.
-        3. Failure Analysis (Phân tích lỗi): Tìm ra nguyên nhân AI trả lời sai.
-        4. Report (Báo cáo): Tổng hợp kết quả benchmark.
-        """
-
-    async def _retrieve(self, question: str) -> List[str]:
-        """
-        Hệ thống phân loại tài liệu thông minh dựa trên từ khóa.
-        Giúp tăng Hit Rate và MRR.
-        """
-        q = question.lower()
-        
-        # Phân loại Adversarial (Câu hỏi bẫy hoặc phủ định)
-        if any(word in q for word in ["không", "sai", "ngược lại", "lừa", "tấn công"]):
-            return ["doc_adversarial", "doc_hard", "doc_easy"]
-            
-        # Phân loại Hard (Câu hỏi sâu, tại sao, làm thế nào)
-        if any(word in q for word in ["tại sao", "vấn đề", "phức tạp", "làm thế nào", "giải thích"]):
-            return ["doc_hard", "doc_easy"]
-            
-        # Mặc định là Easy
-        return ["doc_easy", "doc_hard"]
+        self.name = "SupportAgent-v1"
 
     async def query(self, question: str) -> Dict:
         """
-        Quy trình RAG tối ưu:
-        1. Retrieval: Phân loại doc_id chính xác.
-        2. Generation: Sinh câu trả lời chất lượng cao bằng OpenAI.
+        Mô phỏng quy trình RAG:
+        1. Retrieval: Tìm kiếm context liên quan.
+        2. Generation: Gọi LLM để sinh câu trả lời.
         """
-        # 1. Retrieval
-        retrieved_ids = await self._retrieve(question)
+        # Giả lập độ trễ mạng/LLM
+        await asyncio.sleep(0.1) 
         
-        # 2. Generation (Sử dụng OpenAI thay vì placeholder)
-        try:
-            prompt = f"""
-            Bạn là một trợ lý AI chuyên nghiệp. Hãy sử dụng thông tin dưới đây để trả lời câu hỏi của người dùng.
-            Nếu thông tin không có trong tài liệu, hãy trả lời dựa trên kiến thức tốt nhất của bạn nhưng vẫn giữ phong cách chuyên nghiệp.
-
-            Tài liệu:
-            {self.knowledge_base}
-
-            Câu hỏi: {question}
-            """
-            
-            response = await self.client.chat.completions.create(
-                model="gpt-4o-mini",
-                messages=[
-                    {"role": "system", "content": "Bạn là chuyên gia về AI Evaluation Factory."},
-                    {"role": "user", "content": prompt}
-                ],
-                temperature=0.1 # Để câu trả lời ổn định và chính xác
-            )
-            
-            answer = response.choices[0].message.content.strip()
-        except Exception as e:
-            print(f"Error in Agent Generation: {e}")
-            answer = f"Tôi xin lỗi, có lỗi xảy ra khi xử lý câu hỏi: {str(e)}"
-
+        # Giả lập logic tìm kiếm tài liệu (Retrieval)
+        # Trong thực tế, đây sẽ là kết quả từ Vector DB.
+        # Ở đây chúng ta giả lập trả về doc_id để phục vụ lab eval.
+        retrieved_ids = ["doc_easy"] # Mặc định
+        if "tại sao" in question.lower() or "phức tạp" in question.lower():
+            retrieved_ids = ["doc_hard", "doc_easy"]
+        
         return {
-            "answer": answer,
-            "contexts": [self.knowledge_base],
+            "answer": f"Dựa trên tài liệu hệ thống, tôi xin trả lời câu hỏi '{question}' như sau: [Câu trả lời mẫu].",
+            "contexts": [
+                "Đoạn văn bản trích dẫn 1 dùng để trả lời...",
+                "Đoạn văn bản trích dẫn 2 dùng để trả lời..."
+            ],
             "metadata": {
                 "model": "gpt-4o-mini",
+                "tokens_used": 150,
                 "retrieved_ids": retrieved_ids
             }
         }
@@ -93,8 +41,6 @@ class MainAgent:
 if __name__ == "__main__":
     agent = MainAgent()
     async def test():
-        resp = await agent.query("Quy trình AI Evaluation Factory gồm mấy bước?")
-        print(f"Agent Name: {agent.name}")
-        print(f"Answer: {resp['answer']}")
-        print(f"Docs: {resp['metadata']['retrieved_ids']}")
+        resp = await agent.query("Làm thế nào để đổi mật khẩu?")
+        print(resp)
     asyncio.run(test())
