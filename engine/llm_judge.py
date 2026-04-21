@@ -1,7 +1,7 @@
 import asyncio
 from typing import Dict, Any
 
-class LLMJudge:
+class MultiModelJudge:
     def __init__(self, model: str = "gpt-4o"):
         self.model = model
         # TODO: Định nghĩa rubrics chi tiết cho các tiêu chí: Accuracy, Professionalism, Safety
